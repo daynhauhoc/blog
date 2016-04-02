@@ -38,6 +38,10 @@
   padding-right: 0.5rem;
 	letter-spacing: 0.04rem;
 	font-family: var(--fontPrimary);
+
+  &:last-child {
+    padding-right: 0;
+  }
 }
 
 .readmore {
