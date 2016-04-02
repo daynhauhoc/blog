@@ -10,6 +10,7 @@
     "build": "statinamic build",
     "pretest": "npm run lint:js",
     "test": "npm run build",
+    "fetch": "babel-node data/index.js",
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-blog.git --dist dist"
   },
   "statinamic": {
