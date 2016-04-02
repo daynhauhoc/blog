@@ -3,9 +3,11 @@ import slug from "remark-slug"
 import autoLinkHeadings from "remark-autolink-headings"
 import highlight from "remark-highlight.js"
 import html from "remark-html"
+import { baseUrl } from "../config"
+import relToAbs from "rel-to-abs"
 
-export default (text) => (
-  remark
+export default (text) => {
+  const resultHtml = remark
     // https://github.com/wooorm/remark-slug
     .use(slug)
 
@@ -16,7 +18,6 @@ export default (text) => (
       },
       template: "#",
     })
-
     // https://github.com/wooorm/remark-html
     .use(html, { entities: "escape" })
 
@@ -30,4 +31,6 @@ export default (text) => (
       breaks: true,
       gfm: true,
     })
-)
+
+  return relToAbs.convert(resultHtml, baseUrl)
+}

@@ -100,12 +100,14 @@
     "lost": "^6.7.2",
     "moment": "^2.12.0",
     "postcss-import": "^8.0.2",
+    "rel-to-abs": "^0.1.0",
     "remark": "^4.2.0",
     "remark-autolink-headings": "^3.0.0",
     "remark-highlight.js": "^3.0.0",
     "remark-slug": "^4.1.0",
     "rucksack-css": "^0.8.5",
     "safe-access": "^0.1.0",
+    "unist-util-visit": "^1.1.0",
     "vietnamese-unicode-toolkit": "0.0.1"
   }
 }
