@@ -3,6 +3,7 @@ import Helmet from "react-helmet"
 import invariant from "invariant"
 import Time from "../../components/Time"
 import GoHomeButton from "../../components/GoHomeButton"
+import Avatar from "../../components/Avatar"
 import styles from "./styles.css"
 import { postIdToUrl } from "../../utils/link"
 
@@ -25,7 +26,7 @@ export default class Post extends Component {
       pkg,
     } = this.context.metadata
 
-    const { config } = pkg
+    // const { config } = pkg
 
     const {
       __filename,
@@ -66,21 +67,43 @@ export default class Post extends Component {
             <div dangerouslySetInnerHTML={ { __html: body } } />
           </div>
           <div className={ styles.footer }>
-            <p className={ styles.datePublished }>
-              Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
-            </p>
-            <p>
-              <a
-                href={ postIdToUrl(head.id) }
-                target="_blank"
-              >
-                Tham gia thảo luận bài viết tại <strong>Dạy nhau học</strong>
-              </a>
-            </p>
+            <div className={ styles.footerColumn }>
+              <h2 className={ styles.footerHeading }>Tác giả</h2>
 
-            <a href={ config.twitter }>
-              <strong>{ config.authorName }</strong> on Twitter
-            </a>
+              <section>
+                <div className={ styles.authorAvatar }>
+                  <Avatar
+                    template={ head.author.avatar }
+                    size={ 80 }
+                  />
+                </div>
+                <div className={ styles.authorInfo }>
+                  <h3 className={ styles.authorName }>
+                    { head.author.username }
+                  </h3>
+                  <span />
+                  <p>
+                    Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
+                  </p>
+                  <p>
+                    <a
+                      href={ postIdToUrl(head.id) }
+                      target="_blank"
+                    >
+                      Bài viết gốc
+                    </a>
+                  </p>
+                </div>
+              </section>
+
+            </div>
+            <div className={ styles.footerColumn }>
+              <h2 className={ styles.footerHeading }>Thông tin</h2>
+              <p>
+                Proudly published with
+                <a href="http://moox.io/statinamic/"> Statinamic</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

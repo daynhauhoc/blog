@@ -51,7 +51,7 @@ export default async function () {
     await Promise.all(
       Object
       .keys(data)
-      .map((key) => saveToFile(data[key], postsDir))
+      .map((key) => saveToFile(data[key], postsDir, users))
     )
     log("Saved posts to markdown files")
 
