@@ -2,6 +2,7 @@ import path from "path"
 
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
+import renderer from "./remark-renderer"
 
 export default ({ config, pkg }) => ({
   ...config.dev && {
@@ -12,24 +13,6 @@ export default ({ config, pkg }) => ({
       { // statinamic requirement
         test: /\.md$/,
         loader: "statinamic/lib/content-loader",
-        query: {
-          context: path.join(config.cwd, config.source),
-          // renderer: (text) => html
-          feedsOptions: {
-            title: pkg.name,
-            site_url: pkg.homepage,
-          },
-          feeds: {
-            "feed.xml": {
-              collectionOptions: {
-                filter: { layout: "Post" },
-                sort: "date",
-                reverse: true,
-                limit: 20,
-              },
-            },
-          },
-        },
       },
       {
         test: /global\.styles$/,
@@ -73,6 +56,26 @@ export default ({ config, pkg }) => ({
     ],
   },
 
+  statinamic: {
+    loader: {
+      context: path.join(config.cwd, config.source),
+      renderer,
+      feedsOptions: {
+        title: pkg.name,
+        site_url: pkg.homepage,
+      },
+      feeds: {
+        "feed.xml": {
+          collectionOptions: {
+            filter: { layout: "Post" },
+            sort: "date",
+            reverse: true,
+            limit: 20,
+          },
+        },
+      },
+    },
+  },
   postcss: () => [
     // require("stylelint")(),
     require("postcss-import")(),
