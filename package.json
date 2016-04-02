@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "daynhauhoc-blog",
-  "homepage": "http://khoanguyen.me/dnh-blog",
+  "homepage": "http://blog.daynhauhoc.com",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
@@ -14,7 +14,7 @@
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-blog.git --dist dist"
   },
   "statinamic": {
-    "CNAME": false,
+    "CNAME": true,
     "assets": false
   },
   "config": {
