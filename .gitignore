@@ -1,3 +1,5 @@
-node_modules
-content
+node_modules/
+content/
+dist/
+
 data.json
