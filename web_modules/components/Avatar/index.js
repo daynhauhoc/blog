@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from "react"
-import { baseUrl } from "../../../config"
+import { baseUrlHttp as baseUrl } from "../../../config"
 import joinUri from "join-uri"
 
 export default class Avatar extends Component {
