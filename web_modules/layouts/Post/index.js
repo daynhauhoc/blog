@@ -101,9 +101,19 @@ export default class Post extends Component {
                 }
                 {
                   !head.author &&
-                  <p>
-                    Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
-                  </p>
+                  <div>
+                    <p>
+                      Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
+                    </p>
+                    <p>
+                      <a
+                        href={ postIdToUrl(head.id) }
+                        target="_blank"
+                      >
+                        Bài viết gốc
+                      </a>
+                    </p>
+                  </div>
                 }
               </section>
 
