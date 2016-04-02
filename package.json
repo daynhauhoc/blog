@@ -9,7 +9,7 @@
     "start": "statinamic start",
     "build": "statinamic build",
     "pretest": "npm run lint:js",
-    "test": "npm run build",
+    "test": "npm run fetch && npm run build",
     "fetch": "DEBUG=dnh:* babel-node data/index.js",
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-blog.git --dist dist"
   },
