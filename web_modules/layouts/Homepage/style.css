@@ -25,26 +25,26 @@
 .time {
 	font-size: 14px;
 	color: #222;
-	font-weight: 600;
+	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.04rem;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: var(--fontPrimary);
 }
 
-.category {
+.tag {
 	font-size: 14px;
 	color: #f7a046 !important;
 	font-weight: 600;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	letter-spacing: 0.04rem;
-	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-family: var(--fontPrimary);
 }
 
 .readmore {
 	font-size: 16px;
 	color: #5d93ff !important;
 	font-weight: 600;
-	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-family: var(--fontAccent);
 
   &:hover {
   	border-bottom: 1px solid;

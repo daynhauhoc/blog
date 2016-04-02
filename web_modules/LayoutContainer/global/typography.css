@@ -2,7 +2,7 @@
 html, body {
 	font-size: 16px;
 	font-size: 100%;
-	font-family: "PT Sans", Georgia, Times, serif;
+	font-family: var(--fontPrimary);
 	color: #222;
 }
 
@@ -13,7 +13,7 @@ html, body {
 	 ========================================================================== */
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-family: var(--fontPrimary);
 	color: #222;
 }
 h1 {

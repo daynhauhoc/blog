@@ -10,7 +10,7 @@
     "build": "statinamic build",
     "pretest": "npm run lint:js",
     "test": "npm run build",
-    "fetch": "babel-node data/index.js",
+    "fetch": "DEBUG=dnh:* babel-node data/index.js",
     "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-blog.git --dist dist"
   },
   "statinamic": {
@@ -18,8 +18,8 @@
     "assets": false
   },
   "config": {
-    "siteTitle": "Blog by John Doe",
-    "siteDescr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "siteTitle": "Dạy nhau học Blog",
+    "siteDescr": "Tổng hợp các bài viết hay từ diễn đàn Dạy nhau học.",
     "authorName": "John Doe",
     "twitter": "johndoe",
     "vk": "johndoe",

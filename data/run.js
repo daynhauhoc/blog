@@ -36,8 +36,10 @@ export default async function () {
     )
 
     const contentDir = join(__dirname, "../content")
+    const postsDir = join(contentDir, "posts")
     await fsp.ensureDir(contentDir)
     await fsp.emptyDir(contentDir)
+    await fsp.mkdirs(postsDir)
     log("Created content folder")
 
     await fsp.copy(
@@ -49,7 +51,7 @@ export default async function () {
     await Promise.all(
       Object
       .keys(data)
-      .map((key) => saveToFile(data[key], contentDir))
+      .map((key) => saveToFile(data[key], postsDir))
     )
     log("Saved posts to markdown files")
 

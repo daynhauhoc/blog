@@ -79,6 +79,13 @@ export default ({ config, pkg }) => ({
     require("postcss-cssnext")({
       browsers: "last 2 versions",
       features: {
+        customProperties: {
+          variables: {
+            fontPrimary: "'Roboto Condensed', Helvetica, Arial, sans-serif",
+            fontAccent: "'Open Sans', Helvetica, Arial, sans-serif",
+            fontSerif: "'Roboto Slab', Georgia, Times, serif",
+          },
+        },
         customMedia: {
           extensions: {
             "--lg": "screen and (max-width: 1100px)",

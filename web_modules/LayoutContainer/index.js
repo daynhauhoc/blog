@@ -26,7 +26,7 @@ export default class Layout extends Component {
           link={ [
             {
               "rel": "stylesheet",
-              "href": "https://fonts.googleapis.com/css?family=Roboto:700|Raleway:600,700|PT+Sans:400,400italic,700,700italic",
+              "href": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic|Open+Sans:300|Roboto+Slab:400,300&subset=latin,vietnamese",
             },
             {
               "rel": "stylesheet",

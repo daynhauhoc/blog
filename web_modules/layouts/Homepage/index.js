@@ -33,7 +33,11 @@ export default class Homepage extends Component {
           className={ styles.time }
         />
         <span style={ { padding: "5px" } } />
-        <span className={ styles.category }>{ post.category }</span>
+        {
+          post.tags && post.tags.map((tag) => (
+            <span key={ tag } className={ styles.tag }>{ tag }</span>
+          ))
+        }
         <h2>
           <Link
             style={ { borderBottom: "none" } }

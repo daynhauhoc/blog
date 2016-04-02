@@ -4,6 +4,7 @@ import invariant from "invariant"
 import Time from "../../components/Time"
 import GoHomeButton from "../../components/GoHomeButton"
 import styles from "./styles.css"
+import { postIdToUrl } from "../../utils/link"
 
 export default class Post extends Component {
 
@@ -58,25 +59,28 @@ export default class Post extends Component {
           title={ metaTitle }
           meta={ meta }
         />
-        <GoHomeButton text="All Articles" />
+        <GoHomeButton text="← Trang chủ" />
         <div className={ styles.wrapper }>
           <div className={ styles.text }>
             <h1>{ head.title }</h1>
             <div dangerouslySetInnerHTML={ { __html: body } } />
-            <p className={ styles.datePublished }>
-              { "Published " }
-              <Time time={ head.date } format="D MMM YYYY" />
-            </p>
           </div>
           <div className={ styles.footer }>
-            {/* <ReadNext post={ post } {...this.props}/> */}
-            <hr />
+            <p className={ styles.datePublished }>
+              Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
+            </p>
             <p>
-              { config.siteDescr }
-              <a href={ config.twitter }>
-                <br /><strong>{ config.authorName }</strong> on Twitter
+              <a
+                href={ postIdToUrl(head.id) }
+                target="_blank"
+              >
+                Tham gia thảo luận bài viết tại <strong>Dạy nhau học</strong>
               </a>
             </p>
+
+            <a href={ config.twitter }>
+              <strong>{ config.authorName }</strong> on Twitter
+            </a>
           </div>
         </div>
       </div>

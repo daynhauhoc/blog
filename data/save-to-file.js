@@ -18,6 +18,7 @@ export default async function saveToFile(
 ) {
   const filePath = join(distPath, post.id.toString() + ".md")
   const meta = {
+    id: post.id,
     layout: "Post",
     route: joinUri(post.slug),
     title: post.title,

@@ -1,7 +1,7 @@
 import React, { PropTypes } from "react"
 import Link from "statinamic/lib/Link"
 import SidebarNav from "../SidebarNav"
-import Avatar from "./avatar.jpg"
+import LogoImg from "./logo-full.png"
 import Social from "../SidebarSocial"
 import styles from "./style.css"
 
@@ -20,7 +20,7 @@ class SidebarLeft extends React.Component {
         <div className={ styles.inner }>
           <header>
             <Link className={ styles.siteLogo } to="/">
-              <img src={ Avatar } width="75" height="75" />
+              <img src={ LogoImg } />
             </Link>
             <h1>
               <Link className={ styles.siteTitle } to={ "/" }>
