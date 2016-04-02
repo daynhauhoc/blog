@@ -3,7 +3,7 @@ import fsp from "fs-promise"
 import getAllPosts from "./get-all-posts"
 import { async as database } from "./db"
 import dnh from "./api"
-import { filter } from "./config"
+import { condition } from "../config"
 import saveToFile from "./save-to-file"
 
 const log = require("debug")("dnh:run")
@@ -26,7 +26,7 @@ export default async function () {
       await getAllPosts({ users, posts })
     }
 
-    const data = posts.find(filter)
+    const data = posts.find(condition)
     logStats(data.length + " posts passed condition")
 
     await Promise.all(
