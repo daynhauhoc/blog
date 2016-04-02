@@ -3,7 +3,7 @@
 	font-size: 16px;
 	text-align: center;
 	color: #343e47;
-	font-weight: 600;
+	font-weight: 700;
 	position: fixed;
 	left: 20px;
 	top: 20px;
@@ -16,7 +16,7 @@
     position: static;
     margin: 20px auto 0;
     text-align: center;
-    width: 85px;
+    width: 100px;
     display: block;
   }
 }
