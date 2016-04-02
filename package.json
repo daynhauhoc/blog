@@ -103,6 +103,7 @@
     "rel-to-abs": "^0.1.0",
     "remark": "^4.2.0",
     "remark-autolink-headings": "^3.0.0",
+    "remark-gemoji-to-emoji": "^1.0.0",
     "remark-highlight.js": "^3.0.0",
     "remark-slug": "^4.1.0",
     "rucksack-css": "^0.8.5",

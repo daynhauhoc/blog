@@ -1,5 +1,6 @@
 import remark from "remark"
 import slug from "remark-slug"
+import emoji from "remark-gemoji-to-emoji"
 import autoLinkHeadings from "remark-autolink-headings"
 import highlight from "remark-highlight.js"
 import html from "remark-html"
@@ -18,6 +19,9 @@ export default (text) => {
       },
       template: "#",
     })
+
+    .use(emoji)
+
     // https://github.com/wooorm/remark-html
     .use(html, { entities: "escape" })
 
