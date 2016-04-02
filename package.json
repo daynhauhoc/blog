@@ -3,7 +3,7 @@
   "name": "daynhauhoc-blog",
   "homepage": "http://khoanguyen.me/dnh-blog",
   "scripts": {
-    "lint:js": "eslint --fix .",
+    "lint:js": "eslint --fix --ignore-path .gitignore .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
     "lint": "npm run lint:js && npm run lint:css",
     "start": "statinamic start",
