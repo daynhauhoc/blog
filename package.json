@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "statinamic-theme-lumen",
-  "homepage": "http://khoanguyen.me/statinamic-theme-lumen",
+  "name": "daynhauhoc-blog",
+  "homepage": "http://khoanguyen.me/dnh-blog",
   "scripts": {
     "lint:js": "eslint --fix .",
     "lint:css": "stylelint \"web_modules/**/*.css\"",
@@ -10,7 +10,7 @@
     "build": "statinamic build",
     "pretest": "npm run lint:js",
     "test": "npm run build",
-    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/statinamic-theme-lumen.git --dist dist"
+    "deploy": "gh-pages --silent --repo https://$GITHUB_TOKEN@github.com/thangngoc89/dnh-blog.git --dist dist"
   },
   "statinamic": {
     "CNAME": false,
@@ -86,9 +86,15 @@
     "whatwg-fetch": "^0.11.0"
   },
   "dependencies": {
+    "debug": "^2.2.0",
+    "fs-promise": "^0.5.0",
+    "got": "^6.2.0",
+    "join-uri": "^1.0.1",
+    "lokijs": "^1.3.16",
     "lost": "^6.7.2",
     "moment": "^2.12.0",
     "postcss-import": "^8.0.2",
-    "rucksack-css": "^0.8.5"
+    "rucksack-css": "^0.8.5",
+    "safe-access": "^0.1.0"
   }
 }
