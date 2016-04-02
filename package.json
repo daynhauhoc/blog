@@ -40,6 +40,7 @@
       "eslint-config-i-am-meticulous/react"
     ],
     "rules": {
+      "max-len": [ 2, 100, 4 ],
       "react/jsx-no-literals": 0
     }
   },

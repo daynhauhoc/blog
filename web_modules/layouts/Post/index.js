@@ -71,29 +71,40 @@ export default class Post extends Component {
               <h2 className={ styles.footerHeading }>Tác giả</h2>
 
               <section>
-                <div className={ styles.authorAvatar }>
-                  <Avatar
-                    template={ head.author.avatar }
-                    size={ 80 }
-                  />
-                </div>
-                <div className={ styles.authorInfo }>
-                  <h3 className={ styles.authorName }>
-                    { head.author.username }
-                  </h3>
-                  <span />
+                {
+                  head.author &&
+                  <div>
+                    <div className={ styles.authorAvatar }>
+                      <Avatar
+                        template={ head.author.avatar }
+                        size={ 80 }
+                      />
+                    </div>
+                    <div className={ styles.authorInfo }>
+                      <h3 className={ styles.authorName }>
+                        { head.author.username }
+                      </h3>
+                      <span />
+                      <p>
+                        Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
+                      </p>
+                      <p>
+                        <a
+                          href={ postIdToUrl(head.id) }
+                          target="_blank"
+                        >
+                          Bài viết gốc
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                }
+                {
+                  !head.author &&
                   <p>
                     Đăng vào <Time time={ head.date } format="DD MMMM YYYY" />
                   </p>
-                  <p>
-                    <a
-                      href={ postIdToUrl(head.id) }
-                      target="_blank"
-                    >
-                      Bài viết gốc
-                    </a>
-                  </p>
-                </div>
+                }
               </section>
 
             </div>
