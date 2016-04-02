@@ -35,7 +35,7 @@
 	font-size: 14px;
 	color: #f7a046 !important;
 	font-weight: 600;
-	/*text-transform: uppercase;*/
+  padding-right: 0.5rem;
 	letter-spacing: 0.04rem;
 	font-family: var(--fontPrimary);
 }
