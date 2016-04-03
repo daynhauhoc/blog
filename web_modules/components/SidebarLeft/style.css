@@ -63,6 +63,14 @@
 	margin-bottom: 23px;
 }
 
+.inner footer {
+  margin-top: 1rem;
+
+  & p {
+    margin: 0;
+  }
+}
+
 .copyright {
   color: #b6b6b6;
 	font-size: 12px;

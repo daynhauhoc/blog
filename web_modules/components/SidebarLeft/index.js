@@ -1,6 +1,5 @@
 import React, { PropTypes } from "react"
 import Link from "statinamic/lib/Link"
-import SidebarNav from "../SidebarNav"
 import LogoImg from "./logo-full.png"
 import styles from "./style.css"
 
@@ -33,8 +32,12 @@ class SidebarLeft extends React.Component {
             <p>{ config.siteDescr }</p>
             { this.props.searchInput }
           </header>
-          <SidebarNav />
           <footer>
+            <p>
+              Built with
+              <span style={ { color: "red" } }> ♥ </span>
+              by <a href="https://khoanguyen.me">Khoa Nguyen</a>
+            </p>
             <p className={ styles.copyright }>&copy; All rights reserved.</p>
           </footer>
         </div>
