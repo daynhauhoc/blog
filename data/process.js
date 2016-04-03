@@ -2,16 +2,9 @@ import joinUri from "join-uri"
 import toSimpleUnicode from "vietnamese-unicode-toolkit"
 import stripAccentMarks from "./utils/stripAccentMarks"
 import renderer from "./remark-renderer"
+import description from "./utils/generate-description"
 
 import _ from "lodash"
-
-const getTopicOriginalPosterId = (post) => (
-  post.posters
-  .find(
-    (poster) => poster.description.includes("Original Poster")
-  )
-  .user_id
-)
 
 const normalizeTags = (tags = []) => {
   const a = tags.map((tag) =>
@@ -23,18 +16,8 @@ const normalizeTags = (tags = []) => {
   return _.uniq(a)
 }
 
-export default function process(
-  post,
-  usersCollection
-) {
-  // Get original posters information
-  const userId = getTopicOriginalPosterId(post)
-  const user = usersCollection.by("id", userId)
-
-  // TODO: Why is this situtaion ?
-  // if (!user) {
-  //   console.log(userId)
-  // }
+export default function process(post) {
+  const content = renderer(toSimpleUnicode(post.cooked))
 
   const meta = {
     id: post.id,
@@ -45,15 +28,9 @@ export default function process(
     date: post.created_at,
     views: post.views,
     likes: post.like_count,
-    ...user && {
-      author: {
-        username: user.username,
-        avatar: user.avatar_template,
-      },
-    },
+    description: description(content),
+    author: post.author,
   }
-
-  const content = renderer(toSimpleUnicode(post.raw))
 
   return {
     meta,

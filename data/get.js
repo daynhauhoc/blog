@@ -33,11 +33,18 @@ export const getAllPosts = ({ users, posts }) => (
   })
 )
 
-export const getAndUpdateRawPost = async function (post, collection) {
-  if (!post.raw) {
-    const response = await dnh.getRawPost(post.id)
-    post.raw = response.body
-    collection.update(post)
-    log("downloaded post " + post.id)
+export const getAndUpdatePost = async function (post, collection) {
+  if (post.cooked) {
+    return
   }
+  const json = await dnh.getPostsStream(post.id)
+  const posts = json.post_stream.posts
+  post.cooked = posts[0].cooked
+  post.author = {
+    name: posts[0].name,
+    avatar: posts[0].avatar_template,
+    username: posts[0].username,
+  }
+  collection.update(post)
+  log("downloaded post " + post.id)
 }

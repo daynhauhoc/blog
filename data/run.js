@@ -3,9 +3,9 @@ import { join } from "path"
 import { condition } from "../config"
 import { async as database } from "./db"
 import dnh from "./api"
-import { getAllPosts, getAndUpdateRawPost } from "./get"
-import process from "./process"
-import save from "./save"
+import { getAllPosts, getAndUpdatePost } from "./get"
+import stepProcess from "./process"
+import stepSave from "./save"
 import algolia from "./algolia"
 
 const log = require("debug")("dnh:run")
@@ -25,7 +25,7 @@ export default async function () {
     await Promise.all(
       Object
       .keys(data)
-      .map((key) => getAndUpdateRawPost(data[key], posts))
+      .map((key) => getAndUpdatePost(data[key], posts))
     )
 
     /**
@@ -46,18 +46,20 @@ export default async function () {
      */
     const processedData = Object
       .keys(data)
-      .map((key) => process(data[key], users))
+      .map((key) => stepProcess(data[key], users))
 
     /**
      * Send to Algolia
      */
-    await algolia(processedData)
+    if (process.env.NODE_ENV == "production") {
+      await algolia(processedData)
+    }
     /**
      * Save to files
      */
     await Promise.all(
       processedData
-      .map((item) => save(item, postsDir))
+      .map((item) => stepSave(item, postsDir))
     )
     log("Saved posts to markdown files")
 

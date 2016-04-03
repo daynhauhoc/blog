@@ -46,6 +46,16 @@ class API {
   getRawPost = (id) => (
     this.get([ "raw", id.toString() ])
   )
+
+  /**
+   * Get posts stream from topic
+   * @param {number} id Topic id
+   * @return {promise}
+   */
+  getPostsStream = (id) => (
+    this.get([ "t", id.toString() + ".json" ])
+    .then((response) => JSON.parse(response.body))
+  )
 }
 
 const singleton = new API()

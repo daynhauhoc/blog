@@ -26,6 +26,17 @@
   }
 }
 
+:global .emoji {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+:global div.meta {
+  display: none;
+}
+
 .footer {
   max-width: 40rem;
   margin-left: auto;
