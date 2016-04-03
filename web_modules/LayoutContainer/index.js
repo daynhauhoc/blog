@@ -29,10 +29,6 @@ export default class Layout extends Component {
               href: "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic|Open+Sans:300|Roboto+Slab:400,300&subset=latin,vietnamese",
             },
             {
-              rel: "stylesheet",
-              href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css",
-            },
-            {
               rel: "icon",
               type: "image/png",
               sizes: "144x144",

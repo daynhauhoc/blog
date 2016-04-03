@@ -1,22 +1,15 @@
-import { join } from "path"
 import fsp from "fs-promise"
-import getAllPosts from "./get-all-posts"
+import { join } from "path"
+import { condition } from "../config"
 import { async as database } from "./db"
 import dnh from "./api"
-import { condition } from "../config"
-import saveToFile from "./save-to-file"
+import { getAllPosts, getAndUpdateRawPost } from "./get"
+import process from "./process"
+import save from "./save"
+import algolia from "./algolia"
 
 const log = require("debug")("dnh:run")
 const logStats = require("debug")("dnh:stats")
-
-const getAndUpdateRawPost = async function (post, collection) {
-  if (!post.raw) {
-    const response = await dnh.getRawPost(post.id)
-    post.raw = response.body
-    collection.update(post)
-    log("downloaded post " + post.id)
-  }
-}
 
 export default async function () {
   // TODO: Is it safe to do this ?
@@ -35,6 +28,9 @@ export default async function () {
       .map((key) => getAndUpdateRawPost(data[key], posts))
     )
 
+    /**
+     * Make dirs
+     */
     const contentDir = join(__dirname, "../content")
     const postsDir = join(contentDir, "posts")
     await fsp.ensureDir(contentDir)
@@ -42,16 +38,26 @@ export default async function () {
     await fsp.mkdirs(postsDir)
     log("Created content folder")
 
-    await fsp.copy(
-      join(__dirname, "../content-holder"),
-      contentDir
-    )
+    await fsp.copy(join(__dirname, "../content-holder"), contentDir)
     log("Copied content from content-holder/ to content/")
 
-    await Promise.all(
-      Object
+    /**
+     * Process data
+     */
+    const processedData = Object
       .keys(data)
-      .map((key) => saveToFile(data[key], postsDir, users))
+      .map((key) => process(data[key], users))
+
+    /**
+     * Send to Algolia
+     */
+    await algolia(processedData)
+    /**
+     * Save to files
+     */
+    await Promise.all(
+      processedData
+      .map((item) => save(item, postsDir))
     )
     log("Saved posts to markdown files")
 

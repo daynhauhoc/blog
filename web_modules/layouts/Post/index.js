@@ -62,7 +62,7 @@ export default class Post extends Component {
         />
         <GoHomeButton text="← Trang chủ" />
         <div className={ styles.wrapper }>
-          <div className={ styles.text }>
+          <div id="content" className={ styles.text }>
             <h1>{ head.title }</h1>
             <div dangerouslySetInnerHTML={ { __html: body } } />
           </div>

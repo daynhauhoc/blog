@@ -2,9 +2,9 @@ import dnh from "./api"
 import access from "safe-access"
 import parseQuery from "./utils/parse-query"
 
-const log = require("debug")("dnh:get-all-posts")
+const log = require("debug")("dnh:get")
 
-const getAllPosts = ({ users, posts }) => (
+export const getAllPosts = ({ users, posts }) => (
   new Promise((resolve, reject) => {
     const getAllPosts = (query = {}) => {
       dnh.getPostFromCategory("share/writes", query)
@@ -33,4 +33,11 @@ const getAllPosts = ({ users, posts }) => (
   })
 )
 
-export default getAllPosts
+export const getAndUpdateRawPost = async function (post, collection) {
+  if (!post.raw) {
+    const response = await dnh.getRawPost(post.id)
+    post.raw = response.body
+    collection.update(post)
+    log("downloaded post " + post.id)
+  }
+}

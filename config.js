@@ -7,3 +7,9 @@ export const condition = {
     { pinned: false },
   ],
 }
+
+export const algolia = {
+  appId: "GQCS86ZYQX",
+  indexName: "dnh-posts",
+  searchKey: "b952957ee76d25524f9a31bf5a108313",
+}

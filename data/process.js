@@ -1,18 +1,9 @@
-import { writeFile } from "fs-promise"
-import { join } from "path"
 import joinUri from "join-uri"
 import toSimpleUnicode from "vietnamese-unicode-toolkit"
 import stripAccentMarks from "./utils/stripAccentMarks"
+import renderer from "./remark-renderer"
+
 import _ from "lodash"
-
-const template = (meta, content) => (
-`---json
-${ JSON.stringify(meta)}
----
-
-${ content }
-`
-)
 
 const getTopicOriginalPosterId = (post) => (
   post.posters
@@ -32,13 +23,10 @@ const normalizeTags = (tags = []) => {
   return _.uniq(a)
 }
 
-export default async function saveToFile(
+export default function process(
   post,
-  distPath,
   usersCollection
 ) {
-  const filePath = join(distPath, post.id.toString() + ".md")
-
   // Get original posters information
   const userId = getTopicOriginalPosterId(post)
   const user = usersCollection.by("id", userId)
@@ -55,6 +43,8 @@ export default async function saveToFile(
     title: toSimpleUnicode(post.title),
     tags: post.tags && normalizeTags(post.tags),
     date: post.created_at,
+    views: post.views,
+    likes: post.like_count,
     ...user && {
       author: {
         username: user.username,
@@ -63,8 +53,10 @@ export default async function saveToFile(
     },
   }
 
-  const content = toSimpleUnicode(post.raw)
-  const fileContent = template(meta, content)
+  const content = renderer(toSimpleUnicode(post.raw))
 
-  await writeFile(filePath, fileContent)
+  return {
+    meta,
+    content,
+  }
 }

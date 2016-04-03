@@ -65,3 +65,7 @@
   	border-bottom: 1px solid;
   }
 }
+
+:global .hl {
+  background: #D3E8F6;
+}

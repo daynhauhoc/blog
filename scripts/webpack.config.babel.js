@@ -2,7 +2,6 @@ import path from "path"
 
 import webpack from "webpack"
 import ExtractTextPlugin from "extract-text-webpack-plugin"
-import renderer from "./remark-renderer"
 
 export default ({ config, pkg }) => ({
   ...config.dev && {
@@ -59,7 +58,7 @@ export default ({ config, pkg }) => ({
   statinamic: {
     loader: {
       context: path.join(config.cwd, config.source),
-      renderer,
+      renderer: (html) => html,
       feedsOptions: {
         title: pkg.name,
         site_url: pkg.homepage,

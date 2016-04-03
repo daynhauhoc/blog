@@ -2,12 +2,15 @@ import React, { PropTypes } from "react"
 import Link from "statinamic/lib/Link"
 import SidebarNav from "../SidebarNav"
 import LogoImg from "./logo-full.png"
-import Social from "../SidebarSocial"
 import styles from "./style.css"
 
 class SidebarLeft extends React.Component {
   static contextTypes = {
     metadata: PropTypes.object.isRequired,
+  };
+
+  static propTypes = {
+    searchInput: PropTypes.node.isRequired,
   };
 
   render() {
@@ -28,10 +31,10 @@ class SidebarLeft extends React.Component {
               </Link>
             </h1>
             <p>{ config.siteDescr }</p>
+            { this.props.searchInput }
           </header>
           <SidebarNav />
           <footer>
-            <Social />
             <p className={ styles.copyright }>&copy; All rights reserved.</p>
           </footer>
         </div>
