@@ -108,8 +108,6 @@
     "remark-slug": "^4.1.0",
     "rucksack-css": "^0.8.5",
     "safe-access": "^0.1.0",
-    "speakingurl": "^9.0.0",
-    "unist-util-visit": "^1.1.0",
     "vietnamese-unicode-toolkit": "0.0.1"
   }
 }

@@ -3,6 +3,7 @@ import { join } from "path"
 import joinUri from "join-uri"
 import toSimpleUnicode from "vietnamese-unicode-toolkit"
 import stripAccentMarks from "./utils/stripAccentMarks"
+import _ from "lodash"
 
 const template = (meta, content) => (
 `---json
@@ -21,13 +22,15 @@ const getTopicOriginalPosterId = (post) => (
   .user_id
 )
 
-const normalizeTags = (tags = []) => (
-  tags.map((tag) =>
+const normalizeTags = (tags = []) => {
+  const a = tags.map((tag) =>
     stripAccentMarks(tag)
     .replace(/\-/g, "")
     .replace(/\s/g, "")
   )
-)
+
+  return _.uniq(a)
+}
 
 export default async function saveToFile(
   post,
@@ -40,6 +43,7 @@ export default async function saveToFile(
   const userId = getTopicOriginalPosterId(post)
   const user = usersCollection.by("id", userId)
 
+  // TODO: Why is this situtaion ?
   // if (!user) {
   //   console.log(userId)
   // }
@@ -60,7 +64,7 @@ export default async function saveToFile(
   }
 
   const content = toSimpleUnicode(post.raw)
-
   const fileContent = template(meta, content)
+
   await writeFile(filePath, fileContent)
 }
