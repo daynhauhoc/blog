@@ -2,6 +2,7 @@ import { writeFile } from "fs-promise"
 import { join } from "path"
 import joinUri from "join-uri"
 import toSimpleUnicode from "vietnamese-unicode-toolkit"
+import stripAccentMarks from "./utils/stripAccentMarks"
 
 const template = (meta, content) => (
 `---json
@@ -18,6 +19,14 @@ const getTopicOriginalPosterId = (post) => (
     (poster) => poster.description.includes("Original Poster")
   )
   .user_id
+)
+
+const normalizeTags = (tags = []) => (
+  tags.map((tag) =>
+    stripAccentMarks(tag)
+    .replace(/\-/g, "")
+    .replace(/\s/g, "")
+  )
 )
 
 export default async function saveToFile(
@@ -40,7 +49,7 @@ export default async function saveToFile(
     layout: "Post",
     route: joinUri(post.slug),
     title: toSimpleUnicode(post.title),
-    tags: post.tags,
+    tags: post.tags && normalizeTags(post.tags),
     date: post.created_at,
     ...user && {
       author: {
@@ -51,7 +60,7 @@ export default async function saveToFile(
   }
 
   const content = toSimpleUnicode(post.raw)
-  
+
   const fileContent = template(meta, content)
   await writeFile(filePath, fileContent)
 }
