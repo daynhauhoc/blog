@@ -25,12 +25,28 @@ export default class Layout extends Component {
         <Helmet
           link={ [
             {
-              "rel": "stylesheet",
-              "href": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic|Open+Sans:300|Roboto+Slab:400,300&subset=latin,vietnamese",
+              rel: "stylesheet",
+              href: "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,700italic|Open+Sans:300|Roboto+Slab:400,300&subset=latin,vietnamese",
             },
             {
-              "rel": "stylesheet",
-              "href": "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css",
+              rel: "stylesheet",
+              href: "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css",
+            },
+            {
+              rel: "icon",
+              type: "image/png",
+              sizes: "144x144",
+              href: "//daynhauhoc.s3.amazonaws.com/36ee34de6c73f268424fceaef858c5428d8fb2a976.ico",
+            },
+            {
+              rel: "icon",
+              type: "image/png",
+              href: "//daynhauhoc.s3.amazonaws.com/352ac0c01c6e4e15be7ee46da53668513fd4e93736.png",
+            },
+            {
+              rel: "apple-touch-icon",
+              type: "image/png",
+              href: "//daynhauhoc.s3.amazonaws.com/352ac0c01c6e4e15be7ee46da53668513fd4e93736.png",
             },
           ] }
           meta={ [
