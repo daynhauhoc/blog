@@ -51,7 +51,10 @@ export default async function () {
     /**
      * Send to Algolia
      */
-    if (process.env.NODE_ENV == "production") {
+    if (
+      process.env.NODE_ENV == "production" &&
+      typeof process.env.ALGOLIA_ADMIN_KEY === "string"
+    ) {
       await algolia(processedData)
     }
     /**
