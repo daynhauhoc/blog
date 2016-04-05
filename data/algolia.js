@@ -10,6 +10,18 @@ const breakHTMLIntoNodes = (html) => {
   const $ = cheerio.load(html)
   const result = []
 
+  /*
+   * Break <p>foo<br>bar</p> into
+   * <p>foo</p><p>bar</p>
+   */
+  $("p").each((i, elem) => {
+    const content = $(elem).html()
+    const count = (content.match(/<br>/g) || []).length
+    for (let i = 0; i < count; i++) {
+      $(elem).html(content.replace("br", "p"))
+    }
+  })
+
   $("p").each((i, elem) => {
     result.push({
       tag_name: "p",
