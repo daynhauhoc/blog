@@ -1,5 +1,5 @@
 .postEntry {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .postEntry:last-child {
@@ -8,7 +8,7 @@
 
 .postEntry h2 {
 	margin-top: 10px;
-	line-height: 30px;
+	line-height: 2rem;
 	margin-bottom: 20px;
 }
 
@@ -18,9 +18,9 @@
 
 /* Description */
 .postEntry p {
-	font-size: 16px;
+	font-size: 1rem;
 	line-height: 26px;
-	margin-bottom: 26px;
+	margin-bottom: 0.5rem;
   /* https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   overflow-wrap: break-word;
   word-wrap: break-word;
