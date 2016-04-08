@@ -20,7 +20,7 @@ const getDbCollections = (db) => {
   return {
     db,
     posts: getOrAddCollection(db, "posts"),
-    users: getOrAddCollection(db, "users"),
+    // users: getOrAddCollection(db, "users"),
   }
 }
 

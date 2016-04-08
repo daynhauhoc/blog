@@ -4,14 +4,12 @@ import parseQuery from "./utils/parse-query"
 
 const log = require("debug")("dnh:get")
 
-export const getAllPosts = ({ users, posts }) => (
+export const getAllPosts = ({ posts }) => (
   new Promise((resolve, reject) => {
     const getAllPosts = (query = {}) => {
       dnh.getPostFromCategory("share/writes", query)
       .then((response) => JSON.parse(response.body))
       .then((json) => {
-        log(query)
-        users.insert(json.users)
         posts.insert(json.topic_list.topics)
         return json
       })

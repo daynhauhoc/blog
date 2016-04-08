@@ -13,10 +13,14 @@ const logStats = require("debug")("dnh:stats")
 
 export default async function () {
   // TODO: Is it safe to do this ?
-  const { db, users, posts } = await database()
+  const {
+    db,
+    // users,
+    posts,
+  } = await database()
   try {
     if (!posts.data.length) {
-      await getAllPosts({ users, posts })
+      await getAllPosts({ posts })
     }
 
     const data = posts.find(condition)
@@ -46,7 +50,7 @@ export default async function () {
      */
     const processedData = Object
       .keys(data)
-      .map((key) => stepProcess(data[key], users))
+      .map((key) => stepProcess(data[key]))
 
     /**
      * Send to Algolia
