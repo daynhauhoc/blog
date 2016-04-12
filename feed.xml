@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[daynhauhoc-blog]]></title><description><![CDATA[daynhauhoc-blog]]></description><link>http://blog.daynhauhoc.com</link><generator>RSS for Node</generator><lastBuildDate>Mon, 11 Apr 2016 16:17:27 GMT</lastBuildDate><atom:link href="http://blog.daynhauhoc.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Lâu lâu một quyển sách: Người mẹ tốt hơn là người thầy tốt]]></title><description><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[daynhauhoc-blog]]></title><description><![CDATA[daynhauhoc-blog]]></description><link>http://blog.daynhauhoc.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 12 Apr 2016 16:19:33 GMT</lastBuildDate><atom:link href="http://blog.daynhauhoc.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Npm: Tăng tốc và sử dụng offline]]></title><description><![CDATA[
+<p>Chắc chắn là ai đã từng làm việc với npm thì đều biết một điều rằng npm nó siêu chậm. Vì vậy mình hay hạn chế chạy <code>npm install</code> đến mức tối thiểu và thường không nhận được patch update, ... cũng như nhiều vấn đề khác phát sinh. Trong bài viết này mình sẽ giới thiệu với các bạn một package không những giúp tăng tốc npm mà còn cho phép bạn cài đặt package offline.</p>
+
+<h1><a href="https://github.com/nolanlawson/local-npm">local-npm</a></h1>
+
+<p><a href="https://github.com/nolanlawson/local-npm">local-npm</a> sẽ tạo ra 1 replicate cho toàn bộ database của npm (chỉ hơn 1GB một tí thôi) cũng như là cache các package đã tải về. Vì vậy bạn sẽ không bao giờ tải một file 2 lần.</p>
+
+<h2>Sử dụng</h2>
+
+<ul><li>Cài đặt</li></ul>
+
+<p></p><pre><code class="lang-auto">npm install --global local-npm</code></pre>
+
+<ul><li>Tạo một thư mục để chứa dữ liệu</li></ul>
+
+<p></p><pre><code class="lang-auto">mkdir ~/local_npm</code></pre>
+
+<ul><li>Chạy local-npm server</li></ul>
+
+<p></p><pre><code class="lang-auto">local-npm -d ~/local_npm</code></pre>
+
+<ul><li>Lúc này bạn sẽ thấy giao diện chính của chương trình xuất hiện</li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/e/e249e18b9cb3bf49ae51d348a1d07db166d8c99b.png" class="lightbox" title="local_npm.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/e/e249e18b9cb3bf49ae51d348a1d07db166d8c99b_1_690x437.png" alt="Giao diện của local-npm" width="690" height="437"><div class="meta">
+<span class="filename">local_npm.png</span><span class="informations">750x476 35.5 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Thiết lập cho npm tải dữ liệu từ local-npm</li></ul>
+
+<p></p><pre><code class="lang-auto">npm set registry http://127.0.0.1:5080</code></pre>
+
+<ul><li>Nếu bạn không thích dùng local-npm nữa thì gõ lệnh</li></ul>
+
+<p></p><pre><code class="lang-auto">npm set registry https://registry.npmjs.org</code></pre>
+
+<ul><li>local-npm còn công cấp cho bạn một giao diện kiểu như npm để bạn có thể duyệt các package offline. Nhưng bạn phải đợi cho local-npm replicate hoàn toàn database của npm về máy đã. Bạn có thể truy cập vào [http://localhost:5080/_browse/#/] để sử dụng</li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/6/65c6436b8139bd7015c1218fa7896fcaf2f978ee.png" class="lightbox" title="ui.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/6/65c6436b8139bd7015c1218fa7896fcaf2f978ee_1_690x387.png" alt="local-npm UI" width="690" height="387"><div class="meta">
+<span class="filename">ui.png</span><span class="informations">1366x768 42.2 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p>Vậy là xong. local-npm sẽ tự động replicate database của npm về, mỗi khi bạn tải một package nào về thì nó sẽ tự động cache, đảm bảo là bạn không bao giờ phải tải một file nào đó 2 lần.</p>
+
+<h1>Tự động chạy local-npm khi khởi động máy</h1>
+
+<p>Ở đây mình hướng dẫn cho Ubuntu 15.04</p>
+
+<ul><li>Mở dash và tìm kiếm Startup Applications</li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/6/69775fb012b052fb870fbaba2e1d47a6252b7219.png" class="lightbox" title="dash.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/6/69775fb012b052fb870fbaba2e1d47a6252b7219_1_690x387.png" alt="dash search" width="690" height="387"><div class="meta">
+<span class="filename">dash.png</span><span class="informations">1366x768 186 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Tạo mới một entry để tự khởi động command ở trên mỗi khi mở máy</li></ul>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/0/069bd0f27a9de5caa6752982ca7ed132c9997b57.png" alt="startup setup" width="496" height="354"></p>
+
+<p>Done. npm is not a jerk anymore. <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"></p>
+
+<p><a href="https://khoanguyen.me/tang-toc-npm/">Bài gốc từ blog của mình</a></p>
+]]></description><link>http://blog.daynhauhoc.com/npm-tang-toc-va-su-dung-offline/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/npm-tang-toc-va-su-dung-offline/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Tue, 12 Apr 2016 06:59:40 GMT</pubDate></item><item><title><![CDATA[Lâu lâu một quyển sách: Người mẹ tốt hơn là người thầy tốt]]></title><description><![CDATA[
 <p>Hôm nay Đạt giới thiệu một quyển sách nữa, dành cho các bạn đã đang và sắp làm cha mẹ hoặc có anh chị em đang có con nhỏ. Quyển này đem giới thiệu ở DNH thì có lạ không?</p>
 
 <p>Đạt không nghĩ là lạ, ai rồi cũng sẽ làm cha mẹ, hoặc làm cô chú, đọc sách làm cha mẹ không có nghĩa mình cần phải làm cha mẹ. Mình có thể giới thiệu cho bạn bè, anh chị, người thân đang làm cha mẹ để giáo dục trẻ con hợp lý hơn. Đồng thời, sách có những triết lý giúp mình giáo dục chính bản thân mình.</p>
@@ -677,81 +737,7 @@
 <hr>
 
 <p>Không biết có bạn nào mắc thêm bệnh <strong>Lười Đọc</strong> không nhỉ <img src="http://daynhauhoc.com/images/emoji/twitter/smile.png?v=2" title=":smile:" class="emoji" alt=":smile:"></p>
-]]></description><link>http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 26 Mar 2016 02:09:03 GMT</pubDate></item><item><title><![CDATA[Fastest way to learn basic of OOP [P3]]]></title><description><![CDATA[
-<p>Chào cả nhà, trưa không ngủ được nên ngồi viết bài luôn ^^.<br>Qua 2 phần của Fastest way to learn basic of Programming thì các newbie chắc hẳn cũng đã hiểu đc phần nào các định nghĩa lằng nhằng của Lập Trình. Và bây giờ, bài viết này sẽ giúp các bạn lướt nhanh qua hơn 30 trang về định nghĩa Lập Trình Hướng đối tượng. Bắt đầu</p>
-
-<p>Phần 2 bạn xem lại tại <a href="http://daynhauhoc.com/t/fastest-way-to-learn-basic-of-programming-p2/22178">http://daynhauhoc.com/t/fastest-way-to-learn-basic-of-programming-p2/22178</a></p>
-
-<h1> BƯỚC SÂU HƠN VÀO LẬP TRÌNH </h1>
-
-<br>
-
-<h2> Bước vào OOP </h2>
-
-<br>
-
-<b> Lập trình hướng đối tượng</b>: là kiểu lập trình quy về đối tượng ,nó xem mọi thứ là đối tượng. Hiểu đơn giản thế này... mọi thứ đều là obj (đối tượng), từ cái biến, cái thủ tục, cái lớp gì gì ấy đều là đối tượng. Cái gì hữu hình, vật thể cụ thể đều là obj. và bất kì đối tượng nào đều phải ở trong một lớp
-
-<br>
-
-VD: Công an hỏi chuyện vs 1 thằng phạm nhân, thì ông công an là obj, thằng phạm nhân là obj, tờ giấy, cây viết là obj, hung khí gây án là obj, cái căn phòng là cái class (lớp) chứa mấy cái obj ấy, nhưng bản thân cái phòng lại là obj đấy.
-
-<br>
-
-<img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/a/aafbc4b3764b2d9cebe704d8a560a8a2f1fabcea.png" width="277" height="182">
-
-<br>
-
-<b>Vậy rồi đối tượng là gì?</b> Đối tượng (Object- viết tắt là Obj) là một thứ hữu hình, vật thể cụ thể hay không cụ thể đều là Obj, xem vd trên nhé ^^
-
-<br>
-
-<p></p><pre><code class="lang-auto">Fact: Xu hướng hiện nay là Đối tượng hóa các ngôn ngữ lập trình, trong đó ưu tú nhất là Java</code></pre>
-
-<p><b>Lớp (Class)</b>: Là bản thiết kế của một thực thể (hack não nhỉ?) hiểu đơn giản hơn là nó giống như một thực thể, <b>nó đơn giản chỉ là nơi chứa mấy cái Phương Thức vs Thuộc tính thôi mà </b><br>VD nhé: Ở ngoài tiệm sách bạn thấy một biển quảng cáo cuốn sách bìa vàng, dày 690 trang (thì cuốn sách ấy là Lớp, nó chứa các thuộc tính và phương thức bên trong nó) nhưng khi bạn mua về thì nó nằm trong tay bạn (bây giờ cuốn sách của bạn là Obj của cuốn sách ấy, vì nó cụ thể hóa cuốn sách, không còn chỉ là quảng cáo hư cấu nữa). <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"><br></p>
-
-<p></p><pre><code class="lang-auto">Class Sach {     // đây là cuốn sách trong quảng cáo (nó chưa có thực)
- int sotrang = 690;
- color maubia = yellow;
- string tuade = "Fastest way to ...";
-}
-Class TuSachNhaMinh {  //tủ sách này không có thật
- public static void main (String[] args) {   // làm cho tủ sách có thật
-  Sach sachcuaminh = new Sach(); //đây là cuốn sách đã mua -&gt; nó có thật (tạo đối tượng)
- }
-}</code></pre>
-
-<p><b>Thuộc Tính (Properties)</b>: Đơn giản là cái biến nằm trong lớp thôi.<br><b>Phương Thức (Methods)</b>: Đây là... cái hàm nằm trong lớp. (<strike>Định mệnh, làm mất mấy ngày đọc hiểu của bố <img src="http://daynhauhoc.com/images/emoji/twitter/rage.png?v=2" title=":rage:" class="emoji" alt=":rage:"></strike>).<br></p>
-
-<p></p><pre><code class="lang-auto">Fact: Các thuộc tính và phương thức của lớp chỉ có thể sử dụng khi lớp đã trở thành đối tượng.</code></pre>
-
-<p><b>Khởi tạo</b>: đây là cái phương thức có tên giống tên lớp mà khi tạo đối tượng từ một lớp thì nó sẽ thực hiện<br>VD: Sách có khởi tạo là giảm giá 69%, thì khi mua sẽ được giảm giá 69% đúng như khởi tạo.<br></p>
-
-<p></p><pre><code class="lang-auto">class Sach {
- int sogia = 69000;
- Sach () {  //đây là khởi tạo, tên phải giống tên lớp
-  sogia -= sogia*(69/100);
- }
-}
-class TuSach {
- public static void main(String[]args) {
-  Sach sachcuatoi = new Sach(); //tạo đối tượng -&gt; tự chạy khởi tạo
-  System.out.println(sachcuatoi.sogia); //gia se khong con la 69000 nua
- }
-}</code></pre>
-
-<p><b>Các Phạm vi Truy Cập</b>: Access-Modifiers (các phạm vi truy cập) chia làm 3 loại<br><i>Public</i>: truy cập bởi mọi thứ, mọi nơi<br><i>Protected</i>: protected sẽ là public đối với class con và private đối với các class còn lại<br><i>Private</i> : chỉ được truy cập bởi các thành viên bên trong chính lớp đó<br>Chi tiết hơn tại hình bên dưới <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"> <br><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/0/09418faded28588ffbbfa2c51cfedf1f4262dbe0.png" width="690" height="161"><br></p>
-
-<p></p><pre><code class="lang-auto">Fact: Nếu không đặt Access-Modifier trước mỗi thành viên thì mặc định sẽ là public đối với các class cùng package và private đối với các class k cùng package</code></pre>
-
-<p><b>Package</b>: gói - là nơi chứa những lớp liên quan. Khi muốn gọi một gói nào đó thì cần import nó<br>mặc định Java sẽ import gói java.lang.*;  -&gt; * - biểu thị gọi toàn bộ lớp trong gói ấy. Chính xác gói là cái folder chứa lớp ^^ và các thứ khác.<br></p>
-
-<p></p><pre><code class="lang-auto">Fact: Các gói thường đặt tên bằng chữ thường, các từ cách nhau bằng " . "</code></pre>
-
-<p>Hôm nay bấy nhiêu thôi, vì OOP ban đầu khá khó nhưng hiểu đc rồi thì thấy nó rất dễ dàng. Chúc các bạn thành công ^^</p>
-
-<p><strike>Hãy bấm like hoặc reply để ủng hộ tác giả</strike></p>
-]]></description><link>http://blog.daynhauhoc.com/fastest-way-to-learn-basic-of-oop-p3/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/fastest-way-to-learn-basic-of-oop-p3/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Wed, 16 Mar 2016 06:11:25 GMT</pubDate></item><item><title><![CDATA[Fastest way to learn basic of Programming [P1]]]></title><description><![CDATA[
+]]></description><link>http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 26 Mar 2016 02:09:03 GMT</pubDate></item><item><title><![CDATA[Fastest way to learn basic of Programming [P1]]]></title><description><![CDATA[
 <p>Xin chào cả nhà. Căn bản lập trình là thứ bắt đầu đầy nước mắt của lập trình viên <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:">, và một khi bạn đã "qua cơn nguy kịch" thì bạn sẽ sống dậy đầy mạnh mẽ (code liên tục ^^) và đôi khi lại quen 1 thứ gì đấy thì lại lật lại mà xem nhưng nhìn lại sẽ dễ hiểu hơn nhưng lại loằn ngoằn...<br>Hôm nay, em mạn phép tung series dành cho các bạn newbie là "Fastest Way to learn basic of Programming" (đại loại như for Dummies nhưng ngắn hơn) để các bạn bước lên nhanh chóng trong con đường đến "vinh quang" (vào công ty sẽ biết vinh quang cỡ nào <img src="http://daynhauhoc.com/images/emoji/twitter/cry.png?v=2" title=":cry:" class="emoji" alt=":cry:">)<br>Series này dựa trên sự hợp tác của Steve Alan (<a class="mention" href="http://daynhauhoc.com/users/conan4582">@conan4582</a>) và... mấy cuốn sách. ^^ Nên có gì sai sót thì các bạn bỏ qua cho (mấy thím tester find bug giúp ^^). Ngôn ngữ em áp dụng sẽ là Java.</p>
 
 <p></p><pre><code class="lang-auto">Mình chỉ nói cơ bản, chứ không nói đến bên cấu trúc máy tính, nên ai học 
