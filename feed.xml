@@ -1,4 +1,584 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[daynhauhoc-blog]]></title><description><![CDATA[daynhauhoc-blog]]></description><link>http://blog.daynhauhoc.com</link><generator>RSS for Node</generator><lastBuildDate>Sat, 16 Apr 2016 20:35:46 GMT</lastBuildDate><atom:link href="http://blog.daynhauhoc.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X]]></title><description><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[daynhauhoc-blog]]></title><description><![CDATA[daynhauhoc-blog]]></description><link>http://blog.daynhauhoc.com</link><generator>RSS for Node</generator><lastBuildDate>Wed, 27 Apr 2016 09:26:14 GMT</lastBuildDate><atom:link href="http://blog.daynhauhoc.com/feed.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Việt Nam sao không phải là cường quốc?]]></title><description><![CDATA[
+<p>Hôm nay lướt facebook đọc 1 comment về topic câu chuyện Mai Khôi mong muốn được gặp tổng thống Mỹ Obama tháng 5 này để nói chuyện về dân quyền ở Việt Nam.<br>Và câu comment đó là :</p>
+
+<blockquote><p>Tại sao một đất nước <strong>100 triệu dân</strong> lại không trở thành một <strong>cường quốc</strong> ???</p></blockquote>
+
+<p>Có quá nhiều câu trả lời, dẫn chứng lịch sử nhưng sao giải thích được câu hỏi khó thế này <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"></p>
+
+<p>Rồi chuyện Formosa sả thải lên biển miền trung, chợt nhận ra Việt Nam mình rồi lại thấy buồn,dân mình ra nước ngoài làm trí óc thì ít hơn rất nhiều so với lao động phổ thông, con gái thì bán mình cho đồng tiền ở xứ người nếu có thể (mình không trách họ nhé ) <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> , đồ ăn thức uống bẩn từng li từng tí, đủ thứ kể mãi bao giờ mới hết <img src="http://daynhauhoc.com/images/emoji/twitter/grin.png?v=2" title=":grin:" class="emoji" alt=":grin:">,.. </p>
+
+<p>Mình đang sống ở Mã thì thấy họ sống rất chậm, cũng ko cần cù như dân mình, cả sự nhanh nhẹn, thông minh,... ( ít nhất thì môi trường làm việc xung quanh của mình là như thế, người Mã gốc Hoa thì ngược lại nhé <img src="http://daynhauhoc.com/images/emoji/twitter/grinning.png?v=2" title=":grinning:" class="emoji" alt=":grinning:">) GDP chỉ sau Singapore (Brunei không tính nhé, giàu từ trứng <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:">) , họ có hãng xe hơi nội địa giá rẻ, hấp dẫn du lịch cao nhất ĐNA, top 10 thế giới luôn nhé, cảnh quan thì so với Việt Nam mình thì mình thấy không bằng (bác nào qua rồi thì thấy) ,nhiều thứ nữa nhưng mình chưa nghĩ ra <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:">... </p>
+
+<p>Có thể chiến tranh lấy đi của đất nước mình quá nhiều, cả thời gian, cả nhân lực, mình cũng không cổ xúy chế độ SG cũ (VNCH) vì chẳng có đất nước nào anh em chia hai lại trọn vẹn cả, lịch sử là thứ không thể thay đổi, Việt Nam là hiện tại và sẽ không còn 1 Việt Nam nào khác trên thế giới nữa  (HQ TT rồi cũng sẽ lại là 1 thôi), thật sự người Việt Nam mình bản chất rất thông minh, chịu khó,...có lẽ do thời cuộc làm đất nước hỏng rất nhiều thế hệ, cả đạo đức, ý thức lẫn tinh thần và ý chí, đọc các bài báo về ý thức người Việt Nam các bác cũng thấy, buồn, bất lực đấy nhưng ko ai từ bỏ nguồn cội của mình cả... Thật ra bước ngoặc của VN sẽ nằm trong khoảng 10-20 năm tới, mình nghĩ vậy, đó là khoảng thời gian những con người VN mới, trẻ, học vấn cao, nhận thức, ý thức, có cái nhìn rộng ra thế giới, hiểu đất nước cần và mất gì?Để rồi cùng đưa đất nước đi lên. Tôi ko cần lương 3$ để hơn anh, nhưng ra nước ngoài cùng nhau làm 3$ thì ok thôi,... và đó cũng có thể chính là những bạn trong diễn đàn này <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:">. Thôi chém quá rồi, quay lại câu hỏi nào <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
+
+<blockquote><p>Tại sao một đất nước <strong>100 triệu dân</strong> lại không trở thành một <strong>cường quốc</strong> ???</p></blockquote>
+]]></description><link>http://blog.daynhauhoc.com/viet-nam-sao-khong-phai-la-cuong-quoc/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/viet-nam-sao-khong-phai-la-cuong-quoc/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Mon, 25 Apr 2016 19:37:26 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn khám phá eDonkey và thế giới Dark Net (Phần 5 )]]></title><description><![CDATA[
+<p>Gửi đến Admin site : <a href="http://www.mystown.com/" rel="nofollow">Mystown.com</a>  (Người đã Coppy lại bài đăng này )<br>Mình rất ghét những thành phần leech lại bài của  mình mà không ghi nguồn hoặc tên tác giả <img src="http://daynhauhoc.com/images/emoji/twitter/smiling_imp.png?v=2" title=":smiling_imp:" class="emoji" alt=":smiling_imp:"> <br>Mình phỉ nhổ và khinh thường  bất kì ai làm hành động này với các bài đăng của mình <img src="http://daynhauhoc.com/images/emoji/twitter/rage.png?v=2" title=":rage:" class="emoji" alt=":rage:"><br>Lại còn ghi là : <br><em>Nguồn: Area3</em><br><em>Tác giả : 41-4c1c3rs</em><br><em>*Copy vui lòng để lại nguồn và tác giả</em></p>
+
+<p><strong>Ăn cắp mà k biết xấu hổ !</strong></p>
+
+<p>Tiếp nối 4 bài đăng trước về thế giới Dark Net .<br>Lần này mình sẽ quay trở lại và tiếp tục với chủ đề về Dark Net .Trong các bài đăng trước mình đã giới thiệu đến các bạn 4 mạng Dark Net là : Onion,Free Net ,I2P,Zero Net .....<br>1.<a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/">Hướng dẫn cách khám phá Onion Web và thế giới Dark Net(Phần 1)</a><br>2.<a href="http://daynhauhoc.com/t/kham-pha-the-gioi-free-net-va-the-gioi-dark-net-phan-2/23764">Hướng dẫn cách khám phá Free Net và thế giới Dark Net (Phần 2 )</a><br>3.<a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842/2">Hướng dẫn cách khám phá I2P và thế giới Dark Net (Phần 3)</a><br>4.<a href="http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134">Hướng dẫn khám phá Zero Net và thế giới Dark Net (Phần 4)</a></p>
+
+<p>Lần này mình sẽ giới thiệu đến các bạn về eDonkey  (P2P) hoạt động giống như các dịch vụ Torrent mà các bạn vẫn hay tải phim lậu và Game Crack .<br>Mạng eDonkey và các mạng dựa trên eDonkey là gì : <a href="https://vi.wikipedia.org/wiki/EMule" rel="nofollow">Wikipedia</a> <br>Để có thể truy cập vào mạng eDonkey các  bạn  có rất nhiều lựa chọn : <br>1.<a href="http://www.amule.org/" rel="nofollow">aMule</a> (Working with Windows,OSX and Ubuntu )<br>2.<a href="http://www.emule-project.net/home/perl/general.cgi?l=13" rel="nofollow">eMule</a>  (Working with Windows and OSX )<br>3.<a href="http://www.xmule.ws/download" rel="nofollow">xMule</a> (Only Working with  Linux )<br>4.<a href="http://echelon.i2p.xyz/imule/" rel="nofollow">iMule</a> ( Working with Debian,Ubuntu)<br>5.<a href="http://edonkey2000.en.softonic.com/" rel="nofollow">eDonkey</a> (Working with Windows and OSX )<br>......................<br>Trong khuôn khổ bài viết này mình sẽ hướng dẫn các bạn cách sử dụng aMule .Tại a e trong Dạy Nhau Học có rất nhiều bạn sử dụng Ubuntu và cả OSX nữa nên mình  sẽ chọn aMule vì tính đa nền tảng của nó .</p>
+
+<p>Bạn có thể tải về ở đây : Link : <a href="http://www.amule.org/" rel="nofollow">http://www.amule.org/</a> <br>Chọn phiên bản phụ hợp với OS của bạn rồi tải về <img src="http://daynhauhoc.com/images/emoji/twitter/wink.png?v=2" title=":wink:" class="emoji" alt=":wink:"> <br><strong>Đối với các bạn dùng Windows thì việc cài đặt rất đơn giản</strong> :<br>Bạn chỉ cần Next và Next mấy cái là xong <img src="http://daynhauhoc.com/images/emoji/twitter/smiling_imp.png?v=2" title=":smiling_imp:" class="emoji" alt=":smiling_imp:"><br><strong>Còn đối với các bạn sử dụng Ubuntu thì run lần lượt các dòng lệnh sau trên Terminal :</strong><br></p>
+
+<p></p><pre><code>apt-get update
+apt-get install amule amule-utils amule-gnome-support
+Hoặc theo hướng dẫn này : http://ubuntuguide.net/install-and-setup-amuleemule-alternative-download-manager-in-ubuntu</code></pre>
+
+<p>   <img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/1/19b2715adad5e36af4bea741d3bbbbef5ac70766.jpg" width="450" height="300"></p>
+
+<p>Sau đó ,bạn khởi động  aMule ở ngoài Desktop ,giao diện chương trình trông sẽ như sau : </p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/3/37d33cab12c1fcc9c8726b7ed4857baaf6a79a2c.png" class="lightbox" title="2.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/3/37d33cab12c1fcc9c8726b7ed4857baaf6a79a2c_1_690x376.png" width="690" height="376"><div class="meta">
+<span class="filename">2.png</span><span class="informations">1920x1048 200 KB</span><span class="expand"></span>
+</div></a></div><br>Ở lần đầu tiên khởi động nó sẽ hỏi bạn có muốn tải server list (node.dat) về k ? Bạn chọn : Có <br>Và đợi khoảng vài giây để phần mềm tải về tự động cho bạn <strong>server list</strong>  .<br><strong>Tiếp tục</strong>....<br><strong>Bạn nhấn vào Connect</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/relieved.png?v=2" title=":relieved:" class="emoji" alt=":relieved:">  (Chỗ mình khoanh đỏ )</p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/a/ad2240b87beec65e7fc97f848b9e15541ee0f4a0.PNG" class="lightbox" title="3.PNG" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/a/ad2240b87beec65e7fc97f848b9e15541ee0f4a0_1_690x376.PNG" width="690" height="376"><div class="meta">
+<span class="filename">3.PNG</span><span class="informations">1920x1048 201 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p>Các bạn đợi tầm 1-2 phút để hệ thống kết nối với các máy khác trong mạng.<br>Sau khi hoàn thành là bạn có thể bắt đầu chia sẻ và tải về các tập tin trong mạng eDonkey (Kad ) rồi đó <img src="http://daynhauhoc.com/images/emoji/twitter/sweat.png?v=2" title=":sweat:" class="emoji" alt=":sweat:"></p>
+
+<p>Giải thích 1 chút về các tùy chọn ở Giao diện chính <img src="http://daynhauhoc.com/images/emoji/twitter/laughing.png?v=2" title=":laughing:" class="emoji" alt=":laughing:"></p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/4/4d3d29b1011e89e39e47944ad0cb4094e66f8982.png" class="lightbox" title="2.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/4/4d3d29b1011e89e39e47944ad0cb4094e66f8982_1_690x376.png" width="690" height="376"><div class="meta">
+<span class="filename">2.png</span><span class="informations">1920x1048 140 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p>1.<strong>Connect</strong> : Kết nối/Ngắt kết nối<br>2.<strong>Networks</strong> : Danh sách server list<br>3.<strong>Searchs</strong> : Tìm kiếm tập tin<br>4.<strong>Downloads</strong> :  Danh sách tải về<br>5.<strong>Shared Files</strong> : Chia sẻ tập tin<br>6.<strong>Messages</strong> : Tin nhắn<br>7.<strong>Statistics</strong> : Biểu đồ<br>8.<strong>Preferences</strong> : Thiệt lập cài đặt<br>9.<strong>Import</strong> : Import partfiles<br>10.<strong>Status bar</strong></p>
+
+<p><strong>Để download  một tập tin bạn có thể Search hoặc sử dụng link Ed2k</strong><br>Đối với Search ,các bạn nhấn vào nút  <strong>Search</strong> trên Menu  ,sau đó nhập từ khóa tìm kiếm vào Name và nhấn Start để tìm kiếm .</p>
+
+<p>Một trong những lí do khiến mình cho nó luôn vào loạt bài giới thiệu về Dark Net vì ở đây bạn có thể tìm kiếm và tải về rất nhiều thứ đc đồn thổi là chỉ có ở  Dark Net  nhưng tìm mỏi mắt ở Onion ,Free Net,I2P hay ZeroShare ....mà k thấy <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"><br>Giờ đây ,mọi thứ sẽ trở nên đơn giản hơn rất nhiều với aMule .<br>Bạn chỉ cần nhập từ khóa cần tìm vào thanh Search là mọi thứ sẽ hiện ra cho bạn (Hacking ,Kinh Dị ,Lolita ,Spy Cam,Candy Doll ....)<br>Ví dụ bạn cần tìm các nội dung liên quan đến <strong>Hacking</strong> : <br><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/d/d0464f81fd6b85287d8880a2af7d7aa73b1033d2.PNG" class="lightbox" title="hack.PNG" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/d/d0464f81fd6b85287d8880a2af7d7aa73b1033d2_1_690x297.PNG" width="690" height="297"><div class="meta">
+<span class="filename">hack.PNG</span><span class="informations">1895x816 413 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p> <strong>Tìm kiếm về Candy Doll :</strong> </p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/b/b054b9206543f938696d070b9bd69a22eca31b33.PNG" class="lightbox" title="candy.PNG" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/b/b054b9206543f938696d070b9bd69a22eca31b33_1_690x376.PNG" width="690" height="376"><div class="meta">
+<span class="filename">candy.PNG</span><span class="informations">1920x1048 498 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p><strong>Tìm kiếm về C++ :</strong><br><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/b/b5cf66e8d6dc834d4d526c444a478dac0cda29f6.png" class="lightbox" title="c  .png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/b/b5cf66e8d6dc834d4d526c444a478dac0cda29f6_1_690x376.png" width="690" height="376"><div class="meta">
+<span class="filename">c  .png</span><span class="informations">1920x1048 481 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p>Và nhiều thứ nữa .....<br>Đối với nội dung bẩn các bạn nên dùng iMule kết hợp với I2P để giảm đến mức thấp nhất khả năng bị lộ IP .<br>Còn đối với bạn nào hay tải nội dung bẩn từ Torrent thì nên dùng I2P -Shark kết hợp với I2P để giảm đến mức thấp nhất khả năng bị truy ra địa chỉ  IP .(Ở bài viết về I2P mình quên mất k giới thiệu cho các bạn về I2P-Shark )<br><strong>Các bạn cũng có thể tải nội dung về bằng các link Ed2k !</strong><br>Bạn nhấn vào <strong>Downloads</strong> rồi  paste link ED2K vào  ô  <strong>ED2K link</strong> : ở cuối (Chỗ mình khoanh đỏ ) </p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/f/f954ca753171c4cffe5a5042226f0e43f6642081.png" class="lightbox" title="se.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/f/f954ca753171c4cffe5a5042226f0e43f6642081_1_690x376.png" width="690" height="376"><div class="meta">
+<span class="filename">se.png</span><span class="informations">1920x1048 241 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p>Khi nhấn vào tải về ,có thể sẽ không tải về đc tập tin ngay lập tức vì cần phải có người seeder nữa nên các bạn cứ để treo qua đêm và ngày hôm sau xem kết quả .<br>Mình rất ít tải nội dung từ aMule hay các mạng tương tự eDonkey nên bài viết có thể sẽ có nhiều thiếu sót !<br>Các  bạn nên tìm kiếm thêm trên Google để hiểu hơn về aMule hay các mạng dựa trên eDonkey .. <img src="http://daynhauhoc.com/images/emoji/twitter/wink.png?v=2" title=":wink:" class="emoji" alt=":wink:"><br>Một số File PDF về Hacking mình tìm thấy ở Onion và eDonkey ,share cho mọi người đọc tạm : <br>Link : <a href="https://www.dropbox.com/sh/ztdr5d6k6bhy9rx/AACpw5bj3tdAE4aNN3zpu0aPa?dl=0" rel="nofollow">https://www.dropbox.com/sh/ztdr5d6k6bhy9rx/AACpw5bj3tdAE4aNN3zpu0aPa?dl=0</a></p>
+
+<p> <strong>Chúc mọi người vui vẻ</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
+
+<p> <strong>Tác giả</strong> : Kulteam/The Wind/<a href="http://daynhauhoc.com/users/kulteam/">Dạy Nhau Học</a> </p>
+
+<p><a href="http://www.dmca.com/Protection/Status.aspx?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" title="DMCA.com Protection Status" rel="nofollow"> <img src="http://images.dmca.com/Badges/dmca_protected_16_120.png?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" alt="DMCA.com Protection Status" width="121" height="39"></a> </p>
+
+<p><em>Nhớ Like và Comment để tác giả có động lực viết tiếp nhé</em>.... <br>Chỉ còn 2 mạng Dark Net là Syndie và RetroShare nữa là loạt bài về Dark Net này sẽ kết thúc <img src="http://daynhauhoc.com/images/emoji/twitter/astonished.png?v=2" title=":astonished:" class="emoji" alt=":astonished:"><br>Và cuối cùng :<br>Nếu các bạn thích Lolita và Candy Doll hãy Inbox mình để lấy Link Ed2k <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
+]]></description><link>http://blog.daynhauhoc.com/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Mon, 25 Apr 2016 06:20:02 GMT</pubDate></item><item><title><![CDATA[Giới thiệu Design Pattern trong Javascript]]></title><description><![CDATA[
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/6/6cfd97bc7648824c7445b202fe8b3b43b494ec3b.png" class="lightbox" title="xrTRNB7.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/6/6cfd97bc7648824c7445b202fe8b3b43b494ec3b_1_690x254.png" alt="Imgur" width="690" height="254"><div class="meta">
+<span class="filename">xrTRNB7.png</span><span class="informations">700x258 31.1 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul>
+<li><p>Trong javascript thì có rất nhiều mô hình thiết kế (<strong>design pattern</strong>) khác nhau, thật ra ai cũng biết là về bản chất Javascript sinh ra đã <strong>không phải là một ngôn ngữ chính thống</strong>, nó sinh ra ban đầu đơn thuần chỉ dành cho việc xử lý giao diện trên trên browser, bản thân nó không được thiết kế như là một ngôn ngữ lập trình thuần túy với kiểu dữ liệu, access modifiers (private, public, protected,...), kế thừa, class,... </p></li>
+<li><p>Nhưng mà rồi theo thời gian công việc của client không đơn giản chỉ còn là vài dòng script lăng quăng chỉnh sửa 1 chút giao diện html từ server trả về (<em>nói là lăng quăng nhưng thời đó nhìn code javascript mình đã nghĩ nó thật là siêu nhân @@, function lồng nhau búa xua nhìn thật rất là ảo diệu <span class="mention">@_</span>@, pro cmnr</em> ) mà nó đã <strong>đảm đương rất nhiều công việc trong sự phát triển của ứng dụng web hiện nay</strong>, bây giờ nó có khắp mọi nơi, từ <strong>server</strong> đến <strong>client</strong> rồi tràn sang <strong>database</strong>,... dễ dàng nhìn thấy nhất chính là lượng projects trên github, nơi mà dự án bằng javascript có số lượng áp đảo, những điều này làm mình chợt nhớ về câu nói nổi tiếng (nhưng đúng hay không thì do quan điểm mỗi người thôi !!!) của <strong>Jeff Atwood</strong> về javascript (Đồng sáng lập trang Stack Overflow) là:  </p></li>
+</ul>
+
+<blockquote><p>Tất cả các ứng dụng mà có thể viết bằng javascript cuối cùng cũng sẽ được viết bằng javascript.</p></blockquote>
+
+<ul><li>Do đó khi khối lượng công việc dưới client càng ngày càng nhiều hơn, qui mô những file script ngày càng to lên cả về mặt số lượng lẫn độ phức tạp thì các developer bắt đầu áp dụng những mô hình lập trình để cho việc quản lý, bảo trì, mở rộng và phát triển,... trở nên dễ dàng và qui chuẩn hơn.</li></ul>
+
+<p>Xem xét đoạn code dưới đây</p>
+
+<pre><code>//constructors
+function User (){}
+function Role (){}
+
+//variables
+var userList = [];
+var roleList = []
+
+//objects
+var defaultUser = {name:'LeThiBe', age:20};
+defaultUser.socialId = {fb:'/fb/ltb', google: 'ltb1371'};
+var defaultRole = ....
+....</code></pre>
+
+<p>-Bạn có nhận xét như thế nào? Ok chính xác, rõ ràng là số lượng yêu cầu khởi tạo object ở global (toàn cục) có thể khá là nhiều, nó gây cho biến global, ở đây cụ thể là biến <code>window</code> rất <strong>không tổ chức</strong>, <strong>khó khăn để quản lý vả nhức đầu cả trong việc đặt tên biến,...</strong> do đó dễ gây lỗi và khó bảo trì. (<em>tại sao lại nói là <strong>object</strong> vì tất cả mọi loại dữ liệu trong javascript đều là dòng giống của <strong>object</strong> hết</em> :o ) </p>
+
+<p>Do đó, chúng ta có thể phải cấu trúc lại là chỉ tạo một object cho ứng dụng của mình, tương tự như này:</p>
+
+<pre><code>var MYAPP = MYAPP || {}; //Chỉ là kiểm tra cho chắc chắn là nếu mà biến này chưa tồn tại thì khởi tạo là object còn đã tồn tại rồi thì đương nhiên là chính nó rồi
+
+MYAPP.User = function(){};
+MYAPP.Role = function(){};
+
+MYAPP.userList = [];
+MYAPP.roleList = []
+
+MYAPP.defaultUser = {name:'LeThiBe', age:20};
+MYAPP.defaultUser.socialId = {fb:'/fb/ltb', google: 'ltb1371'};
+MYAPP.defaultRole = ....
+....</code></pre>
+
+<p>Các bạn có thể thấy, đây chính là cấu trúc của object từ những dòng code bên trên :</p>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/f/f181f52a458238e447b9e045f6190230bb9c2f9b.png" alt="Imgur" width="552" height="258"></p>
+
+<p>Rõ ràng là nó chỉ còn được quản lý bởi một object duy nhất và đây cũng chính là <strong>Namespace Pattern</strong>, nhưng như bạn thấy, phải code nhiều mã nguồn hơn (MYAPP lặp đi lặp lại rất nhiều lần), và có một bất cập nữa đó chính là kiểm tra sự tồn tại của properties, xem ví dụ dưới đấy</p>
+
+<pre><code>var MYAPP = MYAPP || {};
+
+getDataFromBank(function(bankData){
+var data = bankData || {},
+    data['bankACB'] = (data &amp;&amp; data['bankACB']) ? data['bankACB']  : [],
+    data['bankACB']['finance'] = (data['bankACB'] &amp;&amp; data['bankACB']['finance']) 
+        ? data['bankACB']['finance'] : [];
+    calcFinance(data['bankACB']['finance']);
+    .......
+});
+
+function calcFinance (financeData){
+................
+}</code></pre>
+
+<p>Như các bạn thấy chúng ta phải tốn khá nhiều công sức cho việc kiểm tra ngay khi cần phải xử lý một việc nào đó từ dữ liệu trả về, cho nên chúng ta cần một function để xử lý cho việc gọi namespace (namespacing function). Ví dụ như thế này:</p>
+
+<pre><code>var namespace = function(ns_string) {
+    var parts = ns_string.split('.'), 
+    parent = this, 
+    i;
+    
+    //Bỏ qua nếu là root (vd là MYAPP)
+    if (window[parts[0]] === this) {
+        parts = parts.slice(1);
+    }
+    for (i = 0; i &lt; parts.length; i += 1) {
+        // khởi tạo nếu property chưa tồn tại
+        if (typeof parent[parts[i]] === "undefined") {
+            parent[parts[i]] = {};
+        }
+        parent = parent[parts[i]];
+    }
+    return parent;
+};
+
+//Khởi tạo namespace cho 1 object bất kỳ
+var YOURAPP = YOURAPP || {};
+YOURAPP.namespace = namespace;
+var item2 = YOURAPP.namespace('YOURAPP.item.item1.item2');
+
+//Hoặc bạn cũng có thể viết ngắn hơn chút
+var YOURAPP = YOURAPP || {['namespace'] : namespace};
+var item2 = YOURAPP.namespace('YOURAPP.item.item1.item2');
+item2['say'] = 'hello everybody';</code></pre>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/4/4b50b12efb2e02ed4739420ac814aa099809a111.png" alt="Imgur" width="605" height="278"></p>
+
+<p>OK, thật ra Namespace là một mô hình khá cơ bản dễ hình dung, đơn giản dễ hiểu, dù nó có một chút khiếm khuyết như là nếu như biến lồng nhau quá nhiều sẽ gây chậm một chút khi truy xuất, là 1 public object nên các thành phần có thể bị thay đổi,...nhưng nó vẫn là 1 pattern đơn giản nhưng hiệu quả.</p>
+
+<h3></h3>
+
+<h2>Revealing Module Pattern</h2>
+
+<p>Trước khi vào nội dung chính của pattern này, mình xin nói về phần access modifiers trong javascript cho bạn nào chưa biết hoặc chưa rõ, javascript không cung cấp những syntax như những ngôn ngữ lập trình truyền thống, nhưng trong javascript vẫn có thể định nghĩa được điều này, đó là khi chúng ta nhắc đến khái niệm <strong>closure</strong> (bao đóng), xem ví dụ dưới đây</p>
+
+<pre><code>function User(){
+    //private
+    var id='1371';
+    var role = 'Admin';
+    
+    //public
+    this.getId = function(){
+        return id;
+    }
+}</code></pre>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/c/c180391e5c098b974498a4f134cdec76ca30a337.png" class="lightbox" title="8g5Dwoa.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/c/c180391e5c098b974498a4f134cdec76ca30a337_1_690x247.png" alt="Imgur" width="690" height="247"><div class="meta">
+<span class="filename">8g5Dwoa.png</span><span class="informations">907x325 26.5 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul>
+<li><p><em>Hình bên trái</em>: rõ ràng chúng ta chỉ lấy được giá trị <code>id</code> bằng hàm <code>getId()</code> chứ không thể truy cập trực tiếp vào <code>id</code>, đó chính là private trong javascript.  </p></li>
+<li><p><em>Hình bên phải</em>: Nó chỉ rõ hai khái niệm <strong>scope</strong> và <strong>closure</strong> mà interview hay hỏi <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"> , đó là trong scope của object user chỉ chưa duy nhất là function <code>getId()</code>, và trong scope của function <code>getId()</code> lại chứa 1 <strong>closure</strong>, mà trong đó mới lấy được giá trị của <code>id</code>, và vì biến <code>role</code> không nằm trong dữ liệu trả về của hàm <code>getId()</code> không nằm trong <strong>closure</strong> của function này nên chúng ta không thể truy xuất với biến này được.</p></li>
+</ul>
+
+<p>Ah còn một khái niệm nữa mình muốn nói nữa là <strong>anonymous immediate function</strong>, tiếng Anh là vậy, tiếng Việt mình không biết, nhưng có thể gọi là <em>hàm vô định tự gọi</em> :D. Ví dụ nhé (Hai kiểu này đều như nhau nhé)</p>
+
+<pre><code>(function(){
+//DO SOMETHING
+ console.log(123);
+})();
+//123
+
+(function(){
+//DO SOMETHING
+ console.log(123);
+}());
+//123</code></pre>
+
+<p>Bạn có thể gán cho nó một biến nhận giá trị trả về của nó</p>
+
+<pre><code>var item = (function(){
+ console.log(123);
+ return {id: '1371'}
+})();
+console.log(item);
+//123
+//item: {id: '1371'}</code></pre>
+
+<p>Ok, pattern này cũng chỉ dựa trên những giá trị cơ bản được nhắc ở trên, ví dụ nào</p>
+
+<pre><code>var ArrayModule = (function () {
+    //private
+    var type = {}.toString;
+
+    function isArray(object) {
+        return type.call(object) === '[object Array]';
+    }
+
+    function isFunction(object) {
+        return typeof object === "function";
+    }
+
+    //public
+    var removeItem = function (array, iterator) {
+        if (isArray(array)) {
+            for (var i = 0; i &lt; array.length; i++) {
+                if (isFunction(iterator) &amp;&amp; iterator(array[i])){
+                    array.splice(i, 1);
+                    i--;
+                }
+            }
+        } else return;//Not array
+    }
+    return {
+        removeItem: removeItem
+    }
+})();</code></pre>
+
+<p>Chạy thử nào</p>
+
+<pre><code>var players = [{
+    name: 'Ronaldo',
+    overall: 94
+}, 
+{
+    name: 'Messi',
+    overall: 97
+}, 
+{
+    nme: 'Vardy',
+    overall: 81
+}];
+
+ArrayModule.removeItem(players, function(player) {
+    return player.overall &gt; 90;
+})
+
+console.log(players); 
+//{name:'Vardy', overall:81}</code></pre>
+
+<p>Trong javascript vẫn còn khá nhiều pattern nữa, bạn có thể tham khảo thêm ở đây:<br>- <a href="http://shop.oreilly.com/product/9780596806767.do" rel="nofollow">Javascript Pattern</a><br>- Javascript Design  Pattern: <a href="https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascripthttp://jstherightway.org/#patterns" rel="nofollow">https://addyosmani.com/resources/essentialjsdesignpatterns/book/#revealingmodulepatternjavascripthttp://jstherightway.org/#patterns</a></p>
+
+<p>Trong những dự án hoặc những feature lớn thì code theo một pattern nào đó sẽ giúp bạn dể quản lý, dễ hình dung và sau này là bảo trì nữa, code đẹp trong sáng,...<strong>Mong là những kiến thức này sẽ giúp ích cho bạn, những javascript developer</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/kissing.png?v=2" title=":kissing:" class="emoji" alt=":kissing:"></p>
+
+<p>Bài gốc từ blog của mình : <a href="http://jinhduong.github.io/javascript/2016/04/14/namespace-pattern.html" rel="nofollow">http://jinhduong.github.io/javascript/2016/04/14/namespace-pattern.html</a></p>
+]]></description><link>http://blog.daynhauhoc.com/gioi-thieu-design-pattern-trong-javascript/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/gioi-thieu-design-pattern-trong-javascript/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 24 Apr 2016 17:46:21 GMT</pubDate></item><item><title><![CDATA[Học lập trình thế nào để không thất nghiệp?]]></title><description><![CDATA[
+<p>Continuing the discussion from <a href="http://daynhauhoc.com/t/lam-sao-co-the-tao-duoc-khoa-hoc-online-ma-giup-nguoi-tu-hoc-hoc-xong-co-the-tim-duoc-viec/24931/24">Làm sao có thể tạo được khóa học online mà giúp người tự học, học xong có thể tìm được việc</a>:</p>
+
+<aside class="quote" data-post="24" data-topic="24931" data-full="true"><div class="title">
+<div class="quote-controls"></div>
+<img alt="" width="20" height="20" src="http://daynhauhoc.com/letter_avatar_proxy/v2/letter/t/e8c25b/40.png" class="avatar"><a href="http://daynhauhoc.com/t/lam-sao-co-the-tao-duoc-khoa-hoc-online-ma-giup-nguoi-tu-hoc-hoc-xong-co-the-tim-duoc-viec/24931/24">Làm sao có thể tạo được khóa học online mà giúp người tự học, học xong có thể tìm được việc</a>
+</div>
+<blockquote><p>Bài toán khó mà không khó,dễ mà không dễ nhỉ?Tự học và thi lấy chứng chỉ hay bằng cấp là 1 chuyện,còn học và đi làm thế nào thì là chuyện khác.Câu hỏi này nếu có lời giải đáp thì VN đã không có vài trăm nghìn người thất nghiệp,không làm đúng việc</p></blockquote></aside>
+
+<p>Cảm ơn <a class="mention" href="http://daynhauhoc.com/users/taihuynh">@Taihuynh</a> đã đóng góp ý kiến.</p>
+
+<p>Đây chính là vấn đề Đạt quan tâm nhất. Dạy học ở VN là một bài toán chưa có lời giải. Học xong, tốt nghiệp nhiều nhưng thất nghiệp và làm trái ngành cũng nhiều. Đạt muốn góp phần giải bài toán này để có nhiều người có thể làm đúng đam mê của mình.</p>
+
+<p>Trước hết, Đạt xin nói lên quan điểm của mình về vấn đề này, <strong>tại sao người học lập trình lại không thể xin việc, hay nói cách khác là không thể lập trình đúng nghĩa</strong>. Theo Đạt đó là do cách dạy học ở mình còn nặng thành tích và tập trung vào cách làm sao có điểm cao là được.</p>
+
+<p>Trường phổ thông thì Đạt không nói, mọi người lao đầu vào học và giải bài để đi thi ĐH. Nhưng lên ĐH rồi, Đạt còn thấy nhiều bạn đi học kèm thì Đạt cảm thấy quá thất vọng. Đạt từng viết một bài có hơi chua chát, <a href="http://daynhauhoc.com/t/cach-hoc-lap-trinh-that-bai/3693">cách học lập trình thất bại</a>. Mọi người vẫn có tư tưởng ở phổ thông là giải thật nhiều bài tập, xin đừng hiểu sai ý của Đạt. Đạt không phê phán việc giải nhiều bài tập, nhưng cái Đạt muốn nói tới là giải bài tập vừa đủ để hiểu vấn đề. Đừng giải quá nhiều bài tập để thành thợ giải toán, thợ giải bài tập mà không đi sâu được. Mọi người cứ nghĩ lên ĐH rồi vẫn cần phải đi học kèm, phải giải thật nhiều dạng đề. Cái gì, giải nhiều dạng đề để làm gì? Doanh nghiệp họ đâu có tuyển lập trình viên vào giải đề? Trừ phi bạn giải đề để đi thi competitive programming.</p>
+
+<p>Như hôm nay Đạt có trả lời một câu hỏi của một bạn, bạn ấy hỏi thợ code là gì? Theo Đạt, thợ code là người code nhanh, code nhiều, code không cần nghĩ. Ở đâu thì có thợ code, ở các nước đang phát triển như VN thì thợ code rất nhiều.</p>
+
+<p>Các bạn học lập trình, không học cơ bản, thích học công nghệ. Ra trường vào một công ty outsource, không phải mọi outsource đều xấu, Đạt chỉ đang ví dụ một số công ty outsource cơ bắp. Khách hàng từ các nước phát triển không muốn phí tiền làm công việc cơ bắp,  họ gửi đơn hàng về VN. Khi này, các thợ code có cơ hội ra tay, code mỗi ngày rất nhiều, mỗi tháng có thể làm được vài KLOC (K line of code) nhưng cứ code đi code lại một vài tính năng quản lý thành quen. Sau cùng, từ một người đam mê công nghệ, bạn mình, có người muốn bỏ nghề làm cái khác. Nhưng cuối cùng cũng vì cơm áo gạo tiền mà lại tiếp tục nai lưng ra làm thợ code.</p>
+
+<p>Khi đi học trên trường, có giai đoạn Đạt rất thích học. Đó là khi được học cơ bản, biết về biến, con trỏ, hàm, class. Đó là khi được học giải thuật, học cách bảng băm hoạt động, cách mã hóa dữ liệu, cách nén và giải nén, cách xử lý ảnh, học về trí tuệ nhân tạo, .... Đó mới chính là những cái Đạt thích học, tuy nhiên Đạt muốn nhấn mạnh đây là sở thích cá nhân, cũng không cho rằng mọi người nên hoặc phải có cùng sở thích với Đạt. </p>
+
+<p>Nhưng cái Đạt muốn dạy cũng gần như những cái ở trên, đó là dạy cách suy nghĩ của một kỹ sư phần mềm chứ không phải dạy để ra làm thợ code. Dạy những cái thật sự cơ bản, nguyên lý của mọi thứ. Có thể Đạt không làm được trong một sớm một chiều, vì khả năng của Đạt cũng có giới hạn, nhưng nhất định Đạt sẽ không bỏ. Nếu không đủ kiển thức, Đạt sẽ học thêm để có thể truyền đạt lại cho mọi người.</p>
+
+<p>Cái Đạt nhìn thấy sau mấy năm đi làm là một người học CNTT ra, nhưng không có tư duy lập trình không có giải thuật, không có tìm hiểu, chỉ code như cái máy code thì không thể nào so sánh được với một người không cần từ ngành CNTT ra, nhưng họ có đam mê, họ muốn tìm hiểu, họ học hỏi từ người khác. Họ nghĩ trước khi code, họ nghĩ trước khi làm.</p>
+
+<p>Những người này, Đạt không có khả năng dạy, bởi vì hầu hết họ giỏi hơn Đạt.</p>
+
+<hr>
+
+<p>Tóm lại, Đạt nghĩ học CNTT ta cần phải có đam mê, nắm cơ bản ngôn ngữ lập trình, cấu trúc dữ liệu &amp; giải thuật, sau đó tự tìm hiểu cái mình cần. Đạt sẽ cố gắng đem những điều đó vào trong khóa học C++. Tên nó là khóa học C++ nhưng bản chất là học cách lập trình thông qua ngôn ngữ C++.</p>
+
+<p>Một điều Đạt rất may mắn học được ở ĐH KHTN là những kiến thức cơ bản. Đạt và những bạn học cùng lớp từng có nhiều lần nói chuyện với nhau sau khi ra trường rằng thực ra chỉ cần học 2 năm là đi làm được. Bỏ đi 1 năm đại cương, bỏ đi năm 4 học "phân tích phát triển phần mềm", chỉ cần 2 năm là đủ đi làm.</p>
+
+<hr>
+
+<h2>Note về Competitive programming:</h2>
+
+<p><strong>Competitive programming là cái gì?</strong></p>
+
+<p>Đây là các cuộc thi giải thuật, bạn phải thật sự giỏi giải thuật thì mới có thể chiến thắng ở các cuộc thi này. Giống như các cuộc thi toán.</p>
+
+<p><strong>Cái này có tốt cho học lập trình hay không?</strong></p>
+
+<p>Đạt nghĩ là có, competitive programming yêu cầu bạn có hiểu biết sâu về giải thuật.</p>
+
+<p><strong>Cái này có giúp ta làm ra phần mềm tốt không</strong></p>
+
+<p>Theo Đạt nghĩ là không, competitive programming hầu hết là giải các bài toán, code để giải các bài toán này thường gói gọn trong một hàm. Làm phần mềm tốt yêu cầu nhiều hơn thế.</p>
+
+<p><strong>Có giải cao khi thi các giải này có lợi cho việc kiếm việc làm không?</strong></p>
+
+<p>Cá nhân Đạt thì nghĩ là không lợi không hại. <a href="https://en.wikipedia.org/wiki/Robert_Love" rel="nofollow">Robert Love</a>, người phát triển Kernel cho Android và đang ở trong hội đồng tuyển dụng của Google, cho rằng có giải trong các ký thi này không có ý nghĩa gì đối với ổng.</p>
+
+<p><a href="https://www.quora.com/For-a-software-engineer-who-doesnt-find-competitive-programming-interesting-but-would-like-to-join-one-of-the-big-tech-companies-for-example-Google-Facebook-or-Microsoft-what-options-do-I-have-Is-it-still-possible-to-land-a-job-at-one-of-those-companies" rel="nofollow">Robert Love's answer trên Quora</a></p>
+
+<p>Các câu trả lời khác của các câu hỏi tương tự, có cùng chung quan điểm với Love.</p>
+]]></description><link>http://blog.daynhauhoc.com/hoc-lap-trinh-the-nao-de-khong-that-nghiep/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/hoc-lap-trinh-the-nao-de-khong-that-nghiep/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 23 Apr 2016 13:52:05 GMT</pubDate></item><item><title><![CDATA[Cài đặt Visual Studio 2015 để lập trình C++ trên Windows]]></title><description><![CDATA[
+<h3>Bài viết hướng dẫn cài đặt Visual Studio(VS) 2015 trên hệ điều hành Windows.</h3>
+
+<blockquote>
+<p>Lợi ích của việc cài đặt Visual Studio : hỗ trợ đầy đủ cho việc học tập, với nhiều tiện ích được tích hợp sẵn cho người sử dụng.</p>
+<p>Nhược điểm của Visual Studio khá là <strong>nặng</strong>, quá trình cài đặt  có thể khá là <strong>lâu</strong> </p>
+</blockquote>
+
+<h2> Nguyên nhân của  nhược điểm cũng là vì lợi ích mà ra <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"> </h2>
+
+<hr>
+
+<h3>Giới thiệu Visual Studio 2015</h3>
+
+<p>Visual 2015 có 3 bản cài đặt cho người dùng lựa chọn như sau :</p>
+
+<ul><li>Visual Studio Community 2015 Bản này là bản miễn phí với các tính năng cơ bản như</li></ul>
+
+<blockquote><p>A rich, integrated development environment for creating stunning applications for Windows, Android, and iOS, as well as modern web applications and cloud services</p></blockquote>
+
+<ul><li>Visual Studio Enterprise 2015 : Bản này chúng ta được phép dùng thử(90 ngày) và khi hết thời hạn dùng thử thì tất nhiên bạn sẽ phải trả tiền để tiếp tục sử dụng nó. Bản này có các tính năng được giới thiệu như sau :</li></ul>
+
+<blockquote><p>Enterprise-grade solution with advanced capabilities for teams working on projects of any size or complexity, including advanced testing and DevOps.</p></blockquote>
+
+<ul><li>Visual Studio Code đây tiếp tục là một bản miễn phí nữa của Microsoft.</li></ul>
+
+<blockquote><p>Code editing redefined. Build and debug modern web and cloud applications. Code is free and available on your favorite platform — Windows, Mac OS X, or Linux.<br>Với bản này chúng ta có thể cài đặt trên nền tảng Mac, Linux.</p></blockquote>
+
+<hr>
+
+<h3>Lời khuyên</h3>
+
+<blockquote><p>Với người sử dụng nói chung và phần đông người sử dụng trên daynhauhoc nói riêng. Thì phần lớn đều là học sinh/sinh viên nên mình nghĩ dùng việc <strong>cài đặt</strong> và <strong>sử dụng</strong> bản Visual Studio Community 2015 là phù hợp. <br>Vì nó <strong>miễn phí</strong> và <strong>đầy đủ</strong> tính năng phục vụ cho việc <strong>học tập</strong>.</p></blockquote>
+
+<hr>
+
+<h3>Chuẩn Bị</h3>
+
+<ul><li>Bộ cài đặt Visual Studio. Có thể tải tại trang chủ  của <a href="https://www.visualstudio.com/">Microsoft</a>.</li></ul>
+
+<ul><li>Một máy tính để cài đặt có kết nối mạng <img src="http://daynhauhoc.com/images/emoji/twitter/smiling_imp.png?v=2" title=":smiling_imp:" class="emoji" alt=":smiling_imp:"><blockquote><p><strong>Lưu ý</strong> Với bộ cài đặt Visual Studio 2015. Trước khi cài đặt các bạn nên update <em>Microsoft .NET Framework</em>  <strong>lần lượt</strong> tới bản <strong>mới nhất</strong> để việc cài đặt không gặp lỗi.<br>Bản <a href="https://www.microsoft.com/en-us/download/details.aspx?id=49981">Microsoft .NET Framework 4.6.1</a></p></blockquote>
+</li></ul>
+
+<hr>
+
+<h3>Tiến hành download bộ cài đặt VS</h3>
+
+<blockquote><p> Bộ cài đặt mình dùng trong bài viết là bộ Visual Studio Community 2015. <br>Hệ điều hành sử dụng Windows 10.</p></blockquote>
+
+<ul><li>Truy cập trang chính thức của <a href="https://www.visualstudio.com/">Microsoft</a>.</li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/1/15f20cff5706bc0cd2b45ab64688a82aa2f82c11.png" class="lightbox" title="0.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/1/15f20cff5706bc0cd2b45ab64688a82aa2f82c11_1_690x326.png" width="690" height="326"><div class="meta">
+<span class="filename">0.png</span><span class="informations">1347x637 289 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Tại giao diện của trang chủ VS, click vào <strong>Downloads</strong>, chọn mục <strong>Top Downloads</strong> </li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/3/37db8efcf2e5c98386087693b6aad63d46913e58.png" class="lightbox" title="1.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/3/37db8efcf2e5c98386087693b6aad63d46913e58_1_690x327.png" width="690" height="327"><div class="meta">
+<span class="filename">1.png</span><span class="informations">1266x601 158 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Tại đây, các bạn có thể <strong>click</strong> và phần <strong>Visual Studio Community</strong> để tiến hành tải bản cài đặt.</li></ul>
+
+<blockquote><p>Hoặc xem thêm thông tin chi tiết bằng cách click vào phần <strong>All downloads</strong></p></blockquote>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/9/935fd44395aab3ee29da3458a75bef91690442ff.png" class="lightbox" title="2.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/9/935fd44395aab3ee29da3458a75bef91690442ff_1_690x293.png" width="690" height="293"><div class="meta">
+<span class="filename">2.png</span><span class="informations">1236x525 138 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Sau khi các bạn đã chọn tải bản cài đặt. Một trang mới sẽ được load </li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/f/ff112093cfd6d866243ab625661e37775fe00aec.png" class="lightbox" title="3.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/f/ff112093cfd6d866243ab625661e37775fe00aec_1_690x325.png" width="690" height="325"><div class="meta">
+<span class="filename">3.png</span><span class="informations">1191x562 32.2 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<blockquote><p>Tại đây nếu trình duyệt của bạn vẫn chưa thực hiện tải bản cài đặt thì bạn có thể <strong>click</strong> vào phần <strong>click here to retry</strong> để trình duyệt load lại việc tải xuống.</p></blockquote>
+
+<ul><li>Khi file cài đặt đã sẵn sàng tải xuống. Các bạn chọn vị trí lưu file cài đặt và nhấn <strong>Save</strong>
+</li></ul>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/4/46a36b3529a9d987893afcd3603e2218fcd9fa0d.png" width="669" height="473"></p>
+
+<ul><li>Việc tải xuống rất nhanh <img src="http://daynhauhoc.com/images/emoji/twitter/grin.png?v=2" title=":grin:" class="emoji" alt=":grin:"> Mất khoảng tầm 2-3s. Làm mình không kịp chụp lại hình <img src="http://daynhauhoc.com/images/emoji/twitter/sweat_smile.png?v=2" title=":sweat_smile:" class="emoji" alt=":sweat_smile:">
+</li></ul>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/0/037e13dbac38b647d1888f820e7d8d07ee577012.png" width="491" height="148"></p>
+
+<ul>
+<li><p>Nhấp vào file cài đặt <strong>vs_community_ENU.exe</strong></p></li>
+<li><p>Sẽ hiện một phần thông báo <strong>download</strong> các <strong>items</strong>. Nhưng quá trình load cũng diễn ra rất nhanh</p></li>
+</ul>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/f/f53627a575f59c624ea213ed47a2c64670dfb473.png" width="449" height="165"></p>
+
+<ul><li>Các phần sẽ hiện sau khi load xong file cài đặt</li></ul>
+
+<p> <img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/5/582c99958cdd0d7a16ef7bc98e455ec9c0f5e5f1.png" width="460" height="160"></p>
+
+<hr>
+
+<p> <strong>Sau đó</strong></p>
+
+<hr>
+
+<p> <div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/1/1835ca159a269abd0d9db420c3c5aa9c058cc1eb.png" class="lightbox" title="7.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/1/1835ca159a269abd0d9db420c3c5aa9c058cc1eb_1_357x500.png" width="357" height="500"><div class="meta">
+<span class="filename">7.png</span><span class="informations">460x644 7.81 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<hr>
+
+<p><strong>Tiếp Theo</strong></p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/8/8be70508cfc3a9f3170209595532d7121699ee15.png" class="lightbox" title="0.5.3.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/8/8be70508cfc3a9f3170209595532d7121699ee15_1_454x500.png" width="454" height="500"><div class="meta">
+<span class="filename">0.5.3.png</span><span class="informations">459x505 15.2 KB</span><span class="expand"></span>
+</div></a></div> <br> * Tại đây tùy chỉnh vị trí <strong>vị trí</strong> cài đặt Visual Studio.<br> *  Tùy chọn *kiểu cài đặt** </p>
+
+<blockquote><p> Lưu ý :  Nên Chọn kiểu <strong>Custom</strong></p></blockquote>
+
+<ul><li>Nhấp  <strong>Install</strong> để cài đặt</li></ul>
+
+<hr>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/d/d856d6a2c9ae930a74e45fb0d5f753ddc221e9c5.png" class="lightbox" title="0.5.4.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/d/d856d6a2c9ae930a74e45fb0d5f753ddc221e9c5_1_434x500.png" width="434" height="500"><div class="meta">
+<span class="filename">0.5.4.png</span><span class="informations">458x527 13.3 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Tích các ô tùy chọn muốn cài đặt.</li></ul>
+
+<blockquote><p>Lưu ý : Nếu chọn càng <strong>nhiều</strong> thời gian cài đặt càng <strong>lâu</strong>.<br>Chỉ chọn các cài đặt <strong>cần thiết</strong></p></blockquote>
+
+<ul><li>Sau đó nhấp <strong>Next</strong> để quá trình cài đặt <strong>bắt đầu</strong>.</li></ul>
+
+<hr>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/3/36519553da4b9c24b2de998cbe4c23dc5e71aad5.png" class="lightbox" title="0.5.5.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/3/36519553da4b9c24b2de998cbe4c23dc5e71aad5_1_436x500.png" width="436" height="500"><div class="meta">
+<span class="filename">0.5.5.png</span><span class="informations">459x526 4.43 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Quá trình cài đặt tiếp theo hoàn toàn <strong>tự động</strong><blockquote><p>Lưu ý : Vì quá trình cài đặt có thể diễn ra trong thời gian dài. nên bạn có thể rời khỏi khỏi máy tính và làm những công việc khác. <br>Duy trì <strong>ổn định</strong> <strong>nguồn điện</strong> của máy và kết nối <strong>mạng</strong> trong quá trình cài đặt. Để tránh phát sinh lỗi.</p></blockquote>
+</li></ul>
+
+<blockquote><p>2.0x Tua qua phần cài đặt <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"> </p></blockquote>
+
+<hr>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/2/21da51dddf747ff3d9c48177a92cee73140472cb.png" width="460" height="484"></p>
+
+<ul>
+<li>Thông báo như vậy là quá trình cài đặt đã <strong>thành công</strong>
+</li>
+<li>Nhấn <strong>LAUNCH</strong> để khởi chạy Visual Studio Community 2015.</li>
+</ul>
+
+<h1>Hướng dẫn tạo project trong Visual Studio Community 2015</h1>
+
+<ul><li>Trong giao diện của VS chọn File -&gt; New -&gt; Project (Phím tắt Ctrl + Shift + N) </li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/2/2e13452ca9b1430620e1d4cb539d148eae6880cb.png" class="lightbox" title="0.5.8.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/2/2e13452ca9b1430620e1d4cb539d148eae6880cb_1_517x500.png" width="517" height="500"><div class="meta">
+<span class="filename">0.5.8.png</span><span class="informations">634x613 14.8 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Sẽ có một cửa sổ New Project xuất hiện </li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/f/f6029d4c501d7562336bd3ae07aa23948970d840.png" class="lightbox" title="0.5.9.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/f/f6029d4c501d7562336bd3ae07aa23948970d840_1_690x421.png" width="690" height="421"><div class="meta">
+<span class="filename">0.5.9.png</span><span class="informations">941x575 20.3 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Tìm tới phần Visual C++ -&gt; Chọn General -&gt; Empty Project.</li></ul>
+
+<blockquote><p>Tại đây, mình làm project cho C++. Nhưng với các ngôn ngữ khác cũng tạo tương tự như vậy.</p></blockquote>
+
+<ul>
+<li><p>Bên dưới là phần đặt tên của project và nơi lưu project.</p></li>
+<li><p><strong>Name</strong> thì các bạn có thể đặt có dấu.</p></li>
+<li><p><strong>Location</strong> thì mình khuyên là nên tạo riêng từng mục một và đặt ở phần ổ cứng khác với ổ C (với các bạn sử dụng Windows) để tránh việc mất các project quan trọng đã làm.</p></li>
+<li><p><strong>Solution name</strong> Không nên đặt tên <strong>có dấu</strong> hoặc kí tự như dấu cách Khi file được chuyển sang các máy khác có thể <strong>không hoạt động</strong>.</p></li>
+</ul>
+
+<h3>Sau khi bạn đã tạo một project mới</h3>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/1/1740172cf1b8dc3bc1ce15259cf8e8ec1c1c5140.png" class="lightbox" title="0.5.10.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/1/1740172cf1b8dc3bc1ce15259cf8e8ec1c1c5140_1_690x328.png" width="690" height="328"><div class="meta">
+<span class="filename">0.5.10.png</span><span class="informations">1363x649 16.9 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<h3>Có 2 phần các bạn cần để ý là phần :</h3>
+
+<ol><li>
+<strong>Solution Explorer</strong>  Tại đây có chứa các mục quan trọng các bạn cần để ý <strong>Header File / Source File</strong>
+</li></ol>
+
+<p>Nếu sau khi <strong>tạo</strong> xong project mà phần <strong>Solution Explorer</strong> chưa xuất hiện các bạn có thể click vào <strong>View</strong> -&gt; <strong>Solution Explorer</strong> (<strong>Ctr+Alt+L</strong>)</p>
+
+<ol><li>
+<strong>Error List</strong>: Tại đây có chứa các <strong>lỗi</strong>  gặp phải khi <strong>chạy</strong> chương trình. <blockquote><p>Cách hiện thanh Error List : Click <strong>View</strong> -&gt; <strong>Error List</strong>.</p></blockquote>
+</li></ol>
+
+<h1>Tạo file .CPP để thực hiện chương trình</h1>
+
+<ul><li>Click chuột phải vào <strong>Source File</strong> -&gt; <strong>Add</strong> -&gt; <strong>New Item</strong> (<strong>Ctr+Shift+A</strong>)</li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/f/f85e8081d997dffa3c1e1965745794ef3849973d.png" class="lightbox" title="0.5.11.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/f/f85e8081d997dffa3c1e1965745794ef3849973d_1_690x440.png" width="690" height="440"><div class="meta">
+<span class="filename">0.5.11.png</span><span class="informations">798x510 18.7 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul><li>Một cửa sổ mới sẽ được tạo </li></ul>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/7/766816b023b0bd5007d9343567f062ede59362c2.png" class="lightbox" title="0.5.12.png"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/7/766816b023b0bd5007d9343567f062ede59362c2_1_690x420.png" width="690" height="420"><div class="meta">
+<span class="filename">0.5.12.png</span><span class="informations">941x574 18.2 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<ul>
+<li><p>Chọn C++ File(.cpp) Chưa cần để ý tới phần Header File(.h) vội nha ! Đặt tên cho File mới (.cpp)</p></li>
+<li><p>Nháy <strong>Add</strong> và <strong>code</strong> thôi <img src="http://daynhauhoc.com/images/emoji/twitter/sunny.png?v=2" title=":sunny:" class="emoji" alt=":sunny:"> </p></li>
+</ul>
+
+<h1>Lời kết</h1>
+
+<p>Bài viết của mình đã hướng dẫn các bạn cài đặt Visual Studio 2015 và tạo project mới trong VS.<br>Hy vọng sẽ giúp đỡ được mọi người trong quá trình học tập của mình <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"><br>Hãy góp ý cho mình nếu bạn còn thấy gì đó chưa ổn nhé <img src="http://daynhauhoc.com/images/emoji/twitter/smiling_imp.png?v=2" title=":smiling_imp:" class="emoji" alt=":smiling_imp:"></p>
+
+<blockquote><p>P/s: Bài viết phục vụ cho Series Lập trình C++ cho người mới bắt đầu do <a class="mention" href="http://daynhauhoc.com/users/ltd">@ltd</a> biên soạn.</p></blockquote>
+
+<h3>Phụ lục</h3>
+
+<ul>
+<li><p>Trong quá trình cài đặt có thể xảy ra các lỗi không mong muốn. Các bạn có thể tham khảo tại trang <a href="https://support.microsoft.com/vi-vn/kb/3039361">support lỗi trong quá trình cài VS 2015</a> của Microsoft.</p></li>
+<li>
+<p>Với các bạn dùng hệ điều hành windows 7 muốn cài đặt có thể xem bài viết <br><a href="http://daynhauhoc.com/t/loi-khi-cai-visual-studio-community-2015-tren-win-7/15725">http://daynhauhoc.com/t/loi-khi-cai-visual-studio-community-2015-tren-win-7/15725</a></p>
+<blockquote><p>Câu trả lời  của bạn <a class="mention" href="http://daynhauhoc.com/users/pham_van_cuong">@Pham_Van_Cuong</a> : Cái này là do windows 7 của bạn chưa được update lên bản Service pack1. Tất cả các bản viusual studio 2015 muốn cài được trên win 7 phải update win lên sevice pack1.<br>Xem thông tin của MS ở đây: <a href="https://www.visualstudio.com/en-us/downloads/visual-studio-2015-system-requirements-vs.aspx#225">https://www.visualstudio.com/en-us/downloads/visual-studio-2015-system-requirements-vs.aspx#225</a><br>Bạn download service pack 1 cho bản win 7 tương ứng của bạn ở đây: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=584251">https://www.microsoft.com/en-us/download/details.aspx?id=584251</a><br>Sau khi update lên bản sp1 bạn khởi động lại máy tính sẽ cài đặt được.<br>Chúc bạn thành công</p></blockquote>
+</li>
+</ul>
+]]></description><link>http://blog.daynhauhoc.com/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/cai-dat-visual-studio-2015-de-lap-trinh-c-tren-windows/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Mon, 18 Apr 2016 14:53:10 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn cài đặt Xcode để lập trình C++ trên Mac OS X]]></title><description><![CDATA[
 <p>Ở bài viết này, mình sẽ hướng dẫn các bạn thiết lập môi trường để lập trình C/C++ trên hệ điều hành <strong>Mac OS X</strong>.</p>
 
 <h3><strong>Chúng ta phải làm gì đầu tiên?</strong></h3>
@@ -170,7 +750,15 @@ int main()
 <p><a href="https://www.dinhquochan.com/cai-dat-code-blocks-de-lap-trinh-c/">Bài viết gốc được đăng tải trên blog của mình.</a></p>
 
 <p>P/s: Bài viết phục vụ cho Series Lập trình C++ cho người mới bắt đầu do <a class="mention" href="http://daynhauhoc.com/users/ltd">@ltd</a> biên soạn.</p>
-]]></description><link>http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Fri, 15 Apr 2016 14:18:56 GMT</pubDate></item><item><title><![CDATA[Npm: Tăng tốc gấp 3 lần và cài đặt package offline]]></title><description><![CDATA[
+]]></description><link>http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/cai-dat-code-blocks-de-lap-trinh-c-c-tren-ubuntu-linux/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Fri, 15 Apr 2016 14:18:56 GMT</pubDate></item><item><title><![CDATA[WhatTheCommit.com - Random Git Commit Message]]></title><description><![CDATA[
+<p>Đôi khi mình cũng hay làm biếng nên commit gì hay nội dung gì cho các project không đòi hỏi quá về các chi tiết, và từ khi có whatthecommit mọi chuyện đã được giải quyết, chỉ cần 1 câu lệnh:</p>
+
+<p></p><pre><code class="lang-auto">git commit -m "`curl --silent http://whatthecommit.com/index.txt`"</code></pre>
+
+<p>Mọi thứ đã xong <img src="http://daynhauhoc.com/images/emoji/twitter/stuck_out_tongue.png?v=2" title=":stuck_out_tongue:" class="emoji" alt=":stuck_out_tongue:"></p>
+
+<p>P/s đừng lạm dụng quá công ty nó quánh nhoa mấy khứa <img src="http://daynhauhoc.com/images/emoji/twitter/blush.png?v=2" title=":blush:" class="emoji" alt=":blush:"></p>
+]]></description><link>http://blog.daynhauhoc.com/whatthecommit-com-random-git-commit-message/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/whatthecommit-com-random-git-commit-message/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Wed, 13 Apr 2016 17:22:05 GMT</pubDate></item><item><title><![CDATA[Npm: Tăng tốc gấp 3 lần và cài đặt package offline]]></title><description><![CDATA[
 <p>Chắc chắn là ai đã từng làm việc với npm thì đều biết một điều rằng npm nó siêu chậm. Vì vậy mình hay hạn chế chạy <code>npm install</code> đến mức tối thiểu và thường không nhận được patch update, ... cũng như nhiều vấn đề khác phát sinh. Trong bài viết này mình sẽ giới thiệu với các bạn một package không những giúp tăng tốc npm mà còn cho phép bạn cài đặt package offline.</p>
 
 <h1><a href="https://github.com/nolanlawson/local-npm">local-npm</a></h1>
@@ -265,9 +853,9 @@ sys	0m5.272s</code></pre>
 
 <p><a href="https://khoanguyen.me/tang-toc-npm/">Bài gốc từ blog của mình</a></p>
 ]]></description><link>http://blog.daynhauhoc.com/npm-tang-toc-gap-3-lan-va-cai-dat-package-offline/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/npm-tang-toc-gap-3-lan-va-cai-dat-package-offline/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Tue, 12 Apr 2016 06:59:40 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn khám phá Zero Net và thế giới Dark Net ( Phần 4 )]]></title><description><![CDATA[
-<p>Trong 2 bài viết trước mình đã giới thiệu đến các bạn 3 mạng Dark Net : I2P ,Free Net và Onion.</p>
+<p>Trong 3 bài viết trước mình đã giới thiệu đến các bạn 3 mạng Dark Net : I2P ,Free Net và Onion.</p>
 
-<p>Cả 3 mạng Dark Net này đều có chứa rất nhiều nội dung bẩn thỉu như : Lolita,Hitman,Hacker và những tư tưởng cực đoan .<br>Hôm nay , mình sẽ giới thiệu đến các bạn một thế giới khác ,Nó sạch sẽ hơn rất nhiều và thiết kế các site cũng khá đẹp ...Không u ám như mấy site Onion và cũng không chập trờn như I2P hay tràn lan nội dung bẩn như Free Net </p>
+<p>Cả 3 mạng Dark Net này đều có chứa rất nhiều nội dung bẩn  như : Lolita,Hitman,Hacker và những tư tưởng cực đoan .<br>Hôm nay , mình sẽ giới thiệu đến các bạn một thế giới khác ,Nó sạch sẽ hơn rất nhiều và thiết kế các site cũng khá đẹp ...</p>
 
 <p>Đó chính là : <strong>Zero Net</strong> </p>
 
@@ -366,9 +954,13 @@ Khởi động ./ZeroNet.sh</code></pre>
 
 <p><em>Chúc các bạn có những giây phút vui vẻ với Zero Net</em> <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
 
+<p><strong>Tác giả</strong> : Kulteam/The Wind/<a href="http://daynhauhoc.com/users/kulteam/">Dạy Nhau Học</a> </p>
+
+<p><a href="http://www.dmca.com/Protection/Status.aspx?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" title="DMCA.com Protection Status" rel="nofollow"> <img src="http://images.dmca.com/Badges/dmca_protected_16_120.png?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" alt="DMCA.com Protection Status" width="121" height="39"></a> </p>
+
 <p>Cảm ơn vì sự quan tâm của các bạn đến Topic của mình !!!</p>
 
-<p>Xem lại các bài đăng trước : <br>Hướng dẫn khám phá Onion và thế giới Dark Net (Phần 1 )<br>1.Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672/26">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672/26</a><br>Hướng dẫn khám phá Free Net và thế giới Dark Net (Phần 2)<br>2.Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-free-net-va-the-gioi-dark-net-phan-2/23764">http://daynhauhoc.com/t/huong-dan-kham-pha-free-net-va-the-gioi-dark-net-phan-2/23764</a><br>Hướng dẫn khám phá I2P và thế giới Dark Net (Phần 3)<br>3.Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842</a></p>
+<p>Xem lại các bài đăng trước : <br>Hướng dẫn khám phá Onion và thế giới Dark Net (Phần 1 )<br>1.Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672/26">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672/26</a><br>Hướng dẫn khám phá Free Net và thế giới Dark Net (Phần 2)<br>2.Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-free-net-va-the-gioi-dark-net-phan-2/23764">http://daynhauhoc.com/t/huong-dan-kham-pha-free-net-va-the-gioi-dark-net-phan-2/23764</a><br>Hướng dẫn khám phá I2P và thế giới Dark Net (Phần 3)<br>3.Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842</a><br>Hướng dẫn khám phá eDonkey và thế giới Dark Net (Phần 5) <br>4.Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/25199">http://daynhauhoc.com/t/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/25199</a></p>
 ]]></description><link>http://blog.daynhauhoc.com/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 10 Apr 2016 06:57:03 GMT</pubDate></item><item><title><![CDATA[Lâu lâu một quyển sách: Người mẹ tốt hơn là người thầy tốt]]></title><description><![CDATA[
 <p>Hôm nay Đạt giới thiệu một quyển sách nữa, dành cho các bạn đã đang và sắp làm cha mẹ hoặc có anh chị em đang có con nhỏ. Quyển này đem giới thiệu ở DNH thì có lạ không?</p>
 
@@ -388,39 +980,7 @@ Khởi động ./ZeroNet.sh</code></pre>
 <li>Alezaa: Đăng ký tài khoản theo <a href="http://daynhauhoc.com/t/doc-sach-online-giai-phap-tiet-kiem-cho-nguoi-muon-doc/21302">hướng dẫn ở đây</a>, đọc sách ở <a href="https://read.alezaa.com/?id=c450925a-5c1c-4bdc-adc3-5dca496f8a61&amp;lo=0.0.0">đây</a>
 </li>
 </ul>
-]]></description><link>http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-nguoi-me-tot-hon-la-nguoi-thay-tot/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-nguoi-me-tot-hon-la-nguoi-thay-tot/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 09 Apr 2016 02:08:08 GMT</pubDate></item><item><title><![CDATA[Thú vị khi chia sẻ với mọi người!]]></title><description><![CDATA[
-<blockquote><p>Hi mọi người <img src="http://daynhauhoc.com/images/emoji/twitter/smile.png?v=2" title=":smile:" class="emoji" alt=":smile:"><br>Dạo này online hơi ít <img src="http://daynhauhoc.com/images/emoji/twitter/sweat_smile.png?v=2" title=":sweat_smile:" class="emoji" alt=":sweat_smile:"> Do có các dự án nho nhỏ cũng chỉ vô edit bài được <img src="http://daynhauhoc.com/images/emoji/twitter/sweat_smile.png?v=2" title=":sweat_smile:" class="emoji" alt=":sweat_smile:"> </p></blockquote>
-
-<p>Mình viết bài này với mục đích chia sẻ cảm xúc của mình về một "dự án" nho nhỏ của mình.<br>Đó là mình tạo ra một buổi chia sẻ nói về các vấn đề <strong>rất rất</strong>  cơ bản với các thành viên trong lớp ĐH của mình <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"><br>Buổi chia sẻ diễn ra khá là sôi nổi và suôn sẻ. Mặc dù lần đầu mình làm còn nhiều thiếu sót <img src="http://daynhauhoc.com/images/emoji/twitter/confounded.png?v=2" title=":confounded:" class="emoji" alt=":confounded:"><br>Sau đó mình rút ra được những điều như sau và muốn chia sẻ với mọi người <img src="http://daynhauhoc.com/images/emoji/twitter/smile.png?v=2" title=":smile:" class="emoji" alt=":smile:"></p>
-
-<hr>
-
-<ul><li>Mình cũng vui vì vấn đề mình đặt ra nó rất cơ bản nhưng mọi người thấy <strong>bổ ích</strong> và <strong>cần thiết</strong>. Mình rút ra được những thứ đơn giản không phải ai cũng đều nắm rõ. Ví dụ như hôm nay, mình có nói về phần lỗi (error). Một bạn có đứng lên và nói là nếu không có phần lỗi logic(run time error) mình nói thì bạn ấy không biết là bài kiểm tra hôm qua bạn này làm <strong>chạy được</strong> mà không ra <strong>kết quả</strong> !</li></ul>
-
-<blockquote><p> =&gt; Mình có một góp ý nho nhỏ là tại sao mọi người không thử chia sẻ những thứ mình biết dù là nó rất cơ bản. Biết đâu nó lại là một vấn đề mà người khác đang mắc phải hoặc cảm thấy thú vị.</p></blockquote>
-
-<ul>
-<li>
-<p>Khi mình thử chia sẻ và nói trước mọi người mình sẽ xem được là kiến thức mình nắm được có chắc chắn chưa ? Qua những câu hỏi lại của mọi người <img src="http://daynhauhoc.com/images/emoji/twitter/grin.png?v=2" title=":grin:" class="emoji" alt=":grin:"> </p>
-<blockquote><p>=&gt; Cho đi là nhận lại. Có khi nhận lại còn nhiều hơn cả cho đi nữa <img src="http://daynhauhoc.com/images/emoji/twitter/sunny.png?v=2" title=":sunny:" class="emoji" alt=":sunny:"> </p></blockquote>
-</li>
-<li>
-<p>Khi mình nói trước mọi người và sau đó mọi người lên chia sẻ lại. Có những góp ý và nhắc nhở những lỗi của mình khi nói trước mọi người !<br>Mình rút được ra những lỗi của bản thân như sau <img src="http://daynhauhoc.com/images/emoji/twitter/grin.png?v=2" title=":grin:" class="emoji" alt=":grin:"></p>
-<ol>
-<li>
-<p>Mình nói hơi nhanh, đôi khi mọi người còn chưa hiểu ý thì mình đã nói tiếp tới các vấn đề khác.</p>
-<blockquote><p> =&gt; Khi nói một vấn đề nào đó. Mọi người nên nói một cách thong thả. Khi nói xong có thể hỏi lại người nghe là đã hiểu vấn đề đang được nói và có thắc mắc gì không ? Như vậy sẽ có khoảng thời gian cho bạn suy nghĩ và điều chỉnh các hoạt động. Và người nghe tiếp thu một cách tốt hơn <img src="http://daynhauhoc.com/images/emoji/twitter/grin.png?v=2" title=":grin:" class="emoji" alt=":grin:"></p></blockquote>
-</li>
-<li>
-<p>Mình đôi lúc còn hay sử dụng các từ ngữ mạnh <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:">. Thực ra thì mình chỉ muốn không khí vui vẻ hơn. Khi thấy mọi người hơi trầm và căng thẳng. </p>
-<blockquote><p> =&gt; Hạn chế việc sử dụng các từ không hay từ xấu. Dù chỉ mang tính chất vui vẻ hay muốn <strong>nhấn mạnh</strong>. Có thể tạo không khí thoải mái bằng nhiều cách như ngôn ngữ cơ thể hay những câu chuyện dẫn dắt vui vẻ thú vị <img src="http://daynhauhoc.com/images/emoji/twitter/grin.png?v=2" title=":grin:" class="emoji" alt=":grin:"></p></blockquote>
-</li>
-</ol>
-</li>
-</ul>
-
-<p>Đó là những gì mình muốn chia sẻ <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"><br>Giờ bạn nào có thể chia sẻ lại với mình cách để mình <strong>luyện tốc độ</strong> nói không nhỉ ? Mình nói vẫn hơi nhanh dù đã cố sửa. <br>Cảm ơn mọi người đã đọc bài viết của mình <img src="http://daynhauhoc.com/images/emoji/twitter/yum.png?v=2" title=":yum:" class="emoji" alt=":yum:"><br>Chúc mọi người có một buổi tối tốt lành và code không có lỗi <img src="http://daynhauhoc.com/images/emoji/twitter/smiling_imp.png?v=2" title=":smiling_imp:" class="emoji" alt=":smiling_imp:"></p>
-]]></description><link>http://blog.daynhauhoc.com/thu-vi-khi-chia-se-voi-moi-nguoi/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/thu-vi-khi-chia-se-voi-moi-nguoi/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Thu, 07 Apr 2016 13:25:30 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn cách khám phá I2P và thế giới Dark Net (Phần 3)]]></title><description><![CDATA[
+]]></description><link>http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-nguoi-me-tot-hon-la-nguoi-thay-tot/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-nguoi-me-tot-hon-la-nguoi-thay-tot/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 09 Apr 2016 02:08:08 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn cách khám phá I2P và thế giới Dark Net (Phần 3)]]></title><description><![CDATA[
 <p>Tiếp nối 2 bài đăng trước,lần này mình sẽ trở lại và vẫn tiếp tục hướng dẫn các bạn cách chinh phục các mạng Dark Net <br>Lần này chúng ta sẽ đến với mạng Dark Net mang tên I2P<br>Danh sách bài đăng trước : <br>1.<a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672/28">Hướng dẫn cách khám phá Onion Web và thế giới Dark Net(Phần 1)</a><br>2.<a href="http://daynhauhoc.com/t/kham-pha-the-gioi-free-net-va-the-gioi-dark-net-phan-2/23764">Hướng dẫn cách khám phá Free Net và thế giới Dark Net  (Phần 2 )</a></p>
 
 <p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/e/e294d5e631b3bb740ffca672c2c0bff25bab4ec6.png" class="lightbox" title="1.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/e/e294d5e631b3bb740ffca672c2c0bff25bab4ec6_1_690x492.png" width="690" height="492"><div class="meta">
@@ -579,195 +1139,12 @@ Khởi động ./ZeroNet.sh</code></pre>
 
 <p><em>Chúc các bác buổi tối vui vẻ</em> <img src="http://daynhauhoc.com/images/emoji/twitter/wink.png?v=2" title=":wink:" class="emoji" alt=":wink:"></p>
 
-<p>Mình đã cập nhật phần 4 : <br>Hướng dẫn khám phá Zero Net và thế giới Dark Net : <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134">http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134</a></p>
-]]></description><link>http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Wed, 06 Apr 2016 11:39:39 GMT</pubDate></item><item><title><![CDATA[Tại sao nhiều sinh viên thích đi làm thêm?]]></title><description><![CDATA[
-<p>Hôm nay mình có cảm hứng lung tung nên muốn viết 1 bài chia sẻ quan điểm của bản thân về việc sinh viên đi làm thêm.</p>
+<p><strong>Tác giả</strong> : Kulteam/The Wind/<a href="http://daynhauhoc.com/users/kulteam/">Dạy Nhau Học</a> </p>
 
-<p><strong>Lý do:</strong></p>
+<p><a href="http://www.dmca.com/Protection/Status.aspx?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" title="DMCA.com Protection Status" rel="nofollow"> <img src="http://images.dmca.com/Badges/dmca_protected_16_120.png?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" alt="DMCA.com Protection Status" width="121" height="39"></a> </p>
 
-<ul>
-<li><p>Mình nghĩ các bạn muốn tự kiếm chút tiền để mua những món đồ mà mình thích như 1 cái áo đẹp, 1 chiếc điện thoại để selfie với bạn bè, 1 cuốn truyện tranh, hay gấu bông để tặng bạn gái nhân dịp sinh nhật... -&gt;tự nguyện</p></li>
-<li><p>Điều kiện kinh tế gia đình không đủ cho chi phí học đại học của các bạn. -&gt;không tự nguyện (do hoàn cảnh bắt buộc)</p></li>
-</ul>
-
-<p>=&gt;Dù lý do nào đi nữa thì cũng cho thấy bạn là một người có tính tự lập đáng được khen ngợi </p>
-
-<p><strong>Mặt tốt:</strong></p>
-
-<ul>
-<li><p>Đi làm thêm thì sẽ giúp bạn học được rất nhiều kỹ năng sống như kỹ năng giao tiếp, kỹ năng làm việc nhóm,... đặc biệt là bạn va chạm ngoài đời nhiều thì chắc chắn bạn sẽ trưởng thành hơn, tích luỹ nhiều kinh nghiệm làm việc thực tế mà ở môi trường ĐH bạn không thể nào có được, ngoài ra còn tạo dựng được một số mối quan hệ mà sau này ra trường sẽ cần đến</p></li>
-<li><p>Có thêm chút ít tiền để làm những việc mình thích không còn e ngại mỗi lần xin tiền của ba mẹ nữa-&gt; quá tuyệt vời</p></li>
-</ul>
-
-<p><strong>Mặt hạn chế:</strong></p>
-
-<ul>
-<li><p>Làm ảnh hưởng rất rất nhiều đến thành tích học tập của bạn, khi đã đi làm thêm thì bạn sẽ không có thời gian để hoàn thành những bài tập mà thầy cô giao trên lớp (trừ 1 số bạn quản lý time tốt) -&gt; tình hình học tập sa sút -&gt;chán nản và bỏ học</p></li>
-<li><p>Nếu như việc làm thêm đó liên quan đến chuyên ngành bạn đang theo học thì nó cũng tốt nếu bạn biết cân bằng time đi làm và time học trên lớp, nếu không thì mình khuyên bạn hãy đến năm 3 hoặc năm 4 hãy đi vì lúc đó kiến thức bạn đã vững thì sẽ không mấy khó khăn</p></li>
-</ul>
-
-<p>=&gt;Dù mặt hạn chế nào đi nữa thì bạn cũng hãy nhớ rằng 12 năm đèn sách để được vào ĐH đã khó thì hãy cố gắng thêm 4 năm nữa để có được 1 tấm bằng đẹp chớ đừng vì những ham muốn nhỏ nhoi tầm thường trước mắt mà quên đi nhiệm vụ của mình là học và chỉ học, ba mẹ bạn sẽ rất tự hào với hàng xóm rằng con tôi ra trường với tấm bằng giỏi chứ không phải là do đi làm dẫn đến bỏ học ĐH. Sau khi ra trường thì bạn mặt sức muốn làm gì thì làm</p>
-
-<p><strong>Dẫn chứng:</strong></p>
-
-<ul>
-<li><p>Thực ra mình cũng đã từng đi làm thêm vào hk1 của năm 1 vì nghe bạn bè rủ ghê cũng ham. Đến ngày lãnh lương thì rất là hạnh phúc và sung sướng vì đó là lần đầu tiên mình tự kiếm ra tiền. Mình cứ miệt mài làm, mỗi ngày về nhà thì mệt mỏi quá lăng ra ngủ chẳng học gì được cả. Nhưng lúc này mình vẫn chưa lường được hậu quả của nó và đến lúc vào phòng thi giữa kì thì chợt nhận ra mình làm bài không được, đêm đó mình suy nghĩ rất nhiều...sau 1 tuần có kết quả thì chắc bạn cũng biết là nó rất tệ toàn điểm dưới trung bình. May mắn là mình quyết định bỏ đi làm thêm và chăm chỉ học thì tới kỳ thi cuối kỳ thì điểm số đã được cải thiện rất nhiều.</p></li>
-<li><p>Đến bây giờ mình đã lấy đó làm động lực để học tập, mình không cho bản thân phạm phải sai lầm nào nữa bằng cách cố gắng học để đạt điểm cao bù đắp vô các con điểm thấp đó.</p></li>
-</ul>
-
-<p><strong>Lời khuyên:</strong></p>
-
-<ul>
-<li><p>Nếu bạn nào đã đi làm thêm thì hãy dừng ngay việc đó lại và cố gắng học tập cho thật tốt. Sau này ra trường muốn làm 24h/ngày cũng được</p></li>
-<li><p>Nếu bạn có ý định làm thêm thì hãy thực hiện nó ngay vào khoảng thời gian nghỉ hè, vì đi làm bạn sẽ học được rất nhiều thứ mà bạn bè ĐH của bạn không thể nào học được</p></li>
-</ul>
-]]></description><link>http://blog.daynhauhoc.com/tai-sao-nhieu-sinh-vien-thich-di-lam-them/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/tai-sao-nhieu-sinh-vien-thich-di-lam-them/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Tue, 05 Apr 2016 14:15:30 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn Khám phá Free Net và thế giới Dark Net (Phần 2 )]]></title><description><![CDATA[
-<p>Tiếp nối bài đăng lần trước về Hướng dẫn cách khám phá Onion Web  và thế giới Dark Net <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-deepweb-va-the-gioi-dark-net/23672">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-deepweb-va-the-gioi-dark-net/23672</a><br>Mình tiếp tục với bài đăng này.</p>
-
-<p>Nếu bạn đã chán Onion và mún chuyển sang một mạng Dark Net mới mẻ hơn thì có lẽ mình sẽ gợi ý  cho bạn ..<br>Đó là : <strong>Free Net</strong><br>So với Onion thì Free Net ít phổ biến hơn ,tuy nhiên so với các mạng Dark Net khác thì Free Net vẫn đông người và nội dung cũng phong phú không kém .</p>
-
-<p>Đầu tiên,để truy cập vào Free Net chúng ta cần cài đặt Free Net Software <img src="http://daynhauhoc.com/images/emoji/twitter/blush.png?v=2" title=":blush:" class="emoji" alt=":blush:"><br>Link : <a href="https://freenetproject.org/download.html" rel="nofollow">https://freenetproject.org/download.html</a></p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/c/cd4d48513ba806f35f3ec261e49aaaa15f5fd56d.png" class="lightbox" title="2000px-Freenet_logo.svg.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/c/cd4d48513ba806f35f3ec261e49aaaa15f5fd56d_1_690x462.png" width="690" height="462"><div class="meta">
-<span class="filename">2000px-Freenet_logo.svg.png</span><span class="informations">2000x1342 76 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Các bạn  cần Cài đặt Java trước khi cài đặt Free Net ,<br> Nó sẽ hỏi bạn muốn sử dụng mức bảo mật  cấp độ mấy .<br>Các bạn Chọn Low Security (Mức bảo mật thấp )<br>Vì sao ư : Nếu chọn High Security (Mức bảo mật cao ) thì site load sẽ rất chậm và thậm chí là k thể load nổi bất cứ cái gì ! Chính vì vậy, muốn trải nghiệm Free Net thì hãy làm theo lời khuyên của mình .Chọn <strong>Low Security</strong> </p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/b/b18ea313bd3615ca51a04d31f6d4957e3d0ad230.png" class="lightbox" title="11.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/b/b18ea313bd3615ca51a04d31f6d4957e3d0ad230_1_690x205.png" width="690" height="205"><div class="meta">
-<span class="filename">11.png</span><span class="informations">851x253 122 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Sau đó Chỉ cần Next khoảng vài cái là xong !<br>Các Tùy chọn bạn để mặc định hoặc sửa theo ý thích...</p>
-
-<p>Sau đó thì chờ một tý để nó kết nối đến mạng Free Net (Khoảng 2-3 phút ) </p>
-
-<p>Để có thể có thêm nhiều Link Free Net  để chúng ta khám phá thì các bạn cài thêm Frost Project.<br>Link : <a href="http://jtcfrost.sourceforge.net/" rel="nofollow">http://jtcfrost.sourceforge.net/</a></p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/9/98f65c29e4455e0a545c1e46ec75d76f620f01a0.png" class="lightbox" title="frost.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/9/98f65c29e4455e0a545c1e46ec75d76f620f01a0_1_690x376.png" width="690" height="376"><div class="meta">
-<span class="filename">frost.png</span><span class="informations">1920x1048 381 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Tool này dùng để gửi mail và liên hệ trong cộng đồng  Free Net <br>Hằng ngày các thành viên của Frost sẽ gửi cho bạn rất nhiều mail ,nó chứa các liên kết truy cập đến các site khác nhau .Bạn có thể check xem nó là gì ???</p>
-
-<p>Đến phần quan trọng rồi <img src="http://daynhauhoc.com/images/emoji/twitter/heart_eyes.png?v=2" title=":heart_eyes:" class="emoji" alt=":heart_eyes:"><br>Tuy nhiên, mình lưu ý với các bạn rằng : Các site Free Net hoạt động theo kiểu P2P (Ngang hàng ) như mạng Torrent mà bạn vẫn hay tải phim và phần mềm lậu ý !</p>
-
-<p>Các trang Web có thể chứa các đoạn mã độc và phần mềm độc hại.Chính vì vậy bạn nên dùng một máy tính Linux để truy cập .<br>Tất nhiên ,nếu  bạn không dùng Linux mà dùng Windows cũng đc ! Miễn vào đc là đc <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"></p>
-
-<p>Mình khuyên các bạn nhỏ dưới 18 tuổi không nên truy cập Free Net vì nội dung Lolita và Child Porn ở đây rất nhiều .<br>Nó có thể khiến các bạn bị lệch lạc về giới tính hoặc dính hội chứng Ấu dâm ( Pedo )<br>Các bạn trên 18 tuổi thì tâm lý và giới tính đã hoàn thiện rồi nên vào hay không là tùy ở các bạn.</p>
-
-<p><strong>OK ! Nếu các bạn đã sẵn sàng thì chúng ta bắt đầu nào</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=2" title=":sunglasses:" class="emoji" alt=":sunglasses:"></p>
-
-<p><strong>Phần 1 .Duyệt Key</strong> </p>
-
-<p>Khác với Onion Web mình đã giới thiệu ở phần trước các site đều có Địa chỉ là các tên miền riêng thì ở Free Net lại ngược lại <br>Các site sẽ không có tên miền riêng mà thay vào đó là các Public Key .Và chúng ta sẽ duyệt các Public Key này để tiến hành duyệt Web .<br>Ví dụ : <br>Bạn truy cập vào trang Candy Doll<br>Link :   <a href="http://127.0.0.1:8888/freenet:USK@0W39MlDxbXvUpHF7RwY5ZjwdGii-UKJ2yLre-DuEJrE,FYADJCqC4lBB~tOrhxh~Hgk-d7Qe5bHjzk~6TwEnhbs,AQACAAE/candydoll/93/" rel="nofollow">http://127.0.0.1:8888/freenet:USK@0W39MlDxbXvUpHF7RwY5ZjwdGii-UKJ2yLre-DuEJrE,FYADJCqC4lBB~tOrhxh~Hgk-d7Qe5bHjzk~6TwEnhbs,AQACAAE/candydoll/93/</a></p>
-
-<p>Bạn copy lấy 1 Public Key rồi thêm vào trc nó dòng này :  <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a></p>
-
-<p>Ví dụ mình có một Key là :  USK@E5W70UxbeLAguZTR2t936phv4EWQoaqn7-WZOLqXFsk,pv2wNA~8BVNPuGgPX2LbesXss2rwsrGgvuLCU57uHgE,AQACAAE/tvtorrents/353/</p>
-
-<p>Và mình sẽ thêm trc nó là : <a href="http://127.0.0.1:8888/" rel="nofollow">http://127.0.0.1:8888/</a><br>Nó sẽ thành như này : <br><a href="http://127.0.0.1:8888/USK@E5W70UxbeLAguZTR2t936phv4EWQoaqn7-WZOLqXFsk,pv2wNA~8BVNPuGgPX2LbesXss2rwsrGgvuLCU57uHgE,AQACAAE/tvtorrents/353/" class="onebox" target="_blank" rel="nofollow">http://127.0.0.1:8888/USK@E5W70UxbeLAguZTR2t936phv4EWQoaqn7-WZOLqXFsk,pv2wNA~8BVNPuGgPX2LbesXss2rwsrGgvuLCU57uHgE,AQACAAE/tvtorrents/353/</a></p>
-
-<p>Bạn hãy chép đoạn link có đc đó vào Google Chrome và xem thử nó là gì nào <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/d/d72bd9a82b189e97466e70fa7a8ffb410ce73d7b.png" class="lightbox" title="load.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/d/d72bd9a82b189e97466e70fa7a8ffb410ce73d7b_1_690x355.png" width="690" height="355"><div class="meta">
-<span class="filename">load.png</span><span class="informations">1896x977 215 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Đợi 1 chút để nó load và chúng ta sẽ thấy thành quả ngay bây giờ : </p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/5/5ebe6f6a125c70f3e9bc3284023e2fb47a642d2e.png" class="lightbox" title="tv.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/5/5ebe6f6a125c70f3e9bc3284023e2fb47a642d2e_1_690x376.png" width="690" height="376"><div class="meta">
-<span class="filename">tv.png</span><span class="informations">1920x1048 508 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Một site Vô thưởng ,vô phạt <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"></p>
-
-<p><strong>Phần 2 : Tải và lưu trữ tập tin</strong> </p>
-
-<p>Khi chúng ta lượn lờ trên các site Free Net thì sẽ gặp rất nhiều Link download phim và Hình ảnh .<br>Phần Download của nó hơi khác thường 1 chút nên mình sẽ hướng dẫn các bạn một chút : </p>
-
-<p><strong>Đối với các File ảnh :</strong> </p>
-
-<p>Đối với các file ảnh thì các bạn chỉ cần paste nó lên Google Chrome và đợi nó load !<br>Sau khi tải xong bạn nhấn vào tùy chọn Display và ảnh sẽ hiện lên cho bạn xem <img src="http://daynhauhoc.com/images/emoji/twitter/yum.png?v=2" title=":yum:" class="emoji" alt=":yum:"></p>
-
-<p>Ví dụ :<br>Link :  <a href="http://localhost:8888/freenet:CHK@ra-FhjAtHRPA2tpQFNv6~olwYfa49wVvcH0tPsNXHC8,ZCJXV3bor22jPHN6Zvlmo1FArPhTMUlilm8JIemIo~0,AAMC--8/fisheye_placebo_01.jpg" rel="nofollow">http://localhost:8888/freenet:CHK@ra-FhjAtHRPA2tpQFNv6~olwYfa49wVvcH0tPsNXHC8,ZCJXV3bor22jPHN6Zvlmo1FArPhTMUlilm8JIemIo~0,AAMC--8/fisheye_placebo_01.jpg</a></p>
-
-<p>Nhấn vào chữ Display mà  mình khoanh đỏ</p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/7/708e998d85b130e800cd8fab5869c94e797d364e.png" class="lightbox" title="dípl.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/7/708e998d85b130e800cd8fab5869c94e797d364e_1_690x376.png" width="690" height="376"><div class="meta">
-<span class="filename">dípl.png</span><span class="informations">1920x1048 230 KB</span><span class="expand"></span>
-</div></a></div> </p>
-
-<p>Sau khi tải xong nó sẽ hiện lên cho bạn xem .....</p>
-
-<p><strong>Đối với các tập tin  khác :</strong></p>
-
-<p>Bạn nhấn vào một liên kết nào đó để tải về thì danh sách các tập tin tải về sẽ đc lưu ở đây : </p>
-
-<p><a href="http://localhost:8888/downloads/" class="onebox" target="_blank" rel="nofollow">http://localhost:8888/downloads/</a></p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/c/cce27bedbf26f8dfd69d4ba47f0bc319f6b6e27c.png" class="lightbox" title="dn.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/c/cce27bedbf26f8dfd69d4ba47f0bc319f6b6e27c_1_690x376.png" width="690" height="376"><div class="meta">
-<span class="filename">dn.png</span><span class="informations">1920x1048 188 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Các bạn cần kiên nhẫn đợi 1 chút vì tốc độ mạng rất chậm nên tốc độ tải về rất lâu.<br>Thỉnh thoảng, các bạn F5 để xem tiến trình tải đc bao  nhiêu rồi <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"></p>
-
-<p>Các tập tin sau khi tải về sẽ đc lưu ở : </p>
-
-<p>C:\Users\Administrator\AppData\Local\Freenet\downloads</p>
-
-<p>Ở máy tính của bạn ,có thể sẽ đc lưu ở 1 nơi khác .<br>Các bạn check ở <a href="http://localhost:8888/downloads/" rel="nofollow">http://localhost:8888/downloads/</a> Xem thử của bạn ở đâu .</p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/9/9718e6568b2326efb757d6d17c0a61a01fd5b1ce.png" class="lightbox" title="save.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/9/9718e6568b2326efb757d6d17c0a61a01fd5b1ce_1_690x376.png" width="690" height="376"><div class="meta">
-<span class="filename">save.png</span><span class="informations">1920x1048 222 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Các bạn chú ý phần khoan đỏ ý ,nó chính là đường dẫn đến thư mục chứa tập tin ,Bạn cũng có thể thay đổi nó nếu k thích đường dẫn lưu trữ mặc định .</p>
-
-<p><strong>Phần 3: Share Link</strong> </p>
-
-<p>Tuy nhiên,Mình nói trước là  các liên kết có thể chứa Virut hoặc phần mềm độc hại chính vì vậy hãy : <strong>Cẩn thận</strong> .</p>
-
-<p>1.Link : <a href="http://127.0.0.1:8888/freenet:USK@XJZAi25dd5y7lrxE3cHMmM-xZ-c-hlPpKLYeLC0YG5I,8XTbR1bd9RBXlX6j-OZNednsJ8Cl6EAeBBebC3jtMFU,AQACAAE/index/642/" rel="nofollow">http://127.0.0.1:8888/freenet:USK@XJZAi25dd5y7lrxE3cHMmM-xZ-c-hlPpKLYeLC0YG5I,8XTbR1bd9RBXlX6j-OZNednsJ8Cl6EAeBBebC3jtMFU,AQACAAE/index/642/</a></p>
-
-<p>Giống như Hiddeen Wiki ở Onion Web ! Trang này tổng hợp liên kết đến các site Dark Net và Free Net khác nhau ,đc sắp xếp theo từng chủ đề cụ thể .Bạn có thể sẽ tìm thấy Site bạn yêu thích ở trang này .</p>
-
-<p>2.Link:  <a href="http://127.0.0.1:8888/freenet:USK@ahSw8iD~foVmQIcnYB0jxvbasse4uxhmmWxuDy2yo2A,LsBAlB8h2KjPNTq4CKS8uGASszDWzghHE1J3mXACXio,AQACAAE/xarlrax/2/index.html" rel="nofollow">http://127.0.0.1:8888/freenet:USK@ahSw8iD~foVmQIcnYB0jxvbasse4uxhmmWxuDy2yo2A,LsBAlB8h2KjPNTq4CKS8uGASszDWzghHE1J3mXACXio,AQACAAE/xarlrax/2/index.html</a></p>
-
-<p>Giải thích các từ khóa ở Frost</p>
-
-<p>........................</p>
-
-<p>3.Link : <a href="http://127.0.0.1:8888/USK@tiYrPDh~fDeH5V7NZjpp~QuubaHwgks88iwlRXXLLWA,yboLMwX1dChz8fWKjmbdtl38HR5uiCOdIUT86ohUyRg,AQACAAE/nerdageddon/218/" rel="nofollow">http://127.0.0.1:8888/USK@tiYrPDh~fDeH5V7NZjpp~QuubaHwgks88iwlRXXLLWA,yboLMwX1dChz8fWKjmbdtl38HR5uiCOdIUT86ohUyRg,AQACAAE/nerdageddon/218/</a></p>
-
-<p>Giống như  mấy trang Onion List mình giới thiệu lần trc ,trang này tổng hợp liên kết đến nhiều site khác nhau .Được cái , site này k tổng hợp các trang Dark Net có nội dung bậy bạ nên bạn có thể truy cập thoải mái.<br>Nhấn Ctrl+F và nhập từ khóa mình cần tìm và check thử</p>
-
-<p><strong>Phần 4: Share Link một số diễn đàn về bảo mật và các site mua bán của Onion Web</strong> <br>Mặc dù không liên quan đến Free Net nhưng tiện đây mình sẽ chia sẻ luôn đến các bạn một số trang về bảo mật và học lập trình cho các bạn tham khảo .</p>
-
-<p>1.Link : <a href="http://fqasnxvrwnw5fovg.onion" rel="nofollow">http://fqasnxvrwnw5fovg.onion</a> (Mua bán vũ khí )<br>2.Link : <a href="http://s35ws7u7sj2g3uxm.onion" rel="nofollow">http://s35ws7u7sj2g3uxm.onion</a> (Mua bán vũ khí )<br>3.Link : <a href="http://2qrdpa2pnlt25ra2.onion" rel="nofollow">http://2qrdpa2pnlt25ra2.onion</a>(Mua bán vũ khí )<br>4.Link : <a href="http://zeroerfjaacldxzf.onion" rel="nofollow">http://zeroerfjaacldxzf.onion</a> (Diễn đàn về Hack và  bảo mật )<br>5.Link : <a href="http://hackerrljqhmq6jb.onion" rel="nofollow">http://hackerrljqhmq6jb.onion</a> (Diễn đàn về bảo mật )<br>6.Link : <a href="http://netsec7moavvkprc.onion/Main_Page" rel="nofollow">http://netsec7moavvkprc.onion/Main_Page</a> ( Tài liệu về các ngôn ngữ lập trình )</p>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/5/552ba2730cc4cda63a49a8bfc3ad83ef2335f63c.png" class="lightbox" title="c.png" rel="nofollow"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/5/552ba2730cc4cda63a49a8bfc3ad83ef2335f63c_1_690x327.png" width="690" height="327"><div class="meta">
-<span class="filename">c.png</span><span class="informations">1885x895 204 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Share thêm các bác cái này để đọc cho đỡ buồn :  </p>
-
-<p><strong>PHẢN TRỌNG LỰC Ở DÃY HIMALAYA</strong></p>
-
-<p>Vietsub : <br><a href="https://drive.google.com/file/d/0BxN2AMZGgs-WNjcxdk81X1BrY1k/view?pref=2&amp;pli=1" class="onebox" target="_blank" rel="nofollow">https://drive.google.com/file/d/0BxN2AMZGgs-WNjcxdk81X1BrY1k/view?pref=2&amp;pli=1</a><br>Non-Vietsub (File gốc) : <a href="https://drive.google.com/file/d/0BxN2AMZGgs-WZzVQSlY3bGhkWlU/view?pref=2&amp;pli=1" rel="nofollow">https://drive.google.com/file/d/0BxN2AMZGgs-WZzVQSlY3bGhkWlU/view?pref=2&amp;pli=1</a><br>Dịch bởi : <em>naW</em></p>
-
-<p>Lưu ý : Các site ở Free Net tồn tại khá dai ,không chập trờn như các Site Onion Web khi vào đc khi không ,nên các bác cứ từ từ mà thưởng thức .<br>Các nội dung ở Free Net cũng rất phong phú và nhiều nhất là Lolita và Child Porn của Nga (Tràn lan luôn ).<br><strong>Mình k chịu trách nhiệm pháp lý với các hành động tai hại do các bạn gây ra đâu nên hãy cẩn thận vào !!</strong></p>
-
-<p>Mình đã cập nhật phần 4 : <br>Hướng dẫn khám phá Zero Net và thế giới Dark Net : <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134">http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134</a> </p>
-
-<p>Xem lại các phần trước : </p>
-
-<p>Hướng dẫn khám phá I2P và thế giới Dark Net (phần 3)<br>Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842</a></p>
-
-<p>Hướng dẫn cách khám phá Onion và Thế giới Dark Net (Phần 1)<br>Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/23672</a></p>
-
-<p><em>Chúc mọi người có những trải nghiệm tuyệt vời ở Free Net !</em></p>
-]]></description><link>http://blog.daynhauhoc.com/huong-dan-kham-pha-free-net-va-the-gioi-dark-net-phan-2/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-kham-pha-free-net-va-the-gioi-dark-net-phan-2/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Tue, 05 Apr 2016 11:42:08 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn cách khám phá Onion Web và thế giới Dark Net (Phần 1)]]></title><description><![CDATA[
+<p>Mình đã cập nhật phần 4,5 : <br>Hướng dẫn khám phá Zero Net và thế giới Dark Net (Phần 4) : <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134">http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134</a><br>Hướng dẫn khám phá eDonkey và thế giới Dark Net (Phần 5): <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/25199">http://daynhauhoc.com/t/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/25199</a></p>
+]]></description><link>http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Wed, 06 Apr 2016 11:39:39 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn cách khám phá Onion Web và thế giới Dark Net (Phần 1)]]></title><description><![CDATA[
 <p>Mình biết đến Deep Web và một buổi tối khi cố gắng tìm kiếm cách đăng kí tên miền miễn phí và mình mò ra Bitcoin và sau đó là Dark Net .<br>Mình biết nó từ hồi học lớp 9 và bây giờ đã Đại học Năm 3 ùi .Lúc ban đầu mình thử Google nhưng gần như chẳng tìm đc gì cả ngoài mấy Topic dọa ma trên các diễn đàn .<br>Sau đó thì mình tìm thấy 1 Blogger thích khám phá Deep Web và a ý đã chia sẽ rất nhiều site khác nhau và mình cũng tò mò nghịch thử.<br>Mình nhớ hồi đó còn có cái chợ ma túy vô cùng nổi tiếng Silk Road cơ..nhưng giờ nó tạch ùi !</p>
 
 <p>Hiện tại thì mình biết có 2 mạng Deep Web đó là Free Net và Onion là 2 mạng Deep Web mà mình vào đc .<br>Còn mấy mạng khác như GNU Net của tổ chức mã nguồn mở với I2P thì mình bó tay.<br>Đối với Onion thì các bạn cài đặt Tor-Browser để truy cập <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"><br>Link : <a href="https://www.torproject.org/download/download-easy.html.en" rel="nofollow">https://www.torproject.org/download/download-easy.html.en</a><br>Hoặc dùng phần bổ trợ cho Chrome : Tor<br>Link : <a href="https://chrome.google.com/webstore/detail/tor/ohielanlcdleofjibfmjbbkaajdcpoil" rel="nofollow">https://chrome.google.com/webstore/detail/tor/ohielanlcdleofjibfmjbbkaajdcpoil</a>   </p>
@@ -850,89 +1227,16 @@ Khởi động ./ZeroNet.sh</code></pre>
 
 <p><strong>Chúc mọi người tối nay ngủ ngon</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"></p>
 
-<p><strong>Hiện tại mình đã cập nhật thêm phần 2 ,3 và phần 4 của bài này ..</strong></p>
+<p> <strong>Tác giả</strong> : Kulteam/The Wind/<a href="http://daynhauhoc.com/users/kulteam/">Dạy Nhau Học</a> </p>
 
-<p>Tên của Phần 2 : Khám phá thế giới Free Net và thế giới Dark Net<br>Link : <a href="http://daynhauhoc.com/t/kham-pha-the-gioi-free-net-va-the-gioi-dark-net-phan-2/23764">http://daynhauhoc.com/t/kham-pha-the-gioi-free-net-va-the-gioi-dark-net-phan-2/23764</a><br>Tên của phần 3 : Hướng dẫn cách khám phá thế giới I2P và thế giới Dark Net <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842</a><br>Tên của phần 4 : <br>Hướng dẫn khám phá Zero Net và thế giới Dark Net : <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134">http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134</a> </p>
+<p><a href="http://www.dmca.com/Protection/Status.aspx?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" title="DMCA.com Protection Status" rel="nofollow"> <img src="http://images.dmca.com/Badges/dmca_protected_16_120.png?ID=05a4d66f-8900-438c-9731-46e8d28ed8d9" alt="DMCA.com Protection Status" width="121" height="39"></a> </p>
+
+<p><strong>Hiện tại mình đã cập nhật thêm phần 2 ,3,4 và phần 5 của bài này ..</strong></p>
+
+<p>Tên của Phần 2 : Khám phá thế giới Free Net và thế giới Dark Net<br>Link : <a href="http://daynhauhoc.com/t/kham-pha-the-gioi-free-net-va-the-gioi-dark-net-phan-2/23764">http://daynhauhoc.com/t/kham-pha-the-gioi-free-net-va-the-gioi-dark-net-phan-2/23764</a><br>Tên của phần 3 : Hướng dẫn cách khám phá thế giới I2P và thế giới Dark Net <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842">http://daynhauhoc.com/t/huong-dan-cach-kham-pha-i2p-va-the-gioi-dark-net-phan-3/23842</a><br>Tên của phần 4 : <br>Hướng dẫn khám phá Zero Net và thế giới Dark Net : <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134">http://daynhauhoc.com/t/huong-dan-kham-pha-zero-net-va-the-gioi-dark-net-phan-4/24134</a> <br>Tên của phần 5 : <br>Hướng dẫn khám phá eDonkey và thế giới Dark Net : <br>Link : <a href="http://daynhauhoc.com/t/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/25199">http://daynhauhoc.com/t/huong-dan-kham-pha-edonkey-va-the-gioi-dark-net-phan-5/25199</a> </p>
 
 <p><em>Chúc vui vẻ ....</em></p>
-]]></description><link>http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Mon, 04 Apr 2016 11:01:05 GMT</pubDate></item><item><title><![CDATA[Sau khi nâng cấp RAM và ổ cứng sang SSD, CPU load up to 100%]]></title><description><![CDATA[
-<p>Đạt mua con Asus X550CA cách đây 2 năm 5 tháng với giá 12tr, cực cùi <img src="http://daynhauhoc.com/images/emoji/twitter/cry.png?v=2" title=":cry:" class="emoji" alt=":cry:"></p>
-
-<p>Cấu hình khá giống con <a href="http://goo.gl/iqTJqJ">Asus A556UA-XX138D</a> nhưng CPU thì không bằng, con của Đạt hiện giờ là I5-3337U 1.8GHz <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"> </p>
-
-<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/6/69f493112349b6c06b8035e8a7b71cf7e8726803.png" width="433" height="223"></p>
-
-<p>Vì Đạt đang có kế hoạch làm một khóa dạy C++ từ cơ bản tới nâng cao, từ console tới giao diện và từ gà mờ lên tới hack game. Viết tools Hack game thật luôn nhé <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=2" title=":smiley:" class="emoji" alt=":smiley:"> Cỡ như game Pikachu là hack cái một <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> Nên Đạt đã tính là mua một con Lap mới thay cho con lap cùi này, tuy nhiên sau khi nghĩ lại mình đã nâng cấp Ram từ 4GB lên 8GB, giờ nếu mua mới thì hơi phí. Thế nên Đạt quyết định nâng cấp ổ cứng.</p>
-
-<p>Đạt vừa mới mua con <a href="http://goo.gl/kc3lsG">SSD Samsung 850 EVO 250GB</a> bên Sin, dĩ nhiên là giá rẻ hơn ở VN <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:">, thay vào thì thôi rồi, cảm giác không khác gì mua máy mới.</p>
-
-<p>Update: Lazada cũng có bán con này, <a href="http://goo.gl/xlZEED">giá rẻ hơn</a></p>
-
-<p>Điều đặc biệt là hồi trước Disk nhảy lên 100% thì nay CPU nhảy lên 100%, hình dưới chụp lúc nó rớt xuống còn lại 83% =))</p>
-
-<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/e/e36d30b33400b28413810bc0edbdda2d2447e763.png" width="531" height="302"></p>
-
-<p><strong>Chốt:</strong> Nếu máy cũ, hết bảo hành, tiếc tiền mua máy mới thì hãy nâng cấp RAM và SSD, chả thua gì máy mới đâu <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"></p>
-
-<p>Trong khi màn hình, bàn phím, chuột và CPU vẫn còn chạy được thì không cần phải nâng cấp máy mới. </p>
-
-<p><small>Hôm sau sẽ review vụ đổi từ chuột dây sang không dây và bây giờ là chuột + bàn phím không dây cơm bô</small></p>
-]]></description><link>http://blog.daynhauhoc.com/sau-khi-nang-cap-ram-va-o-cung-sang-ssd-cpu-load-up-to-100/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/sau-khi-nang-cap-ram-va-o-cung-sang-ssd-cpu-load-up-to-100/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 03 Apr 2016 15:04:07 GMT</pubDate></item><item><title><![CDATA[Văn hóa chửi thề]]></title><description><![CDATA[
-<p>Ngày nay, ra đường không khó để bắt gặp những thanh niên chửi thề, trong đó có cả mình (được chưa). Ở trường lớp, nội quy cấm chửi thề có thể cho là cực kỳ vô dụng. <br>Theo bản thân mình thì không chửi thề cũng không xấu xa cho lắm (có đứa khen mình chửi thề trông dễ thương <img src="http://daynhauhoc.com/images/emoji/twitter/smile.png?v=2" title=":smile:" class="emoji" alt=":smile:">) <br>Không nên đánh giá văn hóa và trình độ của con người đó qua việc người đó chửi thề. Mình không biết các bạn thế nào chứ chửi thể cũng có một vài tác dụng: <br>- Giải tỏa căng thẳng <br>- Nhấn mạnh cảm xúc, gây sự chú ý bên người xung quanh khi nghe câu nói của mình <br>- Những cơn đau có thể dịu bớt <br>- Tăng không khí vui tươi, cách nói chuyện bạn bè trở nên gần gũi hơn. <br>cmnr, dhs, wtf, vl, dm, .... <br>Nhưng không có nghĩa là lúc nào cũng được chửi thề nhé các bạn, mình không khuyến khích các bạn phải chửi thề đâu, đó chỉ là ý kiến của bản thân mình...</p>
-]]></description><link>http://blog.daynhauhoc.com/van-hoa-chui-the/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/van-hoa-chui-the/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 03 Apr 2016 03:57:31 GMT</pubDate></item><item><title><![CDATA[Kỹ năng sống: nếu các bạn thật sự muốn thay đổi suy nghĩ và cách sống tiêu cực của mình thì nên đọc(chỉ cần bỏ ra 9 phút đọc và 1 phút ngẫm thôi)]]></title><description><![CDATA[
-<p>Vào mỗi chiếu thứ 6 hàng tuần khoảng 5:30 PM mình sẽ post 1 chủ đề về kỹ năng sống và những suy nghĩ của giới trẻ hiện nay.Mình chỉ là 1 con người bình thường thôi không tài giỏi gì cả,nhưng mình luôn mong muốn xã hội sẽ phát triển theo chiều hướng tốt đẹp và hình ảnh người Việt trong mắt bạn bè quốc tế sẽ khác đi.Các bạn có thể không xem,có thể bàn luận,nhưng khi đọc nó mình mong các bạn hãy bỏ ra 1 phút(chỉ 1 phút thôi và suy ngẫm về nó).Ok vậy chúng ta bắt đầu câu chuyện nào.Chủ đề hôm nay rất gần gũi với chúng ta trong công việc cũng như trong cuộc sống hằng ngày.Đó là lời cảm ơn và xin lỗi.Dưới đây là bài trích dẫn và là tâm sự của 1 bạn tên Mẫn về vấn đề này.<br>Cám ơn và xin lỗi là một biểu hiện văn hóa, là thái độ văn minh, lịch sự trong quan hệ xã hội. Lời cám ơn và xin lỗi khi được nói một cách chân thành, chẳng những phản ảnh phẩm chất văn hóa mà còn làm cho mọi người xích lại gần nhau hơn.</p>
-
-<p>Lời cám ơn hay lời xin lỗi không chỉ đem niềm vui tới người nhận, chúng còn giải tỏa những khúc mắc, làm dịu đi những cơn nóng giận, và con người cũng nhờ đó mà sống vị tha hơn.<br>Trước đây, việc nói lời cám ơn hay xin lỗi nhau là chuyện bình thường, cám ơn và xin lỗi trở thành một trong các chuẩn mực để đánh giá tư cách của một người. Tiếc rằng những năm gần đây, lời cám ơn và xin lỗi như có xu hướng giảm xuống trong giao tiếp xã hội.<br>Có người cho rằng, nguyên nhân của tình trạng này là do sự lỏng lẻo của chuẩn mực ứng xử, cũng có người cho rằng, đời sống công nghiệp hóa làm con người thay đổi, hay do bản tính của con người không quen với hai từ cám ơn và xin lỗi,...<br>Cuộc sống công nghiệp hiện tại đã làm con người ta thay đổi quá nhiều, và trong bản tính của mỗi người, không phải lúc nào cũng biết đến hai từ cám ơn và xin lỗi. Nhưng có bao giờ ai đặt ra câu hỏi: cuộc sống Phương Tây còn nhanh gấp bội chúng ta, tại sao họ vẫn có thể nói được những điều ấy và chả lẽ họ luôn ngượng và coi chuyện nói điều đó ra là giả dối như chúng ta vẫn nghĩ? Vấn đề là lối sống và giáo dục, mà hình như từ lâu, người ta đã dạy con trẻ những điều này một cách máy móc và giáo điều trong những cuốn “Giáo dục công dân”, mà những tiết học “Giáo dục công dân” lại là được những người có trách nhiệm biến thành những giờ học buồn tẻ.<br>Trong xã hội này, thứ văn hóa cám ơn và xin lỗi đã không tồn tại, hoặc thực tế tồn tại không chân thực và bị lợi dụng. Người ta cám ơn không bằng lời nói mà bằng phong bì, và những kẻ mắc sai lầm nghiêm trọng chỉ nói xin lỗi một cách ráo hoảnh cho xong chuyện và rồi vẫn giữ cái ghế của mình.<br>Tuy nhiên tôi nghĩ, vẫn còn một nguyên nhân nữa là lâu nay, như một thói quen, thường thì chỉ có con cái xin lỗi hay cám ơn cha mẹ, người ít tuổi xin lỗi hay cám ơn người lớn tuổi, mà nhiều người lớn tuổi không chú ý tới việc cám ơn hay xin theo chiều ngược lại. Trong giao tiếp xã hội, nhất là trong giao tiếp nơi công cộng, người lớn tuổi hơn ít khi nói lời xin lỗi hay cám ơn cho dù họ nhận được sự giúp đỡ, hay hành vi của họ gây phiền phức cho người khác. Các em nhỏ khi nhận được sự giúp đỡ hay sau khi mắc lỗi thường không ngần ngại nói lời xin lỗi hay cám ơn, nhưng càng lớn lên thì thói quen này dường như đã mất dần, đó là vì các em học nói lời cám ơn và xin lỗi không chỉ qua bài học giáo dục công dân(đạo đức) hoặc qua lời dạy bảo của cha mẹ, mà còn học trực tiếp qua tấm gương của những người lớn nửa?<br>Xin lỗi khi mình có lỗi là chuyện bình thường, và mỗi người có cách giải quyết lỗi lầm của mình khác nhau. Có người nhận sai lầm, xin lỗi rồi sửa sai; lại có người biết là sai lầm nhưng không dám nhận, hoặc nhận nhưng không chịu sửa và không hề biết nói lời xin lỗi. Biết nói và sử dụng lời cám ơn hay lời xin lỗi là biểu hiện của nhận thức, của việc thực hiện hành vi văn minh. Ðể các lời nói thân thiện này trở thành thói quen trong đời sống hằng ngày, chúng ta cần nhận thức cụ thể hơn, để xử sự có văn hóa hơn trong giao tiếp. Biết nói lời cám ơn và xin lỗi một cách chân thành là một biểu hiện phẩm chất và trình độ văn hóa của mỗi người. Tất nhiên, nói như thế nhưng cũng phải loại trừ những lời cám ơn hay xin lỗi không thật lòng, để cho qua chuyện<br>Ngay từ khi còn nhỏ, chúng ta đã được dạy nói“cám ơn”khi có"người khác giúp ta việc gì hay cho ta thứ gì đó. Lời cám ơn sẻ làm người nghe cảm thấy vui hơn.<br>Rồi chúng ta cũng được dạy nói “xin lỗi” khi ta vô ý làm tổn thương đến ai đó, hay vô tình làm ảnh hưởng đến người khác. Lời xin lỗi được nói ra làm cho người được xin lỗi cũng cảm thấy thoải mái và dễ tha thứ hơn.<br>Tuy vậy bây giờ chúng ta thường có thói quen chỉ cám ơn khi đem lợi ích cho chính mình. Tôi nhớ một câu chuyện nho nhỏ về cách cám ơn . Đó là khi bạn được một người khác mời một thứ gì đó như ” Bạn có muốn một ly cafe không?”. Thường câu trả trả lời là “Không”(không có cám ơn), chỉ khi ta muốn thì mới nói “Có, cám ơn” trong khi đáng lẻ chúng ta nên nói “Không, tôi uống rồi, cám ơn bạn”<br>Ra đường hỏi đường bác xe ôm nhưng lại quên mất cám ơn khi đã biết đường, đánh rơi đồ vật trên đường người khác nhặt dùm lại quên cám ơn. Người quyền cao mà đức thấp thường dựa vào địa vị của mình và coi thường người khác. Họ không chấp nhận việc nói lời “cám ơn” với những người có địa vị thấp hơn mình. Hãy thử nhớ xem khi bạn vào một siêu thị chú bảo vệ dắt xe dùm bạn, bạn có “cám ơn” người ta không. Nhiều bạn nghĩ đó là công việc của người ta, họ trả tiền để làm như vậy nhưng bạn lại quên là họ cũng đang giúp bạn đó thôi. Và còn rất nhiều trường hợp khác nữa. Nhiều người nghĩ những chuyện đó quá nhỏ nhặt nên không chú ý mà không biết lời “cám ơn” trong tình huống đó là cần thiết như thế nào.<br>Lời“xin lỗi” cũng vậy, khi lên xe bus vô tình bạn “đụng chạm” đến người khác, tuy rằng không ảnh hưởng nhiều lắm nhưng vẫn rất nhiều bạn “lờ đi” lời xin lỗi. Bạn vội vàng chạy đi đụng người ta làm rớt đồ của người ta rồi lờ đi và chạy luôn.<br>Ngày còn bé bạn được cha mẹ dạy nói “cám ơn – xin lỗi” nhưng càng lớn bạn lại càng quên những lời dạy dỗ ngày xưa. Lời “cám ơn - xin lỗi” tưởng rằng quá nhỏ bé nhưng đó cũng là một “kỹ năng sống, kỹ năng giao tiếp” mà chúng ta nên gìn giữ.<br>Hãy nói cám ơn khi ai đó giúp đỡ bạn và xin lỗi trước những sai lầm của bản thân bạn…dù cho người đó là ai, bình thường đến như thế nào đi chắng nữa.<br>Chẳng hạn khi đi đường va chạm nhau dù vô ý thôi, ứng xử hợp lý hợp tình nhất là người vi phạm phải xin lỗi người kia. Khi nhận được sự giúp đỡ, nên cám ơn để bày tỏ lòng biết ơn của mình và người lớn cần phải làm gương. Nói thì ai cũng cho là như vậy, nhưng thực tế nhiều khi lại không.<br>Nhiều người cho rằng người lớn không cần xin lỗi, cám ơn trẻ em. Đó là một sai lầm! Có những người lớn biết mình sai với con trẻ nhưng cậy thế mình lớn hơn, không những không xin lỗi mà còn lấn át theo kiểu “cả vú lấp miệng em”. Đôi khi ta còn phải chứng kiến cảnh có người thay vì “xin lỗi” lại sử dụng bạo lực.<br>Gần gủi nhất là tình trạng giao thông hiện nay, mỗi khi tham gia giao thông, do đường chật xe đông, người người chen chúc… rất dễ xảy ra va chạm, lời qua tiếng lại càng đẩy sự việc đi xa hơn. Nhưng nếu ai cũng sẳn sàng lời xin lỗi và cám ơn thì tôi chắc chắn mọi chuyện sẻ êm đẹp.<br>Những lời xin lỗi đúng chỗ, đúng lúc chắc chắn ít nhiều cũng làm dịu được cơn “nóng” trong đầu những người… nóng tính, dẫn tới có được những hành xử thân thiện, ngăn chặn được những câu chửi tục dẫn đến ẩu đả và nguy cơ “cái sảy nảy cái ung”, sự việc bé xé ra to…<br>Ông bà ta từ xưa đã dạy: Lời nói không mất tiền mua, lựa lời mà nói cho vừa lòng nhau. Chỉ cần hai tiếng “xin lỗi” được nói lên từ miệng người mắc lỗi, cùng với một thái độ thân thiện (chẳng hạn đỡ người bị ngã dậy, nhặt giúp họ đồ khi ta vô ý đánh rơi…) thì chắc bao nhiêu bực tức trong đầu người kia sẽ được giải toả và thân thiện sẽ thay thế cho “mồi lửa chiến tranh” .<br>Đặc biệt cần những lời xin lỗi đúng chỗ, vì vừa tỏ ra là người văn minh lịch sự, vừa tự biết mình có lỗi để rút kinh nghiệm lần sau không tái phạm nữa.<br>Khi nhận được sự giúp đỡ của người khác (dù việc nhỏ nhặt nhất, là cấp dưới đối với cấp trên, hay trẻ em đối với người lớn…) thì cũng nên nói lời cám ơn. Những lời đó không nên bị coi là khách sáo, mà là sự thể hiện tấm lòng, tình cảm… giữa những con người với nhau. Tôi tin chỉ cần nói lời “cám ơn” mà không cần có “vật chất” kèm theo, ít nhiều mình cũng được đánh giá mình là người biết điều và không phải là kẻ vô ơn.<br>Với trẻ em, cần nhớ rằng: Khi người lớn lịch sự văn minh thì trẻ em sẽ văn minh lịch sự. Nếu người lớn là những tấm gương xấu, thì chắc chắn là trẻ em không thể ngoan được. Mà bây giờ, ai dám khẳng định 100% người lớn đều không “hư” nhỉ?<br>Có văng tục cãi lộn nhau không<br> - có.<br>Có chen lấn nhau không<br>– có.<br>Có bạo lực với nhau không<br>- có…<br>Ngày trước, khi xảy ra bất đồng trong gia đình, người lớn thường cố gắng nói với nhau khi không có trẻ em ở đó. Ngày nay thường thấy hơn lại là cảnh những điều chẳng hay ho gì đó diễn ra ngay trước mặt con trẻ, không một chút e dè. Thế nên trẻ em ít dùng từ “cám ơn”, “xin lỗi” hơn trước cũng là phải. Không những cần dạy trẻ cám ơn khi được người khác giúp đỡ, mà người lớn cũng cần cám ơn con trẻ mỗi khi các em làm được một việc gì đó cho mình….<br>Lịch sự – văn minh không phải tự trên trời rơi xuống là có ngay, mà phải rèn luyện kiên trì, lâu dài mới có. Cần phải bắt đầu từ những việc làm cụ thể, tưởng là nhỏ mà ý nghĩa không nhỏ. Bởi thế, đưa những lời hay, ý đẹp trở lại với cuộc sống đời thường cũng là chuyện cần làm ngay với tất cả chúng ta...<br>Nhiều người nói với tôi, rằng nói những điều đó ra là một sự khách khí và đôi khi, giả tạo và ai cũng "ngài ngại". Cái chính là thực lòng. Ừ, thì một phần sự thừa nhận ấy là đúng, nhưng tại sao con người ta không thể sống xã giao với nhau trong khi điều đó chẳng có gì là giả dối, tại sao chúng ta không thể biết nói lời cám ơn một ai đó và nhận lỗi một ai đó chỉ vì điều đó là nhỏ nhặt nhất, trong khi một cái thùng rác  vẫn còn có dòng chữ “Cám ơn đã bỏ rác vào tôi”? Tôi vẫn tin là những ai đã không biết cám ơn và xin lỗi vì những điều nhỏ nhặt nhất sẽ không thể làm được những điều vĩ đại nhất. <br>Viết đến đây, tôi nhớ đến câu chuyện của Mahatma Gandhi  khi ông ăn trưa trong một quán ăn bình dân, sau khi trả tiền ông nói với người phục vụ lời nói cám ơn, và người phục vụ tâm sự: "Thưa ông, tôi sẽ nhớ ông mãi vì hơn 25 năm phục vụ ở đây, tôi chưa bao giờ nghe ai nói cám ơn". Và tôi cũng mượn lời đó để làm lời kết của bài nầy.</p>
-]]></description><link>http://blog.daynhauhoc.com/ky-nang-song-neu-cac-ban-that-su-muon-thay-doi-suy-nghi-va-cach-song-tieu-cuc-cua-minh-thi-nen-doc-chi-can-bo-ra-9-phut-doc-va-1-phut-ngam-thoi/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/ky-nang-song-neu-cac-ban-that-su-muon-thay-doi-suy-nghi-va-cach-song-tieu-cuc-cua-minh-thi-nen-doc-chi-can-bo-ra-9-phut-doc-va-1-phut-ngam-thoi/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Fri, 01 Apr 2016 10:36:13 GMT</pubDate></item><item><title><![CDATA[Lâu Lâu Một Quyển Sách: Đọc Đắc Nhân Tâm Để Internet không bị hủy diệt bởi 11 dòng code]]></title><description><![CDATA[
-<p><a href="http://goo.gl/51QH0F">Đắc nhân tâm</a> là một quyển sách mà Đạt nghe về nó cách đây 6 năm, lúc mới nghe tới sách này Đạt nghĩ đây là một quyển sách dành cho người già. <strong>Đạt ngây ngô nghĩ rằng chỉ có người già thì mới cần "đắc nhân tâm"</strong></p>
-
-<ul>
-<li><p><strong>Ba năm trước</strong>, Đạt đã đọc xong quyển này và nghĩ rằng đây là một quyển sách dành cho người đi làm. </p></li>
-<li><p><strong>Ba năm sau</strong>, tức là bây giờ, khi đọc lại Đạt nghĩ <strong>Ai cũng cần phải đọc nó một lần, nhất là sinh viên.</strong></p></li>
-</ul>
-
-<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/9/9f567f4f8dddc43215f6f71b92c3ead3351cf09a.png" width="232" height="330"></p>
-
-<p><strong>Điều đầu tiên Đạt cảm nhận khi đọc quyển sách này 3 năm trước là gì?</strong></p>
-
-<blockquote><p>Chỉ có Ngụy Quân Tử mới áp dụng được quyển sách này </p></blockquote>
-
-<p><strong>Ba năm sau, khi đọc lại, Đạt nghĩ</strong></p>
-
-<blockquote><p>Đây là những điều người quân tử, bao dung độ lượng nên làm</p></blockquote>
-
-<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/9/91f5f6ca503068beebb0330dd65a77ce3934d793.png" class="lightbox" title="Pasted image"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/9/91f5f6ca503068beebb0330dd65a77ce3934d793_1_320x500.png" width="320" height="500"><div class="meta">
-<span class="filename">Pasted image</span><span class="informations">800x1250 91.5 KB</span><span class="expand"></span>
-</div></a></div></p>
-
-<p>Cũng giống như nhiều quyển self-help khác, Đây là một quyển sách cần phải đọc kỹ và <strong>nghiền ngẫm xem tác giả nói có đúng không, có khả thi không, có đáng làm không, có "ngụy quân tử" không?</strong></p>
-
-<p>Khi đọc câu chuyện <a href="http://daynhauhoc.com/t/mot-lap-trinh-vien-trong-con-tuc-gian-vua-huy-diet-internet-chi-bang-11-dong-code/22855">Một lập trình viên trong cơn tức giận vừa "hủy diệt" Internet chỉ bằng 11 dòng code</a>. Đạt nghĩ rằng giá mà cả 2 nhân vật trong câu chuyện trên đã đọc Đắc Nhân Tâm.</p>
-
-<p>Các bạn hãy mua sách giấy ở <a href="http://goo.gl/51QH0F">Tiki</a>, chuẩn bị một cây bút dạ hoặc bút bi, đọc và đánh dấu vào những điểm mình thích nhất và đem lên DayNhauHoc thảo luận, các bạn sẽ thấy ý nghĩa của quyển sách này.</p>
-
-<h2>Đây cũng là quyển sách đầu tiên mà Đạt lấy bút khoanh những đoạn hay trong sách để có thể nhớ và làm theo.</h2>
-
-<hr>
-
-<p>Cũng giống như quyển <a href="http://daynhauhoc.com/t/lau-lau-mot-quyen-sach-think-and-grow-rich-khong-chi-la-sach-lam-giau/21505">Think and Grow Rich</a>. Quyển này Đạt sẽ phân tích và trả lời câu hỏi thắc mắc của các bạn đang đọc.</p>
-
-<hr>
-
-<p><strong>Nội dung phân tích và trả lời câu hỏi sẽ được update ở đây</strong></p>
-
-<ul><li><a href="http://daynhauhoc.com/t/lau-lau-mot-quyen-sach-doc-dac-nhan-tam-de-internet-khong-bi-huy-diet-boi-11-dong-code/22951/20?u=ltd">Chương 1: Muốn lấy mật thì đừng phá tổ ong</a></li></ul>
-
-<ul>
-<li>Chương 2</li>
-<li>Câu trả lời X</li>
-<li>Câu trả lời Y</li>
-</ul>
-
-<hr>
-
-<p>Cảm ơn Hà đã tạo topic <a href="http://daynhauhoc.com/t/len-ke-hoach-cho-viec-tao-thoi-quen-va-su-hung-thu-voi-viec-doc/22853">Lên kế hoạch cho việc đọc và sự hứng thú với việc ĐỌC</a>, Đạt sẽ review thêm nhiều sách nữa để mọi người cùng đọc.</p>
-]]></description><link>http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-doc-dac-nhan-tam-de-internet-khong-bi-huy-diet-boi-11-dong-code/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-doc-dac-nhan-tam-de-internet-khong-bi-huy-diet-boi-11-dong-code/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 27 Mar 2016 13:49:58 GMT</pubDate></item><item><title><![CDATA[Đất Nước của những kẻ Lười Biếng]]></title><description><![CDATA[
+]]></description><link>http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-cach-kham-pha-onion-web-va-the-gioi-dark-net-phan-1/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Mon, 04 Apr 2016 11:01:05 GMT</pubDate></item><item><title><![CDATA[Đất Nước của những kẻ Lười Biếng]]></title><description><![CDATA[
 <p>Đây là một bài viết tôi sưu tầm được, nhưng tôi phải nói trước với bạn là ngôn từ của nó không hề ngọt tai, nếu bạn chưa sẵn sàng nhìn nhận thực tại bản thân hay thế hệ, có lẽ bạn sẽ thấy một chút khó chịu khi đọc.</p>
 
 <p><strong>Nếu bạn muốn thay đổi đất nước, nếu bạn đã 18 hay 20 tuổi hoặc hơn, hẳn là bạn cũng sẽ sớm trở thành những ông bố, bà mẹ. Thế nên, hãy chuẩn bị cho thay đổi, không cần biết trước đây bạn được giáo dục như thế nào, hãy chắc rằng, bạn sẽ trở thành hình mẫu mà bạn muốn con cái mình trở thành trong tương lai.</strong></p>
@@ -1014,7 +1318,225 @@ Khởi động ./ZeroNet.sh</code></pre>
 <hr>
 
 <p>Không biết có bạn nào mắc thêm bệnh <strong>Lười Đọc</strong> không nhỉ <img src="http://daynhauhoc.com/images/emoji/twitter/smile.png?v=2" title=":smile:" class="emoji" alt=":smile:"></p>
-]]></description><link>http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 26 Mar 2016 02:09:03 GMT</pubDate></item><item><title><![CDATA[Đọc sách online, giải pháp tiết kiệm cho người muốn đọc]]></title><description><![CDATA[
+]]></description><link>http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/dat-nuoc-cua-nhung-ke-luoi-bieng/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sat, 26 Mar 2016 02:09:03 GMT</pubDate></item><item><title><![CDATA[Fastest way to learn basic of Programming [P2]]]></title><description><![CDATA[
+<p>Chào cả nhà, sau khi làm xong Part 1 của Fastest way to learn basic of Programming, em thấy có rất nhiều bạn newbie và cả không newbie đánh giá tốt bài viết XD, và nhiều lượt hóng (nhưng lượt xem hơi ít, mới có 230 lượt <img src="http://daynhauhoc.com/images/emoji/twitter/cry.png?v=2" title=":cry:" class="emoji" alt=":cry:"> ) Nhưng không vì thế mà làm chậm trễ việc post bài cho các bạn. ^^</p>
+
+<p>Xem phần 1 tại: <a href="http://daynhauhoc.com/t/fastest-way-to-learn-basic-of-programming-p1/22117">http://daynhauhoc.com/t/fastest-way-to-learn-basic-of-programming-p1/22117</a></p>
+
+<p>Trong phần 1, chúng ta đã biết "sơ sơ" qua các khái niệm cơ bản như biến, kiểu,... nhưng ngắn và dễ hiểu hơn trong sách, giáo trình (mọi người đánh giá, em không bum đâu <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=2" title=":joy:" class="emoji" alt=":joy:"> ) và trong phần 2, ta sẽ đi tìm hiểu hết các phần còn lại.</p>
+
+<h1>NHẬP MÔN LẬP TRÌNH</h1>
+
+<br>
+
+<h2>Những thứ ban đầu -tt</h2>
+
+<br>
+
+<b>Khai Báo (Declaration)</b>: là yêu cầu máy tính cung cấp cho mình những thứ mình cần. Không yêu cầu là nó không cho đâu. :smiley:
+
+<br>
+
+VD nhé: int a = 5; -&gt; "Cưng eh, cho anh mượn cái hộp (int) nhãn a chứa kẹo (5) ^^ đi."
+
+<br>
+
+class Explore -&gt; "Mấy chú xây cho anh cái phòng đặt tên là Explore nha"
+
+<p><b>Các loại kiểu</b>: như trong phần 1, mình đã nói về kiểu là gồm 4 loại cơ bản, nhưng bây giờ mình sẽ phân tích về các kiểu này (mình theo ngôn ngữ Java nhé). Mỗi kiểu sẽ có loại khác nhau và phạm vi (nói chung là độ rộng của cái hộp để nhét vừa đồ thôi ^^) được đo bằng bit<br></p>
+
+<p></p><pre><code class="lang-auto">--Kiểu Số Nguyên--
+byte   =  8  bit
+short  =  16 bit
+int    =  32 bit
+long   =  64 bit
+--Kiểu số thực--
+float  =  32 bit
+double =  64 bit
+--Kiểu Logic--
+boolean=  1  bit
+--Kiểu Kí tự-chuỗi--
+String = (mình không rõ vì trong Java nó là 1 lớp)
+char   =  16 bit
+--Kiểu đặc biệt--
+void  -&gt; không trả về</code></pre>
+
+<p><b>Chuỗi (String)</b>: giống như 1 câu trong văn viết vậy thôi, còn kí tự là 1 chữ cái <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> .<br></p>
+
+<p></p><pre><code class="lang-auto">Fact: Ngôn ngữ lập trình thường đặt chuỗi trong " ", một số thì ' ',...</code></pre>
+
+<p><b>Lệnh rẽ nhánh (Condition)</b>: khó hiểu nhể, đơn giản là giống như bạn đăng nhập facebook, đúng mật khẩu (true) thì nó cho bạn vào, không thì đá bạn ra (false) vậy thôi<br>Lệnh rẽ nhánh chia làm 2 loại phổ biến<br></p>
+
+<p></p><pre><code class="lang-auto">if ( condition ) { activities } else { activities }
+nếu ( mật khẩu đúng ) thì { đăng nhập } còn không thì { đá ra }
+
+switch ( expression ) { case &lt;value&gt; : {activities} break; } 
+xét (tên tài khoản) { là "ltd" thì { tên = "Lê Trần Đạt" } break; } //break dùng để thoát ra. Làm xong rồi ở lại làm gì? về hoy</code></pre>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/b/b871f5cf79ff62fd4d80d93cadcea0f6a23f244e.png" width="198" height="254"></p>
+
+<p><b>Lệnh lặp (loop)</b>: là thực đi thực hiện lại một việc gì đấy, giống như bạn đi học là lặp đi lặp lại việc đi đến trường và đi vê nhà.<br>Lệnh lặp sẽ luôn có điều kiện để dừng và thuộc loại đếm limit hay unlimited.<br></p>
+
+<p></p><pre><code class="lang-auto">Limit - giới hạn số lần
+for ( counter ; condition ; step ) { activities }
+lặp ( số năm học ; số năm học &lt; 12; số năm học + 1) { đi học }
+
+Unlimited - không giới hạn
+while ( condition ) { activities }
+khi ( tuổi &lt; 19 ) { đi học; tuổi++ }
+do { activities } while ( condition ) cũng tương tự.</code></pre>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/5/54e90ab74d5e60e6590df16b96be96d5fb9d8002.png" width="194" height="260"></p>
+
+<p><b>Hàm (Function)</b>: là một khối lệnh có tên, có tham số truyền vào và có kiểu trả về -&gt; Nó giống máy bán kem, chỉ cần đưa tiền (tham số) vào là sẽ cho ra lượng kem tương ứng (trả về)<br> +Tham số (Argument): là những gì bạn đưa vào.<br> +Trả về (Return) : là những gì nó đưa ra.<br></p>
+
+<p></p><pre><code class="lang-auto">khai báo hàm &lt;kiểu trả về&gt; &lt;tên&gt; ( các tham số ) { công việc }
+vd:
+IceCream IceCreamSeller (int Money) {  //hàm &lt;tên chữ màu đỏ&gt; trả về là Kem và tham số là tiền ^^
+    int IceCreamOut = 0;
+    if ( Money == 0 ) {
+      Nói("Định ăn chịu ak");
+    } else {
+      IceCreamOut = 4 * Money;
+    }
+    return IceCreamOut;  //trả vể (xuất ra) kem
+}</code></pre>
+
+<p><b>Thủ Tục</b>: đơn giản là hàm mà không có trả về thôi (trả về void) thôi mà. Làm khó nhau hoài.</p>
+
+<p><b>Con trỏ (Pointer)</b>: dự là đây sẽ là thứ hack não ai dùng C++ hay C. Nói nôm na đây là một biến mà nó nằm trong chương trình, chỉ trỏ lung tung. Dễ hiểu hơn đây là cái mặt nạ, bạn muốn nó thể hiện gì, giống cái gì là nó sẽ làm y hệt như vậy<br>VD: Bạn có 2 cuốn sách, bạn ra ngoài và chỉ đem theo 1 cuốn sách ảo. Thì bạn muốn đọc cuốn nào nó hóa thành cuốn ấy cho bạn -&gt; Cuốn sách ảo là con trỏ.<br></p>
+
+<p></p><pre><code class="lang-auto">Fact: Một số ngôn ngữ lập trình hiện đại thường không cho phép sử dụng con
+trỏ vì nó không bảo mật, nhưng nhờ có con trỏ nên chúng ta mới có OOP ngày nay</code></pre>
+
+<p><b>Một số định nghĩa liên quan: (sẽ giúp ích)</b><br></p>
+
+<p></p><pre><code class="lang-auto">Desktop Development - Lập trình ứng dụng (cho máy tính)
+Mobile Development - Lập trình ứng dụng (cho điện thoại)
+System Development - Lập trình hệ thống
+Embedded Development - Lập trình Nhúng
+IDE -  Integrated Development Environment - Môi trường phát triển tích hợp: 
+   Đây là thứ giúp ích bạn rất nhiều hơn là ngồi code notepad.
+GUI - Graphical User Interface - Giao diện đồ họa
+Console - Giao diện dòng lệnh 
+PL - Programming Language - Ngôn ngữ lập trình
+Functional Programming - Lập trình hướng hàm
+Object-Oriented Programming - Lập trình hướng đối tượng</code></pre>
+
+<p>Hôm nay tới đây thôi, nhiều quá loãng mất ^^. Mọi người cho em xin ý kiến nhá. <br><strike>Nếu thấy hay thì đừng quên bấm Like ủng hộ tác giả. Thấy đở thì góp ý.</strike><br>Cảm ơn các bạn.</p>
+]]></description><link>http://blog.daynhauhoc.com/fastest-way-to-learn-basic-of-programming-p2/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/fastest-way-to-learn-basic-of-programming-p2/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Tue, 15 Mar 2016 10:42:50 GMT</pubDate></item><item><title><![CDATA[Lâu lâu một quyển sách - Tôi đi học của nhà giáo Ưu Tú Nguyễn Ngọc Ký]]></title><description><![CDATA[
+<p>Đạt nghe về quyển <a href="http://goo.gl/lYcxbo">Tôi Đi Học</a> đã lâu, nhưng giờ mới có dịp đọc.</p>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/7/7ce8e4368bcb7bb4d86234edb48b44ea12a73e6f.png" width="232" height="324"></p>
+
+<p>Đang tính đọc xong sẽ review, nhưng quyển này ngắn chắc là sẽ xong trong ngày hôm nay. Mở đầu câu chuyện về cuộc đời thầy Nguyễn Ngọc Ký đọc rất cảm động, nhưng đến đoạn thầy tập viết thì buồn cười quá nên share luôn</p>
+
+<p><div class="lightbox-wrapper"><a href="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/b/b1bd52c3d05a8ad3df6b90ab015b5c2d0c00bbb9.png" class="lightbox" title="Pasted image"><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/optimized/2X/b/b1bd52c3d05a8ad3df6b90ab015b5c2d0c00bbb9_1_690x336.png" width="690" height="336"><div class="meta">
+<span class="filename">Pasted image</span><span class="informations">800x390 18.5 KB</span><span class="expand"></span>
+</div></a></div></p>
+
+<p>Topic này Đạt sẽ edit và cập nhật những suy nghĩ của Đạt vè quyển sách <strong>Tôi đi học</strong>.</p>
+
+<p><strong>Chương 6: Việc học đã cho tôi niềm đam mê vô hạn</strong></p>
+
+<ul><li>Thầy Ký chính là bằng chứng sống cho việc kiên trì theo đuổi mục tiêu và thành công với mục tiêu đấy. Nếu sau này việc học có khó khăn, Đạt sẽ tự hỏi mình, nếu là thầy Ký, thầy ấy có bỏ dở hay không?</li></ul>
+
+<p><strong>Chương 23: Ước mơ học giỏi toán</strong></p>
+
+<p>Một bài kiểm tra của thầy Nguyễn Ngọc Ký được điểm tối đa.</p>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/b/b91d34c0cf960cd0102b688072fa1bf827c1b8bb.png" width="402" height="276"></p>
+
+<p>Đây là một quyển sách hay, không phải ai cũng có được tinh thần tự chủ như thầy Nguyễn Ngọc Ký. Mất tay là một nhược điểm, nhưng thầy Ký đã biết nhược điểm đó thành ưu thế của mình. Là con người đầy nghị lực, thầy Ký không bao giờ dựa dẫm vào người khác. Thầy cố gắng làm mọi thứ bằng chính đôi chân của mình dù người xung quanh có muốn giúp đỡ thế nào.</p>
+
+<p>Tự chủ, không dựa dẫm vào người khác, không chấp nhận số phận là điều khác biệt ở thầy Ký. Đạt thấy sách hay, nhưng các chương từ 30 trở đi có lẽ không cần thiết <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> </p>
+
+<hr>
+
+<p>Vì không ở VN nên đạt đọc thông qua <a href="http://alezaa.com/invite?daynhauhoc">Alezaa</a>. Hướng dẫn chi tiết cách sử dụng Alezaa ở<a href="http://daynhauhoc.com/t/doc-sach-online-giai-phap-tiet-kiem-cho-nguoi-muon-doc/21302"> topic này</a></p>
+
+<p>Bạn nào thích sách giấy thì có thể mua ở <a href="http://goo.gl/lYcxbo">Tiki</a>, giá cũng rẻ, 33k VND.</p>
+]]></description><link>http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-toi-di-hoc-cua-nha-giao-uu-tu-nguyen-ngoc-ky/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/lau-lau-mot-quyen-sach-toi-di-hoc-cua-nha-giao-uu-tu-nguyen-ngoc-ky/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 13 Mar 2016 07:34:32 GMT</pubDate></item><item><title><![CDATA[Phân tích chương 3 - Tự kỷ ám thị trong quyển Think and grow rich]]></title><description><![CDATA[
+<p>Đạt đã giới thiệu sách <a href="http://daynhauhoc.com/t/lau-lau-mot-quyen-sach-think-and-grow-rich-khong-chi-la-sach-lam-giau/21505">Think and Grow Rich:13 Nguyên Tắc Nghĩ Giàu Làm Giàu ở DayNhauHoc</a>, vì thấy chương 3 khá khó hiểu nên Đạt xin viết một bài phân tích về chương này.</p>
+
+<p>Đây là một chương theo Đạt nghĩ là sẽ gây hoài nghi hoặc gây ra tác hại cho người đọc <img src="http://daynhauhoc.com/images/emoji/twitter/worried.png?v=1" title=":worried:" class="emoji" alt=":worried:">. Thế nên Đạt xin trình bày ở đây những gì Đạt hiểu về <strong>Tự Kỷ Ám Thị</strong> và <strong>những gì mà tác giả muốn nói</strong> trong chương này.</p>
+
+<p>Xin nhắc lại, đây chỉ là những gì Đạt hiểu, nếu Đạt hiểu sai, xin mọi người góp ý, và cũng đừng quá nghiêm túc về những gì mà Đạt sắp viết.</p>
+
+<h1>Chương 3 nói cái gì?</h1>
+
+<p>Chương này nói về <strong>tự kỷ ám thị</strong> và nhắc lại <strong>phương pháp biến mong muốn thành sự thật</strong>. Phương pháp biến mong ước thành hiện thật này <strong>thật ra là cách đặt mục tiêu thông minh</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/open_mouth.png?v=1" title=":open_mouth:" class="emoji" alt=":open_mouth:"> .</p>
+
+<h2>Cách đặt mục tiêu thông minh (Smart) là gì</h2>
+
+<p>Bạn có thể đã biết về <a href="http://daynhauhoc.com/t/cach-dat-muc-tieu-smart-theo-5-nguyen-tac/3698">cách đặt mục tiêu thông minh - SMART</a> do <a class="mention" href="http://daynhauhoc.com/users/le_dinh_huy">@Le_Dinh_Huy</a> đã trình bày trước đây <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=1" title=":sunglasses:" class="emoji" alt=":sunglasses:">. </p>
+
+<p><img src="http://daynhauhoc.s3-ap-southeast-1.amazonaws.com/original/2X/2/209266a70c91e447a461bf530fe4abf20c4f9d0e.png" width="540" height="328"></p>
+
+<h2>Tự kỷ ám thị là gì?</h2>
+
+<p>Tự kỷ ám thị Là một dạng <strong>tự thôi miên</strong>.</p>
+
+<h3>Thôi miên là gì?</h3>
+
+<p>Trước hết để làm rõ khái niệm thôi miên mà Đạt đang nói tới. Đạt <strong>không nói tới dạng thôi miên bằng cách lắc đồng xu</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/rage.png?v=1" title=":rage:" class="emoji" alt=":rage:">.  Cái ta hay thấy trên phim ảnh Đạt nghĩ <strong>không có thật</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/rage.png?v=1" title=":rage:" class="emoji" alt=":rage:">. Tuy nhiên, xin không bàn về dạng thôi miên đấy.</p>
+
+<p>Cái Đạt muốn nói tới là <strong>Big Lie</strong>, tức là <strong>lời nói dối lặp đi lặp lại sẽ dần trở thành sự thật</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/open_mouth.png?v=1" title=":open_mouth:" class="emoji" alt=":open_mouth:">. </p>
+
+<p><strong>Big Lie:</strong></p>
+
+<blockquote><p>"Make the lie big, make it simple, keep saying it, and eventually they will believe it."</p></blockquote>
+
+<p>Dịch thô</p>
+
+<blockquote><p>Tạo ra một lời nói dối khó tin, làm cho nó đơn giản, liên tục nói về nó, và cuối cùng rồi người ta sẽ tin vào điều đó.</p></blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Big_lie#Usage_in_Hitler.27s_psychological_profile">Hitler đã dùng kỹ thuật Big Lie</a> này rất thành công để trong việc tuyên truyền chống lại người Do Thái <img src="http://daynhauhoc.com/images/emoji/twitter/cry.png?v=1" title=":cry:" class="emoji" alt=":cry:">.</p>
+
+<blockquote><p>His primary rules were: never allow the public to cool off; never admit a fault or wrong; never concede that there may be some good in your enemy; never leave room for alternatives; never accept blame; concentrate on one enemy at a time and blame him for everything that goes wrong; <strong>people will believe a big lie sooner than a little one; and if you repeat it frequently enough people will sooner or later believe it</strong>.</p></blockquote>
+
+<p>Dịch thô:</p>
+
+<blockquote><p>Các luật cơ bản của Hilter là: Không bao giờ để cho công chúng "giảm nhiệt"; không bao giờ nhận lỗi hoặc sai lầm; không bao giờ công nhận kẻ thù có điểm tốt nào; không bao giờ cho phép có lựa chọn nào khác; không bao giờ chấp nhận chỉ trích; tập trung vào một kẻ thù tại một thời điểm và tổng sỉ vả tất cả mọi lỗi của người này; <strong>con người dễ tin vào lời nói dối lớn hơn là lời nói dối vặt vãnh; và nếu bạn cứ lặp lại lời nói dối thường xuyên thì rồi cuối cùng người ta cũng sẽ tin nó</strong>.</p></blockquote>
+
+<p>Ngày nay, điều này vẫn còn xảy ra <img src="http://daynhauhoc.com/images/emoji/twitter/astonished.png?v=1" title=":astonished:" class="emoji" alt=":astonished:">. Có thể bạn đã đọc <a href="http://dulich.vnexpress.net/tin-tuc/quoc-te/campuchia-noi-nguoi-dan-yeu-thich-kim-tiem-va-ong-truyen-3330985.html">Campuchia - nơi người dân yêu thích kim tiêm và ống truyền</a>, bài này dịch từ <a href="http://www.bbc.com/news/magazine-35111566">BBC</a>. </p>
+
+<blockquote><p> Ở hầu hầu mọi nơi trên thế giới, người ta sẽ làm mọi cách để tránh bị tiêm. Nhưng điều này hoàn toàn ngược lại ở xứ sở Chùa Tháp, nơi người dân gần như trở nên “đam mê” việc bị kim đâm vào người. <strong>Chẳng ai biết từ đâu</strong> mà người dân nơi đây lại thế, <strong>nhưng có vẻ như nó xuất phát từ một niềm tin mãnh liệ</strong>t, gần như ăn sâu bám rễ trong suy nghĩ mỗi người dân. Vì thế, <strong>phần lớn mọi người muốn được tiêm và truyền tĩnh mạch ở cả những trường hợp không cần thiết</strong>.</p></blockquote>
+
+<h3>Tự thôi miên là gì</h3>
+
+<p>Từ Wikipedia về <a href="https://vi.wikipedia.org/wiki/T%E1%BB%B1_k%E1%BB%B7_%C3%A1m_th%E1%BB%8B">Tự kỷ ám thị</a></p>
+
+<blockquote><p>Một thực tế rõ ràng rằng là <strong>một người luôn có xu hướng tin vào bất kỳ điều gì mà họ liên tục tự nhủ với bản thân</strong>, cho dù điều đó đúng hay không đúng. Nếu họ liên tục tự lừa dối mình bằng một quan điểm sai lầm thì đến một lúc nào đó, họ sẽ chấp nhận nó như một sự thật hiển nhiên. Bạn sẽ trở thành đúng như những gì bạn nghĩ bởi vì bạn đã để những suy nghĩ đó chi phối hoàn toàn tâm trí của bạn</p></blockquote>
+
+<p>Tức là, thay vì thôi miên người khác, ta lặp đi lặp lại một điều chưa đạt được với chính mình. Lâu dần ta sẽ tin là ta đã hoặc sẽ đạt được điều ta muốn <img src="http://daynhauhoc.com/images/emoji/twitter/astonished.png?v=1" title=":astonished:" class="emoji" alt=":astonished:">.</p>
+
+<p>Đạt thích phim <a href="http://www.imdb.com/title/tt1375666/">Inception</a>, do Leonardo DiCaprio thủ vai chính <img src="http://daynhauhoc.com/images/emoji/twitter/sunglasses.png?v=1" title=":sunglasses:" class="emoji" alt=":sunglasses:">,  vì phim này nói về việc cấy một ý tưởng nhỏ nhất vào một người, dần dần ý tưởng đó sẽ trưởng thành theo hướng tốt, xây dựng, hoặc hướng  xấu, phá hủy một con người.</p>
+
+<blockquote><p>An idea is like a virus. Resilient. Highly contagious. And even the smallest seed of an idea can grow. It can grow to define or destroy you.</p></blockquote>
+
+<h3>Vậy việc nói to điều mình muốn có giúp điều đó trở thành sự thật không?</h3>
+
+<p>Tác giả bảo ta có thể chọn một khẩu hiệu rõ ràng, ngắn gọn, đọc to 2 lần mỗi ngày, trước khi đi ngủ và ngay khi thức dậy. Cái này ta có thể hiểu là một câu thần chú, bạn có thể đọc thêm <a href="https://en.wikipedia.org/wiki/Mantra">Mantra</a> để hiểu thêm về cái này.</p>
+
+<p>Theo <strong>Đạt nghĩ là không sai</strong>, nhưng mà ta <strong>không nên lạm dụng nó</strong> <img src="http://daynhauhoc.com/images/emoji/twitter/rage.png?v=1" title=":rage:" class="emoji" alt=":rage:">. Nếu điều mình chọn là sai, thì sẽ tạo ra thảm họa cho bản thân và người khác <img src="http://daynhauhoc.com/images/emoji/twitter/rage.png?v=1" title=":rage:" class="emoji" alt=":rage:">.</p>
+
+<p>Như ta hay thấy các phần tử hồi giáo cực đoan hay hét to Allahu Akbar (God is great) để tự ám thị mình rằng những việc họ đang làm là vì chúa <img src="http://daynhauhoc.com/images/emoji/twitter/astonished.png?v=1" title=":astonished:" class="emoji" alt=":astonished:">. Nhưng người hồi giáo chân chính, họ cũng nói Allahu Akbar (God is great) mọi lúc khi họ làm những việc tốt cũng là vì họ cho rằng những việc tốt họ đã và đang làm là do chúa dẫn dắt.</p>
+
+<p>Ngoài ra, người đầu tiên mà Đạt biết sử dụng kỹ thuật này là Đường Tăng <img src="http://daynhauhoc.com/images/emoji/twitter/smiling_imp.png?v=1" title=":smiling_imp:" class="emoji" alt=":smiling_imp:">, đi đâu cũng <a href="https://en.wikipedia.org/wiki/Adi-Buddha">A di phò phò</a>, lúc niệm chú hại Tôn Ngộ Không cũng "A di phò phò"<img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:">. Người gần đây hay áp dụng kỹ thuật này là các thanh niên đa cấp <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"><img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"><img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"><img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"><img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"></p>
+
+<div class="lazyYT" data-youtube-id="FY_jAbrcXuU" data-youtube-title="Thanh niên đa cấp tràn xuống phố đi bộ Nguyễn Huệ" data-width="480" data-height="270" data-parameters="feature=oembed&amp;wmode=opaque"></div>
+
+<p>Các thanh niên đa cấp rất giỏi trong việc tự kỷ ám thị, nhưng lại không đặt ra được một mục tiêu thông minh. Mục tiêu của họ là trở thành triệu phú USD, nhưng không có kế hoạch cụ thể để thực hiện mục tiêu này.</p>
+
+<h2>Nên áp dụng chương này như thế nào?</h2>
+
+<p>Chỉ cần quan tâm đến <a href="http://daynhauhoc.com/t/cach-dat-muc-tieu-smart-theo-5-nguyen-tac/3698">cách đặt mục tiêu thông minh (Smart)</a>.</p>
+
+<p>Nếu cảm thấy tự tin về kế hoạch của mình thì có thể kết hợp thêm bước cuối là tự kỷ ám thị bản thân. Chúc các bạn may mắn với skills này <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"></p>
+
+<p><strong>P/S</strong>: Nếu muốn mua quyển này, các bạn có thể mua ở <a href="https://goo.gl/aDXA5G">AdayRoi</a> hoặc ở <a href="https://goo.gl/nxLMDq">Tiki</a>.</p>
+]]></description><link>http://blog.daynhauhoc.com/phan-tich-chuong-3-tu-ky-am-thi-trong-quyen-think-and-grow-rich/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/phan-tich-chuong-3-tu-ky-am-thi-trong-quyen-think-and-grow-rich/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 06 Mar 2016 07:36:23 GMT</pubDate></item><item><title><![CDATA[Đọc sách online, giải pháp tiết kiệm cho người muốn đọc]]></title><description><![CDATA[
 <p>Chú ý, lướt qua phần 1 nếu các bạn đã hiểu được việc đọc là quan trọng</p>
 
 <h2>Phần 1: Việc đọc là quan trọng</h2>
@@ -1038,7 +1560,15 @@ Khởi động ./ZeroNet.sh</code></pre>
 <p>Đạt đang dùng thử gói miễn phí 7 ngày của <a href="http://alezaa.com/invite?daynhauhoc">Alezaa</a> thì thấy số lượng sách / tạp chí rất nhiều. Tuy không thể nói là tất cả sách đều có trên <a href="http://alezaa.com/invite?daynhauhoc">Alezaa</a> nhưng cũng vừa đủ để đọc.</p>
 
 <p>Nếu có thời gian thì hãy thử dùng Alezaa để đọc "chơi" chứ đừng "chơi" Facebook nhiều quá nhé. Ngoài ra, Đạt cũng share thêm một promotion code để các bạn có thể dùng để được tặng thêm 30k mua sách. Các bạn cài đặt App Alezaa xong thì nhập code <strong>daynhauhoc</strong> vào nhé. Hoặc có thể vào link: <a href="https://read.alezaa.com/redeem.php">https://read.alezaa.com/redeem.php</a> rồi nhập code <strong>daynhauhoc</strong> vào.</p>
-]]></description><link>http://blog.daynhauhoc.com/doc-sach-online-giai-phap-tiet-kiem-cho-nguoi-muon-doc/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/doc-sach-online-giai-phap-tiet-kiem-cho-nguoi-muon-doc/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 28 Feb 2016 12:22:29 GMT</pubDate></item><item><title><![CDATA[[SOFBA] - StackOverFlow Best Answers]]></title><description><![CDATA[
+]]></description><link>http://blog.daynhauhoc.com/doc-sach-online-giai-phap-tiet-kiem-cho-nguoi-muon-doc/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/doc-sach-online-giai-phap-tiet-kiem-cho-nguoi-muon-doc/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 28 Feb 2016 12:22:29 GMT</pubDate></item><item><title><![CDATA[Hướng dẫn đổi đuôi JAR thành EXE]]></title><description><![CDATA[
+<p>Chào cả nhà :) . Hôm nay mình sẽ hướng dẫn các bạn đổi đuôi file .jar thành .exe dễ nhất.<br>Nhưng trước hết bạn nên tìm hiểu trước một tí ^^<br><b> JAR là gì? </b><br>JAR File (Java Archive file) là file để gói chung nhiều file khác, như zip file vậy. Thật ra, nếu bạn có một cái jar file, đổi extension ".jar" thành ".zip" thì sẽ có được một cái zip file.<br> - Mục đích tạo jar file là để ... gói nhiều tthành phần của Project lại thành một.<br> Có nhiều loại jar file, mình xin tạm chia thành hai loại: Runnable Jar File và Non-runnable Jar File. Runnable Jar thì để chạy như executable file của C, C++ vậy, có nghĩa là nếu như bạn double click vào jar file đó, nó sẽ khởi động chạy. Loại kia (non-runnable) thì chỉ như zip file.<br> <b> EXE là gì? </b><br>Trên Windows, mọi thứ đều hoạt động bởi EXE (chỉ app thôi nhé ^^ và... vrs nữa). Exe là viết tắt của Executable, tức là những file có thể thực hiện, có thể chạy được trên Windows. Nói ngắn gọn nó là file chương trình. Nó cho phép double-click là có thểchạy ngay.<br><b> Vậy tại sao lại đổi đuôi Jar -&gt; Exe </b><br>Như một số bạn dùng các ngôn ngữ như C/C++ hay Pascal,... thì sau khi built thì nó sẽ cho ta file .exe, còn Java, built kiểu nào nó cũng ra .jar. Thì tại sao lại như vậy?<br>C/C++ hay Pascal vốn là những ngôn ngữ Native nên sẽ cho ra file run cũng native với HĐH sử dụng nó (ở đây ta chỉ nói đến Win). Còn Java là đa nền nên Runtime Environment của nó sẽ nativeless nên khi sinh file built, thì thay vì .exe thì nó lại sinh ra file của RE dùng nó (ở đây là .jar)<br>Vậy tại sao ta lại nên dùng EXE thay vì dùng JAR ? Thì việc đó là tùy vào các bạn, khi bạn muốn dùng từ Cục gạch đến AppleMac hay bay từ Win-&gt;Lin hay bạn là member cùa Open Source ? thì JAR là sự lựa chọn tuyệt vời. <br>Nhưng nếu lựa chọn đó là tuyệt thì tại sao người ta vẫn dùng .exe (Netbean built bằng java vẫn xài exe) EXE là file thực thi và chỉ có chức năng thực thi nên nó bảo mật mã nguồn, rất ít app nào có thể dịch ngược exe thành mã nguồn nên nếu bạn không muốn người dùng tùy chỉnh mã nguồn hay thấy được các thuật toán, cơ chế độc quyền của bạn và không mất bản quyền (mình có dịch ngược exe một lần rồi :). Kết quả ra là một đống kí tự dài ngoằn và chả hiểu wtf gì cả ^^), chạy native với windows thì bạn nên dùng .exe còn mà xài .jar là bị dịch ngược lại ngay. (Một số bạn import nó vào project rồi bung ra là thấy hết bộ xương luôn ^^).<br><b> Vậy làm sao để đổi file jar thành exe </b><br>Việc này sẽ rất khó khi các bạn dùng IDE hay CMDL và cũng chẳng phải đổi trực tiếp bằng F2 nên bạn cần một phần mềm bện thứ 3 (không dùng Format Factory đâu <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:">) <br>Mình xin đề cử Launch4j vì nó miễn phí và ... hơi dễ dùng (hơi thôi nhé ^^) và cũng nhẹ</p>
+
+<p>B1. Bạn vào link: <a href="http://sourceforge.net/projects/launch4j/files/launch4j-3/3.8/launch4j-3.8-win32.exe/download" rel="nofollow">http://sourceforge.net/projects/launch4j/files/launch4j-3/3.8/launch4j-3.8-win32.exe/download</a><br>B2: Bạn tải về ròi tiến hành cài đặt<br>B3: Chạy chương trình.<br>B4: Nhập các thiết lập cần thiết rồi nhấn vào icon "Bánh rang".<br>B5: Đến địa chỉ export file xóa cái file .log đi và tận hưởng  <img src="http://daynhauhoc.com/images/emoji/twitter/smiley.png?v=1" title=":smiley:" class="emoji" alt=":smiley:"> </p>
+
+<p><b> quá trình thiết lập </b><br>Mình xin nói rằng, đây là một phần mềm có thiết kế khá tệ (như là của Coder làm vậy). nên mình cần giới thiệu sơ qua cho các bạn một tí (mình chỉ nói những cái chính thôi, còn lại thì bạn cứ gặp thánh GG mà hỏi <img src="http://daynhauhoc.com/images/emoji/twitter/joy.png?v=1" title=":joy:" class="emoji" alt=":joy:"> )<br><i> Thẻ Basic </i><br>+Output file: đặt địa chỉ xuất file ra (có cả tênfile.exe luôn nha ^^)<br>+Jar: đặt địa chỉ file Jar cần đổi đuôi <br>+icon: đặt địa chỉ hình ico cho app của bạn (đẹp thôi ^^)<br>+process priority: đặt trạng thái của CPU khi run (app nhỏ thì idle hoặc normal)<br>+Phan "Java download and support" cho phep ban tai xu ly loi khi may tinh user khong co java<br><i> Thẻ classpath </i> thì chỉ là chọn main class của app để run thôi<br><i> Thẻ Header </i> chọn loại app của bạn GUI hoặc Console<br><i> Thẻ JRE (quan trọng) </i><br>+Bundled JRE Path: chỉ đường dẫn đến thư mục chứa java (của <b>bạn</b>- không phải của người dùng) và các tùy chọn liên quan<br>+Search Option: tùy chỉnh việc lựa chọn phiên bản Java và Runtime Environment<br>+Option: là phần đặt heap size của app và nhập biến môi trường (bắt buộc) của Java và    Registry <br>+Splash: là phần đặt hình ảnh biểu trưng cho app của bạn (như Netbean, eclipse, Code::Block đều có splash)<br>+Version info: nơi đặt các thông tin về phần mềm<br>+Message: nơi đặt các thông báo khi có Exception liên quan dến việc khởi động app</p>
+
+<p>Chúc các bạn thành công và năm mới vui vẻ ^^</p>
+]]></description><link>http://blog.daynhauhoc.com/huong-dan-d-i-duoi-jar-thanh-exe/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/huong-dan-d-i-duoi-jar-thanh-exe/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Tue, 09 Feb 2016 12:20:46 GMT</pubDate></item><item><title><![CDATA[[SOFBA] - StackOverFlow Best Answers]]></title><description><![CDATA[
 <p>Hi there! <br>Xin chào các bạn! Qua thời gian dài lướt trên <em>Stack OverFlow (SOF)</em>. Mình thấy có những kiến thức rất hay, đơn giản vì đây là nơi hội tụ của những cao thủ trên khắp thế giới. Nhưng tiếc là không phải ai cũng đọc hiểu tốt được tiếng Anh.</p>
 
 <p>Mình lập ra wiki này để tổng hợp những câu hỏi + câu trả lời hay trên SOF, mình sẽ dịch nó sang tiếng Việt nhằm giúp các bạn nào tiếng anh không được tốt có thể tiếp thu được những kiến thức cực kỳ hay ho này <img src="http://daynhauhoc.com/images/emoji/twitter/grinning.png?v=1" title=":grinning:" class="emoji" alt=":grinning:"> Có thể là đơn giản nhưng không phải ai cũng biết. Chủ đề có thể là <strong>java, android, php, js...v.v..</strong></p>
@@ -1046,75 +1576,4 @@ Khởi động ./ZeroNet.sh</code></pre>
 <blockquote><p>Những topic thuộc Wiki này sẽ có prefix dạng <strong>[SOFBA ...] + Tiêu đề câu hỏi</strong>.</p></blockquote>
 
 <p>Các bạn khác cũng có thể tham gia góp sức vào Wiki này. Hy vọng các bạn thích và ủng hộ những topic sắp tới!<br>-</p>
-]]></description><link>http://blog.daynhauhoc.com/sofba-stackoverflow-best-answers/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/sofba-stackoverflow-best-answers/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Thu, 04 Feb 2016 11:40:09 GMT</pubDate></item><item><title><![CDATA[Đạo Java ư ? Nó có thật đấy]]></title><description><![CDATA[
-<blockquote><p>Bài viết chỉ thể hiện quan điểm cá nhân dựa trên các số liệu và thu thập ý kiến</p></blockquote>
-
-<p>Java - một điệp khúc muôn thuở, một vũ khí uy lực gắn liền với nhiều người và là niềm tự hào của James và Sun micsys quá cố.</p>
-
-<blockquote>
-<p>class SơLượcJava {<br>    Java có tên ban đầu là Oak, do James Gosling thiết kế và công bố hoành tráng tại hội nghị SunWorld vào tháng 5-1995.</p>
-<p>   Java là một ngôn ngữ thuần túy hướng đối tượng được sử dụng rộng rãi để viết ứng dụng đa nền, Internet và cả Android. Java hiện đang là ngôn ngữ lập trình rộng rãi nhất thế giới (trên cả C/C++)</p>
-<p>   Về cá nhân thì mình thấy nó là một món đồ chơi cũ nhưng vẫn rất đẹp và không chỉ có một mình mình chơi và nó không chỉ để chơi ^^<br>}</p>
-</blockquote>
-
-<p>Sau khi đọc bài viết của Vinacode - "Phát triển Phần Mềm,nó là một tôn giáo". Mình thấy nó có khá nhiều điểm tương đồng với những người thuộc "Tôn giáo Java", và bạn sẽ tự hỏi rằng nó có thật không? - XIn thưa, nó hoàn toàn có thật và hiện vẫn đang rất đông tín đồ.</p>
-
-<p>Một khi bạn bước chân vào Java, bất kể bạn thuộc mảng nào thì bạn cũng đang thuộc "đạo Java" đấy, tuy nhiên, đa phần các bạn xem nó như là một thứ ngôn ngữ bình thường, xài chán thì bỏ <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> . Nhưng vẫn còn một bộ phận không ít người gắn mác "Cuồng" (cứ như bọn Sky ấy ^^)</p>
-
-<p>Đối với một JavaNerd, họ đi đâu cũng thấy Java, không chỉ trong mã, máy tính mà cả ở thế giới thực. Họ nhìn thấy một chiếc cốc cà phê có khói nóng tỏa thì họ sẽ nghĩ ngay đến biểu tượng của Java. Họ trước khi lập trình thì lại lẩm bẩm "So help me Duke" (Duke là linh vật của Java) hay trước khi ăn hay uống cà phê thì lại đọc thầm "To the Duke". <br>(Giống như thiên chúa giáo ấy, ôi lạy Duke.)</p>
-
-<p>Khi nghe một ai đó chê bai Java thì lại phản ứng gay gắt, "Thằng khốn, Duke sẽ nguyền rủa mày!!" - Một JavaNerd cho hay. và còn nhiều thứ khác...</p>
-
-<p>Mình không vơ đũa cả nắm nhưng chỉ với những biểu hiện ấy, bạn có thể phát hiện một JavaNerd nhưng lưu ý rằng - số lượng ngày càng tăng dần. (Như bọn Sky ấy ^^)</p>
-
-<p>Mình hư cấu nãy giờ cũng khá nhiều rồi, và bây giờ mình sẽ vào vấn đề chính.</p>
-
-<p><strong>Vậy tại sao Java lại có sức hút như vậy?</strong><br>Xét về khía cạnh Marketing thì Java đã rất thành công khi có xuất thân từ một gia đình danh giá là Sun Microsystem, có một biểu tượng rất quen thuộc - tách Café và tậu hẳn một linh vật khá là... mình chẳng biết nói sao nữa. Sau cái chết của Sun, thì Java cũng chẳng trở thành đứa trẻ "mồ côi", năm 2010, Oracle - một công ty khá nổi tiếng về dịch vụ và tài năng chặt chém tại Mỹ nhận nuôi và tiếp tục nuôi, cho ăn,... cho lớn. Tuy Java được ông trùm chặt chém nhận nuôi nhưng nó lại Free <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> . Nên Java khá là sang chảnh.</p>
-
-<p>Về khía cạnh Ứng dụng, đi đâu cũng gặp Java, từ hệ thống máy giặt, tủ lạnh cao cấp, tivi màn hình cong (không phải cái này đâu <img src="http://daynhauhoc.com/images/emoji/twitter/slight_smile.png?v=2" title=":slight_smile:" class="emoji" alt=":slight_smile:"> ). tới hệ thống cao cấp hơn như Đập đá Nokia, Phần mềm máy tính và cả ứng dụng, hệ điều hành Android và cả tựa game đình đám MineCraft . Đây được xem như là bước đệm to đùng của Java để lên cao như ngày nay.</p>
-
-<p>Chức năng của Java cũng không ít hấp dẫn, đó là một ngôn ngữ thuần OOP rất rõ ràng và đẹp (đẹp hơn cả Pascal), dễ dùng và dễ hiểu, Java có bộ dịch và môi trường thực thi để chạy ở mọi nơi. Java khá mạnh và an toàn (trừ mấy cái Plug in trên Web) và được thường xuyên được nâng cấp bởi Oracle và được thêm nhiều tính năng cao cấp như annotation, lambda,...</p>
-
-<p>Java có hệ thống lập trình viên đông đảo và động (năng động và cả... bạo động), tài liệu hướng dẫn thì nhiều vô số kể, các trang web dạy java cũng rất nhiều, ngay cả Daynhauhoc cũng có bộ phận đông đảo người dùng Java. Java cũng khá dễ dùng, dễ cài đặt, dễ chịu và dễ học. Khi học Java, nó sẽ dạy cho người học các khái niệm lập trình cơ bản và hướng đối tượng thật sự,... </p>
-
-<p>Ngoài ra, Java còn có cả hệ thống Multimedia như Lady Java, Code Hard hay là những video đạo phim của JavaZone<br>Ôi! Java thật thần thánh.</p>
-
-<p><strong>Nhưng Java cũng có khá nhiều các yếu điểm.</strong></p>
-
-<ul>
-<li>Phức tạp: Hệ thống thư viện và lớp rất phong phú nhưng có nhiều cái đã hết sài (như là Date thì bị thay bằng Calendar).</li>
-<li>Nâng cấp chậm: mặc dù Oracle đã nhận nuôi Java nhưng việc nâng cấp nó thì lại không như lúc dưới tay Sun, và cũng thua xa các ngôn ngữ lập trình khác về tốc độ nâng cấp.<br>...</li>
-</ul>
-
-<p>mình hết biết gì để nói rồi ^^.<br>Và đó là những lợi ích của Java và những yếu điểm của Java.<br>Khuya rồi, mình đi ngủ đây. Ăn tết vui vẻ, anh em Daynhauhoc.</p>
-]]></description><link>http://blog.daynhauhoc.com/d-o-java-u-no-co-th-t-day/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/d-o-java-u-no-co-th-t-day/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Mon, 01 Feb 2016 15:45:40 GMT</pubDate></item><item><title><![CDATA[[All Language] Giải thích về mảng và con trỏ]]></title><description><![CDATA[
-<p>Chào các bạn !<br>Mình thấy có nhiều bạn đang không rõ về vấn đề này. Là một tay ngang, mình sẽ giải thích những gì mình biết về nó. Hy vọng giúp ích các bạn. Nếu có thiếu sót hay sai, các bạn chia sẻ thêm.<br>Lets go !</p>
-
-<ol>
-<li><p>Việc đầu tiên các bạn nên hiểu về cách máy tính lưu dữ liệu trên RAM. <br>Bộ nhớ RAM của máy tính được cấu tạo từ rất nhiều ô nhớ. Mỗi ô nhớ này lưu được 8bit dữ liệu, tức là 1 byte. bộ nhớ RAM 1G sẽ có 1 tỷ ô nhớ này. Vị trí các ô nhớ hoàn toàn xác định và cố định và được phân biệt, truy xuất thông qua <strong>địa chỉ</strong> của nó.</p></li>
-<li>
-<p>Mảng.<br>Mảng là một số biến cùng loại được sắp xếp cạnh nhau liên tục trên bộ nhớ RAM. Các phần tử trong mảng sẽ được phân biệt với nhau bởi chỉ số của phần tử đó.<br>Khi ta khai báo 1 mảng : <br></p>
-<p></p>
-<pre><code>unsigned int arr[n];</code></pre>
-</li>
-<li>
-<p>Con trỏ.<br>Khi nói về con trỏ thường chúng ta cảm thấy nó hư hư thực thực. Vậy nó là gì ?<br>Nó là biến lưu địa chỉ của ô nhớ trên RAM. Khi chúng ta có được địa chỉ của một ô nhớ chúng ta sẽ làm việc được với dữ liệu của ô nhớ đó.<br>Khi chúng ta khai báo : <br></p>
-<p></p>
-<pre><code>unsigned int *ptr = new unsigned int[n];</code></pre>
-</li>
-<li>
-<p>Điểm khác biệt của con trỏ và mảng.<br>Mảng : Được cấp phát trên vùng RAM chưa sử dụng, số phần tử cố định, địa chỉ trên RAM cố định (trừ khi khai báo mảng mới), không được phép truy xuất ngoài phạm vi mảng.<br>Khi chúng ta khai báo mảng 10 phần tử, chúng ta chỉ truy xuất được trong phạm vi đó, tức là từ phần tử 0 đến 9. Ngoài khoảng này, chương trình báo lỗi out of index. <br>Con trỏ : Có thể trỏ tới bất kì vị trí nào trên RAM, không có phần tử, địa chỉ trên RAM cố định, địa chỉ trỏ tới có thể thay đổi sau khi khai báo.<br>Chúng ta có thể thay đổi địa chỉ mà con trỏ đang trỏ tới một cách dễ dàng như sau :<br></p>
-<p></p>
-<pre><code>unsigned int Arr1[n];
-unsigned char Arr[m];
-unsigned int *ptr = &amp;Arr1[0]; // con trỏ đang trỏ tới Arr1[0]
-ptr=(unsigned char*)&amp;Arr2[0]; // lúc này nó lại trỏ tới Arr2[0];
-ptr=1234; // lúc này nó lại trỏ tới ô nhớ có địa chỉ 1234 trên RAM.</code></pre>
-</li>
-<li><p>Chú ý khi dùng con trỏ. <br>Mặc dù con trỏ có nhiều ưu điểm như ta có thể trỏ tới địa chỉ bất kì trên RAM và làm việc với dữ liệu có địa chỉ được trỏ tới (khi hack game chẳng hạn là ta phải dùng con trỏ để trỏ tới vùng dữ liệu của game) hoặc trong một số trường hợp chúng ta sẽ có được tốc độ cao hơn trong xử lý nhưng bạn sẽ thấy một số ngôn ngữ không cho dùng con trỏ và sẽ báo unsafe - không an toàn. Vậy tại sao ?<br>Do con trỏ có thể trỏ tới bất kì chỗ nào trên RAM nên nó có thể thay đổi dữ liệu của chương trình khác và gây cho máy tính làm việc không bình thường.<br>-&gt; Con trỏ là nguy hiểm nếu không kiểm soát được.</p></li>
-</ol>
-
-<p>____ End ____</p>
-]]></description><link>http://blog.daynhauhoc.com/all-language-giai-thich-ve-mang-va-con-tro/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/all-language-giai-thich-ve-mang-va-con-tro/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Sun, 10 Jan 2016 09:25:05 GMT</pubDate></item><item><title><![CDATA[Bạn có thường nghe nhạc khi làm việc?]]></title><description><![CDATA[
-<p>Bạn thường nghe nhạc khi làm việc? Nhiều nghiên cứu đã chứng minh nghe nhạc phù hợp với đặc điểm nghề nghiệp giúp tăng hiệu quả công việc. Biểu đồ sau sẽ cho bạn biết loại nhạc lý tưởng giúp bạn có động lực và tập trung.<br>  <a href="http://wp_media-prod.s3.amazonaws.com/app/uploads/2013/09/sonos-infographic-working-jams-what-music-to-listen-to-on-the-job.jpg" rel="nofollow">http://wp_media-prod.s3.amazonaws.com/app/uploads/2013/09/sonos-infographic-working-jams-what-music-to-listen-to-on-the-job.jpg</a><br><a href="http://wp_media-prod.s3.amazonaws.com/app/uploads/2013/09/sonos-infographic-working-jams-what-music-to-listen-to-on-the-job.jpg" rel="nofollow"><img src="http://wp_media-prod.s3.amazonaws.com/app/uploads/2013/09/sonos-infographic-working-jams-what-music-to-listen-to-on-the-job.jpg" width="" height=""></a></p>
-]]></description><link>http://blog.daynhauhoc.com/ban-co-thuong-nghe-nhac-khi-lam-viec/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/ban-co-thuong-nghe-nhac-khi-lam-viec/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Fri, 18 Dec 2015 08:57:34 GMT</pubDate></item></channel></rss>
+]]></description><link>http://blog.daynhauhoc.com/sofba-stackoverflow-best-answers/</link><guid isPermaLink="true">http://blog.daynhauhoc.com/sofba-stackoverflow-best-answers/</guid><dc:creator><![CDATA[[object Object]]]></dc:creator><pubDate>Thu, 04 Feb 2016 11:40:09 GMT</pubDate></item></channel></rss>
